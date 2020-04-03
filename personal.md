@@ -17,6 +17,6 @@ Dawkins, Richard. **The greatest show on earth: The evidence for evolution**. Si
 
 Gleick, James. **Chaos: Making a new science**. Open Road Media, 2011. (The book that introduced me to chaos and the field of dynamical systems in general)
 
-Mitchell, Melanie. **Complexity: A guided tour**. Oxford University Press, 2009. (The book that made me realise that what I want to work on comes under the field of complex systems)
+Mitchell, Melanie. **Complexity: A guided tour**. Oxford University Press, 2009. (The book that made me appreciate the importance of being cross-disciplinary)
 
 
