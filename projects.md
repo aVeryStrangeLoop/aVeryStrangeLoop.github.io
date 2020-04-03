@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[About](/)   |   [Projects](/projects.html)   |    [Publications](/pubs.html)   |   [Personal](/personal.html)   |   [Scripts/Programs](/prog.html)
+[About](/)   |   [Research](/projects.html)   |    [Publications](/pubs.html)   |   [Personal](/personal.html)   |   [Open-Source](/prog.html)
 
 ## Projects
 Test
