@@ -1,34 +1,10 @@
 ## About
 
-I am a final year Undergraduate at the Indian Insitute of Science, Bangalore currently pursuing the four-year Bachelor of Science (Research) program. I am pursuing a biology major with eclectically chosen courses in other fields - including physics and dynamical systems.
+I am a final year Undergraduate at the Indian Insitute of Science, Bangalore currently pursuing the four-year Bachelor of Science (Research) program. I am pursuing a biology major with eclectically chosen courses in other fields.
 
-### Markdown
+### Research Interests 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aVeryStrangeLoop/aVeryStrangeLoop.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+I am broadly interested in the study of living systems using theoretical tools from areas that come under the umbrella of complex systems - statistical physics, information theory, computation and dynamical systems - as well as computational methods to bring these ideas to life (quite literally). A brief idea of the kind of problems that interest me can be gathered from my [reading list](https://docs.google.com/spreadsheets/d/1NsCHwOlmCbUmnDI-eb9eIGUtDV80r0ON0A5dLFqniyU/edit?usp=sharing "Bhaskar's reading list") or previous work.
 
 ### Contact
 
