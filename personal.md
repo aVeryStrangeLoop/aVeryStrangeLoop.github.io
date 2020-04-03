@@ -36,6 +36,12 @@ Murakami, Haruki. **Hard-boiled Wonderland and the End of the World**. Vintage, 
 Vonnegut, Kurt. **Cat's cradle**. Dial Press Trade Paperbacks, 1998.
 
 ### General fiction
+Yanagihara, Hanya. **A little life**. Pan Macmillan, 2016.
 
+Heller, Joseph. **Catch-22**: a novel. Vol. 4. Simon and Schuster, 1999.
+
+Keyes, Daniel. **Flowers for Algernon**. Houghton Mifflin Harcourt, 2007.
+
+Ishiguro, Kazuo. **Never Let Me Go**. Vintage Books, 2010.
 
 
