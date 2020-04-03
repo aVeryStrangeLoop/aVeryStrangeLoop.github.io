@@ -19,4 +19,23 @@ Gleick, James. **Chaos: Making a new science**. Open Road Media, 2011. (The book
 
 Mitchell, Melanie. **Complexity: A guided tour**. Oxford University Press, 2009. (The book that made me appreciate the importance of being cross-disciplinary)
 
+### General non-fiction
+Abbott, Edwin Abbott,. **Flatland: a romance of many dimensions**. Penguin, 1986.
+
+Aleksievich, Svetlana. **Chernobyl Prayer: A Chronicle of the Future**. Penguin Classics, 2016.
+
+Camus, Albert. **The Myth of Sisyphus**. Penguin UK, 2013.
+
+### Science fiction
+Liu, Cixin. **The three-body problem.** Vol. 1. Macmillan, 2014.
+
+Chiang, Ted. **Stories of your life and others**. Knopf, 2010.
+
+Murakami, Haruki. **Hard-boiled Wonderland and the End of the World**. Vintage, 2011.
+
+Vonnegut, Kurt. **Cat's cradle**. Dial Press Trade Paperbacks, 1998.
+
+### General fiction
+
+
 
