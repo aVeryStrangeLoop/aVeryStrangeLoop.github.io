@@ -1,4 +1,4 @@
-[About](/)   ||   Projects   ||    Work   ||   Personal   ||   Scripts/Programs
+[About](/)   |   Projects   |    Publications   |   Personal   |   Scripts/Programs
 
 ## About
 
