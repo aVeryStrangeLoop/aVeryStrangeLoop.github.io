@@ -2,7 +2,7 @@
 
 ## About
 
-I am a final year undergraduate at the Indian Insitute of Science, Bangalore currently pursuing the four-year Bachelor of Science (Research) program. I am pursuing a biology major with eclectically chosen courses in other fields.
+I am an undergraduate at the Indian Insitute of Science, Bangalore currently in the final year of the four-year Bachelor of Science (Research) program. I am pursuing a biology major with eclectically chosen courses in other fields.
 
 
 ### Research Interests 
