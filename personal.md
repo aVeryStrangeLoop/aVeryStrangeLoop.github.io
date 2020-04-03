@@ -8,7 +8,7 @@ published: true
 ## Personal
 Apart from my work, most of my time is spent in reading books or working on random personal projects. Some of these can be found on the [open-source](/prog.html) page.
 
-A complete list of my reads can be found [here](https://www.goodreads.com/review/list/55810171?shelf=read) (goodreads link). Some of my very favourites are as follow,
+A complete list of my reads can be found [here](https://www.goodreads.com/review/list/55810171?shelf=read) (goodreads link). Some of my very favourite ones are as follow,
 
 ### Science non-fiction
 Hofstadter, Douglas R. **Gödel, Escher, Bach: an eternal golden braid**. Vol. 13. New York: Basic books, 1979. (The book that got me interested in computation)
@@ -43,5 +43,3 @@ Heller, Joseph. **Catch-22**: a novel. Vol. 4. Simon and Schuster, 1999.
 Keyes, Daniel. **Flowers for Algernon**. Houghton Mifflin Harcourt, 2007.
 
 Ishiguro, Kazuo. **Never Let Me Go**. Vintage Books, 2010.
-
-
