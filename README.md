@@ -1,6 +1,6 @@
-## Bhaskar Kumawat's webpage
+## About
 
-Bhaskar Kumawat is a final year Undergraduate at the Indian Insitute of Science, Bangalore currently pursuing the four-year Bachelor of Science (Research) program in biology.
+I am a final year Undergraduate at the Indian Insitute of Science, Bangalore currently pursuing the four-year Bachelor of Science (Research) program. I am pursuing a biology major with eclectically chosen courses in other fields - including physics and dynamical systems.
 
 ### Markdown
 
@@ -30,6 +30,8 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aVeryStrangeLoop/aVeryStrangeLoop.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+You can contact me at the following email addresses,
+- kbhaskar _AT_ iisc _DOT_ ac _DOT_ in, or
+- kmwtbhaskar _AT_ gmail _DOT_ com
