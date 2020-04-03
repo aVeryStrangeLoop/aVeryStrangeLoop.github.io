@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Bhaskar Kumawat's webpage
 
-You can use the [editor on GitHub](https://github.com/aVeryStrangeLoop/aVeryStrangeLoop.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Bhaskar Kumawat is a final year Undergraduate at the Indian Insitute of Science, Bangalore currently pursuing the four-year Bachelor of Science (Research) program in biology.
 
 ### Markdown
 
