@@ -11,4 +11,12 @@ Apart from my work, most of my time is spent in reading books or working on rand
 A complete list of my reads can be found [here](https://www.goodreads.com/review/list/55810171?shelf=read) (goodreads link). Some of my very favourites are as follow,
 
 ### Science non-fiction
-![]({{site.baseurl}}/https://images-na.ssl-images-amazon.com/images/I/61x9qySMjzL.jpg)
+Hofstadter, Douglas R. **Gödel, Escher, Bach: an eternal golden braid**. Vol. 13. New York: Basic books, 1979. (The book that got me interested in computation)
+
+Dawkins, Richard. **The greatest show on earth: The evidence for evolution**. Simon and Schuster, 2009. (The book that got me interested in evolution and living systems)
+
+Gleick, James. **Chaos: Making a new science**. Open Road Media, 2011. (The book that introduced me to chaos and the field of dynamical systems in general)
+
+Mitchell, Melanie. **Complexity: A guided tour**. Oxford University Press, 2009. (The book that made me realise that what I want to work on comes under the field of complex systems)
+
+
