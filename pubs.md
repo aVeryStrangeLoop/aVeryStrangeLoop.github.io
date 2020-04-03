@@ -15,7 +15,7 @@ This page lists my work that has been published or presented at conferences in t
 
 **Kumawat, B.**, Bhat, R. Relatively disparate evolutionary dynamics of genomic and developmental features in unicellular and multicellular contexts. ISEB2, Indo-Swiss Meeting on Evolutionary Biology, December 2019. (Poster)
 
-Venkatesh, P.(*), **Kumawat, B.**(*) Utility functions with compounding returns lead to the evolution of cooperativity in Multi-Armed Bandit networks. ISEB2, Indo-Swiss Meeting on Evolutionary Biology, December 2019 (* = equal contribution, Poster)
+Venkatesh, P.(\*), **Kumawat, B.**(\*) Utility functions with compounding returns lead to the evolution of cooperativity in Multi-Armed Bandit networks. ISEB2, Indo-Swiss Meeting on Evolutionary Biology, December 2019 (* = equal contribution, Poster)
 
 ### Books
 D’Costa, J., Pujar, A.*, **Kumawat, B.***, Venkatesh, P.*, Ranjith, G.*, Sinha, V.*, Dubey, A.K.*, Narayan, H.* Resistance: Tales from a Post-Antibiotic World. IISc Press, 2019. ISBN-10: 8192570789. (* = equal contribution, Book chapter)
