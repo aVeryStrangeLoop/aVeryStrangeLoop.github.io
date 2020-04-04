@@ -6,7 +6,7 @@ published: true
 [About](/)   |   [Research](/projects.html)   |    [Publications](/pubs.html)   |   [Personal](/personal.html)   |   [Open-Source](/prog.html)
 
 ## Open-source
-This page lists the open-source I've worked on or am currently working. All of the source code is available in on my github account.
+This page lists the open-source programs I've worked on or am currently working on. All of the source code is available in the given repositories.
 
 ### Multistate-ising solver (Under development)
 A solver to find the lowest energy state of a 2D ising like system with each cell containing any number of states. The list of accessible states, a hamiltonian and system size etc is provided by the user. The solver then performs optimization over the system cells using multiple methods - Steepest descent, Simulated annealing and Genetic Algorithm.
