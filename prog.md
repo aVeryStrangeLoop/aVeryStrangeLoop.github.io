@@ -23,7 +23,4 @@ This program was written as a part of a project for the game theory course at II
 
 [Repository link](https://github.com/aVeryStrangeLoop/opt-agent-net)
 
-### Iris (Under development)
-Iris is a generic physical processes engine that tries to mimic behaviour of entities with multiple degrees of freedom in order to observe how novel structures are created in nature. The goal is to reduce the known physical factors involved in evolution of molecular organisation to a very minimalist system that can possibly evolve some interesting processes.
 
-[Repository link](https://github.com/aVeryStrangeLoop/iris)
