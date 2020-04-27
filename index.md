@@ -7,7 +7,7 @@ I am an undergraduate at the Indian Institute of Science, Bangalore currently in
 
 ### Research Interests 
 
-I am broadly interested in the study of living systems using theoretical tools from areas that come under the umbrella of complex systems - statistical physics, information theory, computation and dynamical systems. A significant fraction of my work till now has been either on engineering biological systems (synthetic biology) or studying their equivalents in artificial environments (artificial life)
+I am broadly interested in the study of living systems using theoretical tools from areas that come under the umbrella of complex systems - statistical physics, information theory, computation and dynamical systems. My formal training is in biology with special emphasis on molecular biology and systems theory.  A significant fraction of my work till now has been either on engineering biological systems (synthetic biology) or studying their equivalents in artificial environments (artificial life)
 
 A brief idea of the kind of problems that interest me can be gathered from my [reading list](https://docs.google.com/spreadsheets/d/1NsCHwOlmCbUmnDI-eb9eIGUtDV80r0ON0A5dLFqniyU/edit?usp=sharing "Bhaskar's reading list") or [projects](/projects.html).
 
