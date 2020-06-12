@@ -8,10 +8,11 @@ published: true
 ## Open-source
 This page lists the open-source programs I've worked on or am currently working on. All of the source code is available in the given repositories.
 
-### Multistate-ising solver (Under development)
-A solver to find the lowest energy state of a 2D ising like system with each cell containing any number of states. The list of accessible states, a hamiltonian and system size etc is provided by the user. The solver then performs optimization over the system cells using multiple methods - Steepest descent, Simulated annealing and Genetic Algorithm.
+### Classical and Cellular Potts models
+These two programs implement the classical Potts (a generalised version of the Ising model) and cellular Potts (extended spin areas) models under an easy, adaptable framework. 
 
-[Repository link](https://github.com/aVeryStrangeLoop/multistate-ising)
+[Classical Potts Repository link](https://github.com/aVeryStrangeLoop/potts_model)
+[Cellular Potts Repository link](https://github.com/aVeryStrangeLoop/cellular_potts_model)
 
 ### evolNN (Under development)
 A convolution neural network implementation to study evolvability of neural networks under different problem domains.
