@@ -16,7 +16,7 @@ These two programs implement the classical Potts (a generalised version of the I
 [Cellular Potts Repository link](https://github.com/aVeryStrangeLoop/cellular_potts_model)
 
 ### OptAgentNet (Python)
-This program was written as a part of a project for the game theory course at IISc. It simulates a group of agents on a two dimensional grid. The bandits can execute a series of instructions to receive resources from the environment or share it with neighbours.  There is a global utility function that determines the utility of the agent based on its set of resources. In the project we showed that certain kinds of utility functions improve the extent of sharing when social welfare in the system is maximised. (Written with [Preetham Venkatesh](https://prvenkatesh.wordpress.com))
+OptAgentNet simulates a decentralised network of agents on a 2-Dimensional grid. These agents can perform tasks in context of an environmental "utility function" to generate fitness for the entire network. A genetic algorithm optimizes this network to find the optimal state given a utility function. These agents are also capable of communicating with each other and sharing the resources they obtain by performing tasks. (Written with [Preetham Venkatesh](https://prvenkatesh.wordpress.com))
 
 [Repository link](https://github.com/aVeryStrangeLoop/opt-agent-net)
 
