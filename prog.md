@@ -20,7 +20,7 @@ This program was written as a part of a project for the game theory course at II
 
 [Repository link](https://github.com/aVeryStrangeLoop/opt-agent-net)
 
-### OptAgentNet (Rust, currently under development)
+### OptAgentNet (Rust)
 This is a Rust implementation of OptAgentNet. The aim is to use Rust's speed and safety features to make the the simulation times shorter. Also implements multithreading in order to execute all agent genomes in parallel. Quite possibly the first digital evolution simulation written in Rust.
 
 [Repository link](https://github.com/aVeryStrangeLoop/optagentnet)
