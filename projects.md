@@ -10,7 +10,7 @@ layout: default
 Undergraduate thesis project
 
 Advisor : Dr. Ramray Bhat, Indian Institute of Science, Bangalore
-Duration: May 2019 - _ongoing_
+Duration: May 2019 - May 2020
 
 Description: The environment and the ecological structure of a living system shape the rules under which evolution of the constituent agents takes place. A population of single-celled or multi-cellular organisms under such contexts develop a range of emergent dynamics and characteristics as a result of the multi-scale nature of the system, with each scale having its own set of processes and mutable entities. This work is a breadth-first enquiry into the mechanism by which evolutionary processes lead to emergence of interesting characteristics in generalised computational models of such systems.
 
