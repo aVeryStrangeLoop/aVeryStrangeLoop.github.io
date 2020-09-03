@@ -11,6 +11,8 @@ I am broadly interested in the study of living systems using theoretical tools f
 
 A brief idea of the kind of problems that interest me can be gathered from my [reading list](https://docs.google.com/spreadsheets/d/1NsCHwOlmCbUmnDI-eb9eIGUtDV80r0ON0A5dLFqniyU/edit?usp=sharing "Bhaskar's reading list") or [projects](/projects.html). In brief, I like designing systems (in silico or otherwise) that exhibit behavior other than what I explicity program them with i.e. emergent artificial systems.
 
+[CV](/CV.pdf)
+
 ### Contact
 
 You can contact me at the following email addresses,
