@@ -9,7 +9,7 @@ published: true
 This page lists my work that has been published or presented at conferences in the past.
 
 ### Preprints
-**Kumawat, B.**, & Bhat, R. (2020). Distinct evolutionary trajectories in asexual populations through an interplay of their size, resource availability and mutation rates. bioRxiv. doi.org/10.1101/2020.08.27.269829 (In submission)
+**Kumawat, B.**, & Bhat, R. (2020). Distinct evolutionary trajectories in asexual populations through an interplay of their size, resource availability and mutation rates. bioRxiv. [doi.org/10.1101/2020.08.27.269829](doi.org/10.1101/2020.08.27.269829) (In submission)
 
 ### Conferences
 **Kumawat, B.*** et al. PhageShift: Improving treatment of bacterial infections through novel modifications to conventional phage therapeutics. iGEM Giant Jamboree, Boston, 2018. (* = Team Leader. Poster and Presentation)
