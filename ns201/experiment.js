@@ -2,6 +2,7 @@
  * Experiment Test *
  *******************/
 
+/*
 import { PsychoJS } from './lib/core-2020.2.js';
 import * as core from './lib/core-2020.2.js';
 import { TrialHandler } from './lib/data-2020.2.js';
@@ -9,6 +10,15 @@ import { Scheduler } from './lib/util-2020.2.js';
 import * as visual from './lib/visual-2020.2.js';
 import * as sound from './lib/sound-2020.2.js';
 import * as util from './lib/util-2020.2.js';
+*/
+
+import { PsychoJS } from 'https://pavlovia.org/lib/core.js';
+import * as core from 'https://pavlovia.org/lib/core.js';
+import { TrialHandler } from 'https://pavlovia.org/lib/data.js';
+import { Scheduler } from 'https://pavlovia.org/lib/util.js';
+import * as util from 'https://pavlovia.org/lib/util.js';
+import * as visual from 'https://pavlovia.org/lib/visual.js';
+import * as sound from 'https://pavlovia.org/lib/sound.js';
 //some handy aliases as in the psychopy scripts;
 const { abs, sin, cos, PI: pi, sqrt } = Math;
 const { round } = util;
