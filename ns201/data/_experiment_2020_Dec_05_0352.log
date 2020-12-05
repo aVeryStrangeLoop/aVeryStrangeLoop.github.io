@@ -1,0 +1,34 @@
+1.4803 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+8.0219 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+13.3435 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001BDC3010E10>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001BDC2D66C50>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.3437 	EXP 	window1: mouseVisible = True
+13.3437 	EXP 	window1: recordFrameIntervals = False
+13.5091 	EXP 	window1: recordFrameIntervals = True
+13.6929 	EXP 	window1: recordFrameIntervals = False
+13.7718 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+13.8512 	EXP 	window1: mouseVisible = True
+14.0169 	EXP 	Created trend = RatingScale(__class__=type(...), acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText='accept?', autoLog=True, choices=['increasing', 'decreasing'], depth=0, disappear=False, flipVert=False, high=1, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=0, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='trend', noMouse=False, pos=[0.0, -0.4], precision=1, respKeys=['0', '1'], rightKeys=['right'], scale='<default>', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=0.6, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.12, tickHeight=-1, tickMarks=1.0, win=Window(...))
+14.0435 	EXP 	RatingScale trend: reset()
+14.1352 	EXP 	trend: flipVert = False
+14.1352 	EXP 	trend: autoLog = True
+14.1352 	EXP 	image: image = 'C:\\Users\\kmwtb\\Desktop\\Semester IX\\NS201\\Assignment SP\\code\\dataset\\0.png'
+14.1352 	EXP 	image: autoDraw = True
+16.0574 	EXP 	trend: autoDraw = True
+16.1424 	EXP 	image: autoDraw = False
+18.6992 	DATA 	Mouse: Left button down, pos=(702,272)
+18.9153 	DATA 	Mouse:  Left button up, pos=(702,272)
+19.3986 	DATA 	Mouse: Left button down, pos=(702,272)
+19.5486 	DATA 	Mouse:  Left button up, pos=(702,272)
+19.5491 	DATA 	Mouse: Left button down, pos=(702,272)
+19.7653 	DATA 	Mouse:  Left button up, pos=(702,272)
+20.5323 	DATA 	Mouse: Left button down, pos=(678,332)
+20.7014 	DATA 	Mouse:  Left button up, pos=(678,332)
+20.7025 	DATA 	Mouse: Left button down, pos=(678,332)
+20.9174 	DATA 	Mouse:  Left button up, pos=(678,332)
+22.0676 	DATA 	Mouse: Left button down, pos=(966,193)
+22.0682 	DATA 	RatingScale trend: (mouse response) rating=increasing
+22.0683 	DATA 	RatingScale trend: rating RT=6.038
+22.0683 	DATA 	RatingScale trend: history=[(None, 0.0), ('increasing', 4.503), ('increasing', 6.038)]
+22.0924 	EXP 	image: autoDraw = False
+22.0924 	EXP 	trend: autoDraw = False
+24.7191 	EXP 	window1: mouseVisible = True

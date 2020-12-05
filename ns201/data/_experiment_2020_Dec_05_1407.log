@@ -1,0 +1,1080 @@
+0.9574 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+5.0430 	WARNING 	User requested fullscreen with size [1280  720], but screen is actually [1920, 1080]. Using actual size
+8.9602 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1., 1., 1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000224763F5D30>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002247614CB70>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.9607 	EXP 	window1: mouseVisible = True
+8.9608 	EXP 	window1: recordFrameIntervals = False
+9.1260 	EXP 	window1: recordFrameIntervals = True
+9.3095 	EXP 	window1: recordFrameIntervals = False
+9.6717 	EXP 	Created instruct_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instruct_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([-1., -1., -1.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.6800 	EXP 	Created timer1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='timer1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='3', units='height', win=Window(...), wrapWidth=1)
+9.6835 	EXP 	Created timer2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='timer2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='2', units='height', win=Window(...), wrapWidth=1)
+9.6861 	EXP 	Created timer3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='timer3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='1', units='height', win=Window(...), wrapWidth=1)
+9.6961 	EXP 	Created timergo = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='timergo', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='Start!\n', units='height', win=Window(...), wrapWidth=1)
+9.6992 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.  , 0.75]), texRes=128, units='height', win=Window(...))
+9.7226 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.7511 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.7893 	EXP 	instruct_text: autoDraw = True
+10.8217 	DATA 	Keypress: return
+10.8254 	EXP 	instruct_text: autoDraw = False
+10.8254 	EXP 	timer1: autoDraw = True
+11.8089 	EXP 	timer2: autoDraw = True
+11.8257 	EXP 	timer1: autoDraw = False
+12.8092 	EXP 	timer2: autoDraw = False
+12.8092 	EXP 	timer3: autoDraw = True
+13.8090 	EXP 	timer3: autoDraw = False
+13.8090 	EXP 	timergo: autoDraw = True
+14.8497 	EXP 	Imported dataset\setdesc.csv as conditions, 172 conditions, 5 params
+14.8503 	EXP 	Created sequence: random, trialTypes=172, nReps=1, seed=None
+14.8506 	EXP 	New trial (rep=0, index=0): OrderedDict([('path', 'dataset/116.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.075), ('corrans', 'down')])
+14.8671 	EXP 	timergo: autoDraw = False
+14.8671 	EXP 	timer1: autoDraw = False
+14.8671 	EXP 	timer2: autoDraw = False
+14.8671 	EXP 	timer3: autoDraw = False
+14.8671 	EXP 	timergo: autoDraw = False
+14.8671 	EXP 	image: image = 'dataset/116.png'
+15.3891 	EXP 	image: autoDraw = True
+16.1369 	EXP 	New trial (rep=0, index=1): OrderedDict([('path', 'dataset/103.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.3), ('corrans', 'up')])
+16.1620 	DATA 	Keypress: down
+16.1652 	EXP 	image: autoDraw = False
+16.1652 	EXP 	text: autoDraw = False
+16.1652 	EXP 	image: image = 'dataset/103.png'
+16.6602 	EXP 	image: autoDraw = True
+17.2688 	EXP 	New trial (rep=0, index=2): OrderedDict([('path', 'dataset/58.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.025), ('corrans', 'up')])
+17.2948 	DATA 	Keypress: up
+17.2977 	EXP 	image: autoDraw = False
+17.2977 	EXP 	text: autoDraw = False
+17.2977 	EXP 	image: image = 'dataset/58.png'
+17.7936 	EXP 	image: autoDraw = True
+18.4018 	EXP 	New trial (rep=0, index=3): OrderedDict([('path', 'dataset/153.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.3), ('corrans', 'down')])
+18.4204 	DATA 	Keypress: up
+18.4233 	EXP 	image: autoDraw = False
+18.4233 	EXP 	text: autoDraw = False
+18.4233 	EXP 	image: image = 'dataset/153.png'
+18.9102 	EXP 	image: autoDraw = True
+19.4521 	EXP 	New trial (rep=0, index=4): OrderedDict([('path', 'dataset/3.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.0), ('corrans', 'up')])
+19.4776 	DATA 	Keypress: down
+19.4805 	EXP 	image: autoDraw = False
+19.4805 	EXP 	text: autoDraw = False
+19.4805 	EXP 	image: image = 'dataset/3.png'
+19.9770 	EXP 	image: autoDraw = True
+20.7502 	EXP 	New trial (rep=0, index=5): OrderedDict([('path', 'dataset/135.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.175), ('corrans', 'up')])
+20.7758 	DATA 	Keypress: up
+20.7786 	EXP 	image: autoDraw = False
+20.7786 	EXP 	text: autoDraw = False
+20.7786 	EXP 	image: image = 'dataset/135.png'
+21.2770 	EXP 	image: autoDraw = True
+22.0660 	DATA 	Keypress: up
+22.0842 	EXP 	New trial (rep=0, index=6): OrderedDict([('path', 'dataset/117.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.075), ('corrans', 'down')])
+22.1113 	EXP 	image: autoDraw = False
+22.1113 	EXP 	text: autoDraw = False
+22.1113 	EXP 	image: image = 'dataset/117.png'
+22.6100 	EXP 	image: autoDraw = True
+23.1342 	EXP 	New trial (rep=0, index=7): OrderedDict([('path', 'dataset/48.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.3), ('corrans', 'down')])
+23.1602 	DATA 	Keypress: down
+23.1632 	EXP 	image: autoDraw = False
+23.1632 	EXP 	text: autoDraw = False
+23.1632 	EXP 	image: image = 'dataset/48.png'
+23.6600 	EXP 	image: autoDraw = True
+24.2988 	DATA 	Keypress: up
+24.3177 	EXP 	New trial (rep=0, index=8): OrderedDict([('path', 'dataset/148.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.275), ('corrans', 'down')])
+24.3471 	EXP 	image: autoDraw = False
+24.3471 	EXP 	text: autoDraw = False
+24.3471 	EXP 	image: image = 'dataset/148.png'
+24.8435 	EXP 	image: autoDraw = True
+25.5179 	EXP 	New trial (rep=0, index=9): OrderedDict([('path', 'dataset/51.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.3), ('corrans', 'up')])
+25.5453 	DATA 	Keypress: down
+25.5479 	EXP 	image: autoDraw = False
+25.5479 	EXP 	text: autoDraw = False
+25.5479 	EXP 	image: image = 'dataset/51.png'
+26.0436 	EXP 	image: autoDraw = True
+26.8487 	DATA 	Keypress: down
+26.8672 	EXP 	New trial (rep=0, index=10): OrderedDict([('path', 'dataset/70.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.1), ('corrans', 'up')])
+26.8953 	EXP 	image: autoDraw = False
+26.8953 	EXP 	text: autoDraw = False
+26.8953 	EXP 	image: image = 'dataset/70.png'
+27.3936 	EXP 	image: autoDraw = True
+28.0673 	EXP 	New trial (rep=0, index=11): OrderedDict([('path', 'dataset/27.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.15), ('corrans', 'up')])
+28.0934 	DATA 	Keypress: up
+28.0963 	EXP 	image: autoDraw = False
+28.0963 	EXP 	text: autoDraw = False
+28.0963 	EXP 	image: image = 'dataset/27.png'
+28.5935 	EXP 	image: autoDraw = True
+29.3820 	DATA 	Keypress: up
+29.4010 	EXP 	New trial (rep=0, index=12): OrderedDict([('path', 'dataset/41.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.25), ('corrans', 'down')])
+29.4287 	EXP 	image: autoDraw = False
+29.4287 	EXP 	text: autoDraw = False
+29.4287 	EXP 	image: image = 'dataset/41.png'
+29.9269 	EXP 	image: autoDraw = True
+30.5644 	DATA 	Keypress: up
+30.5837 	EXP 	New trial (rep=0, index=13): OrderedDict([('path', 'dataset/123.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.1), ('corrans', 'up')])
+30.6119 	EXP 	image: autoDraw = False
+30.6119 	EXP 	text: autoDraw = False
+30.6119 	EXP 	image: image = 'dataset/123.png'
+31.1099 	EXP 	image: autoDraw = True
+31.8841 	EXP 	New trial (rep=0, index=14): OrderedDict([('path', 'dataset/162.png'), ('is_control', True), ('slope', 0.0), ('noise', 0.3), ('corrans', 'none')])
+31.9102 	DATA 	Keypress: up
+31.9131 	EXP 	image: autoDraw = False
+31.9131 	EXP 	text: autoDraw = False
+31.9131 	EXP 	image: image = 'dataset/162.png'
+32.4099 	EXP 	image: autoDraw = True
+33.2837 	EXP 	New trial (rep=0, index=15): OrderedDict([('path', 'dataset/145.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.25), ('corrans', 'down')])
+33.3097 	DATA 	Keypress: up
+33.3126 	EXP 	image: autoDraw = False
+33.3126 	EXP 	text: autoDraw = False
+33.3126 	EXP 	image: image = 'dataset/145.png'
+33.8099 	EXP 	image: autoDraw = True
+34.3835 	EXP 	New trial (rep=0, index=16): OrderedDict([('path', 'dataset/125.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.125), ('corrans', 'down')])
+34.4085 	DATA 	Keypress: down
+34.4113 	EXP 	image: autoDraw = False
+34.4113 	EXP 	text: autoDraw = False
+34.4113 	EXP 	image: image = 'dataset/125.png'
+34.9098 	EXP 	image: autoDraw = True
+35.4667 	EXP 	New trial (rep=0, index=17): OrderedDict([('path', 'dataset/95.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.25), ('corrans', 'up')])
+35.4932 	DATA 	Keypress: down
+35.4961 	EXP 	image: autoDraw = False
+35.4961 	EXP 	text: autoDraw = False
+35.4961 	EXP 	image: image = 'dataset/95.png'
+35.9931 	EXP 	image: autoDraw = True
+36.5343 	EXP 	New trial (rep=0, index=18): OrderedDict([('path', 'dataset/142.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.225), ('corrans', 'up')])
+36.5633 	DATA 	Keypress: up
+36.5663 	EXP 	image: autoDraw = False
+36.5663 	EXP 	text: autoDraw = False
+36.5663 	EXP 	image: image = 'dataset/142.png'
+37.0598 	EXP 	image: autoDraw = True
+37.5993 	DATA 	Keypress: up
+37.6167 	EXP 	New trial (rep=0, index=19): OrderedDict([('path', 'dataset/76.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.15), ('corrans', 'down')])
+37.6442 	EXP 	image: autoDraw = False
+37.6442 	EXP 	text: autoDraw = False
+37.6442 	EXP 	image: image = 'dataset/76.png'
+38.1433 	EXP 	image: autoDraw = True
+38.6173 	EXP 	New trial (rep=0, index=20): OrderedDict([('path', 'dataset/46.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.275), ('corrans', 'up')])
+38.6442 	DATA 	Keypress: down
+38.6472 	EXP 	image: autoDraw = False
+38.6472 	EXP 	text: autoDraw = False
+38.6472 	EXP 	image: image = 'dataset/46.png'
+39.1432 	EXP 	image: autoDraw = True
+39.7340 	EXP 	New trial (rep=0, index=21): OrderedDict([('path', 'dataset/168.png'), ('is_control', True), ('slope', -0.5), ('noise', 0.3), ('corrans', 'down')])
+39.7604 	DATA 	Keypress: down
+39.7634 	EXP 	image: autoDraw = False
+39.7634 	EXP 	text: autoDraw = False
+39.7634 	EXP 	image: image = 'dataset/168.png'
+40.2597 	EXP 	image: autoDraw = True
+40.7670 	EXP 	New trial (rep=0, index=22): OrderedDict([('path', 'dataset/90.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.225), ('corrans', 'up')])
+40.7920 	DATA 	Keypress: down
+40.7950 	EXP 	image: autoDraw = False
+40.7950 	EXP 	text: autoDraw = False
+40.7950 	EXP 	image: image = 'dataset/90.png'
+41.2932 	EXP 	image: autoDraw = True
+41.7496 	EXP 	New trial (rep=0, index=23): OrderedDict([('path', 'dataset/6.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.025), ('corrans', 'up')])
+41.7730 	DATA 	Keypress: up
+41.7760 	EXP 	image: autoDraw = False
+41.7760 	EXP 	text: autoDraw = False
+41.7760 	EXP 	image: image = 'dataset/6.png'
+42.2766 	EXP 	image: autoDraw = True
+42.9304 	DATA 	Keypress: up
+43.7753 	EXP 	image: autoDraw = False
+43.7753 	EXP 	text: autoDraw = True
+44.8148 	DATA 	Keypress: up
+44.8323 	EXP 	New trial (rep=0, index=24): OrderedDict([('path', 'dataset/73.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.125), ('corrans', 'down')])
+44.8596 	EXP 	image: autoDraw = False
+44.8596 	EXP 	text: autoDraw = False
+44.8596 	EXP 	image: image = 'dataset/73.png'
+45.3597 	EXP 	image: autoDraw = True
+45.9830 	EXP 	New trial (rep=0, index=25): OrderedDict([('path', 'dataset/146.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.25), ('corrans', 'up')])
+46.0077 	DATA 	Keypress: down
+46.0105 	EXP 	image: autoDraw = False
+46.0105 	EXP 	text: autoDraw = False
+46.0105 	EXP 	image: image = 'dataset/146.png'
+46.5096 	EXP 	image: autoDraw = True
+47.1168 	EXP 	New trial (rep=0, index=26): OrderedDict([('path', 'dataset/52.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.0), ('corrans', 'down')])
+47.1402 	DATA 	Keypress: up
+47.1431 	EXP 	image: autoDraw = False
+47.1431 	EXP 	text: autoDraw = False
+47.1431 	EXP 	image: image = 'dataset/52.png'
+47.6432 	EXP 	image: autoDraw = True
+48.1828 	DATA 	Keypress: down
+48.1998 	EXP 	New trial (rep=0, index=27): OrderedDict([('path', 'dataset/75.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.125), ('corrans', 'up')])
+48.2287 	EXP 	image: autoDraw = False
+48.2287 	EXP 	text: autoDraw = False
+48.2287 	EXP 	image: image = 'dataset/75.png'
+48.7265 	EXP 	image: autoDraw = True
+49.4169 	EXP 	New trial (rep=0, index=28): OrderedDict([('path', 'dataset/78.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.15), ('corrans', 'up')])
+49.4415 	DATA 	Keypress: down
+49.4446 	EXP 	image: autoDraw = False
+49.4446 	EXP 	text: autoDraw = False
+49.4446 	EXP 	image: image = 'dataset/78.png'
+49.9431 	EXP 	image: autoDraw = True
+50.4981 	DATA 	Keypress: up
+50.5160 	EXP 	New trial (rep=0, index=29): OrderedDict([('path', 'dataset/40.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.25), ('corrans', 'down')])
+50.5385 	EXP 	image: autoDraw = False
+50.5385 	EXP 	text: autoDraw = False
+50.5385 	EXP 	image: image = 'dataset/40.png'
+51.0262 	EXP 	image: autoDraw = True
+51.6836 	EXP 	New trial (rep=0, index=30): OrderedDict([('path', 'dataset/94.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.25), ('corrans', 'up')])
+51.7103 	DATA 	Keypress: up
+51.7134 	EXP 	image: autoDraw = False
+51.7134 	EXP 	text: autoDraw = False
+51.7134 	EXP 	image: image = 'dataset/94.png'
+52.2095 	EXP 	image: autoDraw = True
+52.7502 	EXP 	New trial (rep=0, index=31): OrderedDict([('path', 'dataset/30.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.175), ('corrans', 'up')])
+52.7761 	DATA 	Keypress: up
+52.7792 	EXP 	image: autoDraw = False
+52.7792 	EXP 	text: autoDraw = False
+52.7792 	EXP 	image: image = 'dataset/30.png'
+53.2764 	EXP 	image: autoDraw = True
+53.8840 	EXP 	New trial (rep=0, index=32): OrderedDict([('path', 'dataset/80.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.175), ('corrans', 'down')])
+53.9096 	DATA 	Keypress: down
+53.9126 	EXP 	image: autoDraw = False
+53.9126 	EXP 	text: autoDraw = False
+53.9126 	EXP 	image: image = 'dataset/80.png'
+54.4094 	EXP 	image: autoDraw = True
+54.9168 	EXP 	New trial (rep=0, index=33): OrderedDict([('path', 'dataset/1.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.0), ('corrans', 'down')])
+54.9413 	DATA 	Keypress: down
+54.9444 	EXP 	image: autoDraw = False
+54.9444 	EXP 	text: autoDraw = False
+54.9444 	EXP 	image: image = 'dataset/1.png'
+55.4430 	EXP 	image: autoDraw = True
+56.1665 	EXP 	New trial (rep=0, index=34): OrderedDict([('path', 'dataset/66.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.075), ('corrans', 'up')])
+56.1921 	DATA 	Keypress: down
+56.1953 	EXP 	image: autoDraw = False
+56.1953 	EXP 	text: autoDraw = False
+56.1953 	EXP 	image: image = 'dataset/66.png'
+56.6927 	EXP 	image: autoDraw = True
+57.2499 	EXP 	New trial (rep=0, index=35): OrderedDict([('path', 'dataset/8.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.05), ('corrans', 'down')])
+57.2731 	DATA 	Keypress: up
+57.2760 	EXP 	image: autoDraw = False
+57.2760 	EXP 	text: autoDraw = False
+57.2760 	EXP 	image: image = 'dataset/8.png'
+57.7761 	EXP 	image: autoDraw = True
+58.3332 	EXP 	New trial (rep=0, index=36): OrderedDict([('path', 'dataset/84.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.2), ('corrans', 'down')])
+58.3591 	DATA 	Keypress: down
+58.3622 	EXP 	image: autoDraw = False
+58.3622 	EXP 	text: autoDraw = False
+58.3622 	EXP 	image: image = 'dataset/84.png'
+58.8593 	EXP 	image: autoDraw = True
+59.4835 	EXP 	New trial (rep=0, index=37): OrderedDict([('path', 'dataset/128.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.15), ('corrans', 'down')])
+59.5082 	DATA 	Keypress: down
+59.5111 	EXP 	image: autoDraw = False
+59.5111 	EXP 	text: autoDraw = False
+59.5111 	EXP 	image: image = 'dataset/128.png'
+60.0095 	EXP 	image: autoDraw = True
+60.5165 	EXP 	New trial (rep=0, index=38): OrderedDict([('path', 'dataset/35.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.2), ('corrans', 'up')])
+60.5422 	DATA 	Keypress: down
+60.5450 	EXP 	image: autoDraw = False
+60.5450 	EXP 	text: autoDraw = False
+60.5450 	EXP 	image: image = 'dataset/35.png'
+61.0429 	EXP 	image: autoDraw = True
+61.6168 	EXP 	New trial (rep=0, index=39): OrderedDict([('path', 'dataset/21.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.125), ('corrans', 'down')])
+61.6411 	DATA 	Keypress: down
+61.6439 	EXP 	image: autoDraw = False
+61.6439 	EXP 	text: autoDraw = False
+61.6439 	EXP 	image: image = 'dataset/21.png'
+62.1429 	EXP 	image: autoDraw = True
+63.0153 	DATA 	Keypress: up
+63.0327 	EXP 	New trial (rep=0, index=40): OrderedDict([('path', 'dataset/25.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.15), ('corrans', 'down')])
+63.0605 	EXP 	image: autoDraw = False
+63.0605 	EXP 	text: autoDraw = False
+63.0605 	EXP 	image: image = 'dataset/25.png'
+63.5593 	EXP 	image: autoDraw = True
+64.3985 	DATA 	Keypress: down
+64.4164 	EXP 	New trial (rep=0, index=41): OrderedDict([('path', 'dataset/112.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.05), ('corrans', 'down')])
+64.4436 	EXP 	image: autoDraw = False
+64.4436 	EXP 	text: autoDraw = False
+64.4436 	EXP 	image: image = 'dataset/112.png'
+64.9429 	EXP 	image: autoDraw = True
+65.4824 	EXP 	New trial (rep=0, index=42): OrderedDict([('path', 'dataset/87.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.2), ('corrans', 'up')])
+65.5033 	DATA 	Keypress: down
+65.5060 	EXP 	image: autoDraw = False
+65.5060 	EXP 	text: autoDraw = False
+65.5060 	EXP 	image: image = 'dataset/87.png'
+66.0094 	EXP 	image: autoDraw = True
+66.5319 	DATA 	Keypress: up
+66.5493 	EXP 	New trial (rep=0, index=43): OrderedDict([('path', 'dataset/18.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.1), ('corrans', 'up')])
+66.5734 	EXP 	image: autoDraw = False
+66.5734 	EXP 	text: autoDraw = False
+66.5734 	EXP 	image: image = 'dataset/18.png'
+67.0761 	EXP 	image: autoDraw = True
+67.6329 	EXP 	New trial (rep=0, index=44): OrderedDict([('path', 'dataset/157.png'), ('is_control', True), ('slope', -0.0), ('noise', 0.0), ('corrans', 'none')])
+67.6558 	DATA 	Keypress: down
+67.6588 	EXP 	image: autoDraw = False
+67.6588 	EXP 	text: autoDraw = False
+67.6588 	EXP 	image: image = 'dataset/157.png'
+68.1594 	EXP 	image: autoDraw = True
+69.4486 	DATA 	Keypress: up
+69.4664 	EXP 	New trial (rep=0, index=45): OrderedDict([('path', 'dataset/23.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.125), ('corrans', 'up')])
+69.4938 	EXP 	image: autoDraw = False
+69.4938 	EXP 	text: autoDraw = False
+69.4938 	EXP 	image: image = 'dataset/23.png'
+69.9928 	EXP 	image: autoDraw = True
+70.8337 	EXP 	New trial (rep=0, index=46): OrderedDict([('path', 'dataset/83.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.175), ('corrans', 'up')])
+70.8586 	DATA 	Keypress: up
+70.8614 	EXP 	image: autoDraw = False
+70.8614 	EXP 	text: autoDraw = False
+70.8614 	EXP 	image: image = 'dataset/83.png'
+71.3592 	EXP 	image: autoDraw = True
+72.0330 	EXP 	New trial (rep=0, index=47): OrderedDict([('path', 'dataset/2.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.0), ('corrans', 'up')])
+72.0566 	DATA 	Keypress: up
+72.0597 	EXP 	image: autoDraw = False
+72.0597 	EXP 	text: autoDraw = False
+72.0597 	EXP 	image: image = 'dataset/2.png'
+72.5591 	EXP 	image: autoDraw = True
+73.2330 	EXP 	New trial (rep=0, index=48): OrderedDict([('path', 'dataset/127.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.125), ('corrans', 'up')])
+73.2586 	DATA 	Keypress: up
+73.2613 	EXP 	image: autoDraw = False
+73.2613 	EXP 	text: autoDraw = False
+73.2613 	EXP 	image: image = 'dataset/127.png'
+73.7592 	EXP 	image: autoDraw = True
+74.3328 	EXP 	New trial (rep=0, index=49): OrderedDict([('path', 'dataset/120.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.1), ('corrans', 'down')])
+74.3572 	DATA 	Keypress: up
+74.3602 	EXP 	image: autoDraw = False
+74.3602 	EXP 	text: autoDraw = False
+74.3602 	EXP 	image: image = 'dataset/120.png'
+74.8591 	EXP 	image: autoDraw = True
+75.4497 	EXP 	New trial (rep=0, index=50): OrderedDict([('path', 'dataset/13.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.075), ('corrans', 'down')])
+75.4733 	DATA 	Keypress: down
+75.4764 	EXP 	image: autoDraw = False
+75.4764 	EXP 	text: autoDraw = False
+75.4764 	EXP 	image: image = 'dataset/13.png'
+75.9760 	EXP 	image: autoDraw = True
+77.0158 	EXP 	New trial (rep=0, index=51): OrderedDict([('path', 'dataset/54.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.0), ('corrans', 'up')])
+77.0402 	DATA 	Keypress: down
+77.0433 	EXP 	image: autoDraw = False
+77.0433 	EXP 	text: autoDraw = False
+77.0433 	EXP 	image: image = 'dataset/54.png'
+77.5424 	EXP 	image: autoDraw = True
+78.3665 	EXP 	New trial (rep=0, index=52): OrderedDict([('path', 'dataset/134.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.175), ('corrans', 'up')])
+78.3928 	DATA 	Keypress: up
+78.3958 	EXP 	image: autoDraw = False
+78.3958 	EXP 	text: autoDraw = False
+78.3958 	EXP 	image: image = 'dataset/134.png'
+78.8926 	EXP 	image: autoDraw = True
+79.7321 	EXP 	New trial (rep=0, index=53): OrderedDict([('path', 'dataset/85.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.2), ('corrans', 'down')])
+79.7583 	DATA 	Keypress: up
+79.7614 	EXP 	image: autoDraw = False
+79.7614 	EXP 	text: autoDraw = False
+79.7614 	EXP 	image: image = 'dataset/85.png'
+80.2593 	EXP 	image: autoDraw = True
+80.9164 	EXP 	New trial (rep=0, index=54): OrderedDict([('path', 'dataset/165.png'), ('is_control', True), ('slope', -0.5), ('noise', 0.0), ('corrans', 'down')])
+80.9419 	DATA 	Keypress: down
+80.9448 	EXP 	image: autoDraw = False
+80.9448 	EXP 	text: autoDraw = False
+80.9448 	EXP 	image: image = 'dataset/165.png'
+81.4425 	EXP 	image: autoDraw = True
+82.0486 	DATA 	Keypress: down
+82.0661 	EXP 	New trial (rep=0, index=55): OrderedDict([('path', 'dataset/97.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.275), ('corrans', 'down')])
+82.0948 	EXP 	image: autoDraw = False
+82.0948 	EXP 	text: autoDraw = False
+82.0948 	EXP 	image: image = 'dataset/97.png'
+82.5923 	EXP 	image: autoDraw = True
+83.2488 	EXP 	New trial (rep=0, index=56): OrderedDict([('path', 'dataset/133.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.175), ('corrans', 'down')])
+83.2744 	DATA 	Keypress: down
+83.2773 	EXP 	image: autoDraw = False
+83.2773 	EXP 	text: autoDraw = False
+83.2773 	EXP 	image: image = 'dataset/133.png'
+83.7756 	EXP 	image: autoDraw = True
+84.3500 	EXP 	New trial (rep=0, index=57): OrderedDict([('path', 'dataset/12.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.075), ('corrans', 'down')])
+84.3748 	DATA 	Keypress: down
+84.3776 	EXP 	image: autoDraw = False
+84.3776 	EXP 	text: autoDraw = False
+84.3776 	EXP 	image: image = 'dataset/12.png'
+84.8756 	EXP 	image: autoDraw = True
+85.4816 	DATA 	Keypress: up
+85.4995 	EXP 	New trial (rep=0, index=58): OrderedDict([('path', 'dataset/96.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.275), ('corrans', 'down')])
+85.5278 	EXP 	image: autoDraw = False
+85.5278 	EXP 	text: autoDraw = False
+85.5278 	EXP 	image: image = 'dataset/96.png'
+86.0256 	EXP 	image: autoDraw = True
+86.7661 	EXP 	New trial (rep=0, index=59): OrderedDict([('path', 'dataset/0.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.0), ('corrans', 'down')])
+86.7905 	DATA 	Keypress: down
+86.7936 	EXP 	image: autoDraw = False
+86.7936 	EXP 	text: autoDraw = False
+86.7936 	EXP 	image: image = 'dataset/0.png'
+87.2922 	EXP 	image: autoDraw = True
+88.2985 	EXP 	New trial (rep=0, index=60): OrderedDict([('path', 'dataset/113.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.05), ('corrans', 'down')])
+88.3160 	DATA 	Keypress: down
+88.3188 	EXP 	image: autoDraw = False
+88.3188 	EXP 	text: autoDraw = False
+88.3188 	EXP 	image: image = 'dataset/113.png'
+88.8092 	EXP 	image: autoDraw = True
+89.5826 	EXP 	New trial (rep=0, index=61): OrderedDict([('path', 'dataset/4.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.025), ('corrans', 'down')])
+89.6066 	DATA 	Keypress: down
+89.6097 	EXP 	image: autoDraw = False
+89.6097 	EXP 	text: autoDraw = False
+89.6097 	EXP 	image: image = 'dataset/4.png'
+90.1093 	EXP 	image: autoDraw = True
+91.1302 	DATA 	Keypress: up
+91.6076 	EXP 	image: autoDraw = False
+91.6076 	EXP 	text: autoDraw = True
+92.4476 	DATA 	Keypress: up
+92.4650 	EXP 	New trial (rep=0, index=62): OrderedDict([('path', 'dataset/56.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.025), ('corrans', 'down')])
+92.4909 	EXP 	image: autoDraw = False
+92.4909 	EXP 	text: autoDraw = False
+92.4909 	EXP 	image: image = 'dataset/56.png'
+92.9922 	EXP 	image: autoDraw = True
+93.7160 	EXP 	New trial (rep=0, index=63): OrderedDict([('path', 'dataset/132.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.175), ('corrans', 'down')])
+93.7421 	DATA 	Keypress: down
+93.7451 	EXP 	image: autoDraw = False
+93.7451 	EXP 	text: autoDraw = False
+93.7451 	EXP 	image: image = 'dataset/132.png'
+94.2422 	EXP 	image: autoDraw = True
+95.1975 	DATA 	Keypress: down
+95.2159 	EXP 	New trial (rep=0, index=64): OrderedDict([('path', 'dataset/167.png'), ('is_control', True), ('slope', 0.5), ('noise', 0.0), ('corrans', 'up')])
+95.2448 	EXP 	image: autoDraw = False
+95.2448 	EXP 	text: autoDraw = False
+95.2448 	EXP 	image: image = 'dataset/167.png'
+95.7422 	EXP 	image: autoDraw = True
+96.4811 	DATA 	Keypress: up
+96.4995 	EXP 	New trial (rep=0, index=65): OrderedDict([('path', 'dataset/114.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.05), ('corrans', 'up')])
+96.5256 	EXP 	image: autoDraw = False
+96.5256 	EXP 	text: autoDraw = False
+96.5256 	EXP 	image: image = 'dataset/114.png'
+97.0256 	EXP 	image: autoDraw = True
+97.7489 	EXP 	New trial (rep=0, index=66): OrderedDict([('path', 'dataset/82.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.175), ('corrans', 'up')])
+97.7742 	DATA 	Keypress: up
+97.7771 	EXP 	image: autoDraw = False
+97.7771 	EXP 	text: autoDraw = False
+97.7771 	EXP 	image: image = 'dataset/82.png'
+98.2753 	EXP 	image: autoDraw = True
+99.1161 	EXP 	New trial (rep=0, index=67): OrderedDict([('path', 'dataset/164.png'), ('is_control', True), ('slope', -0.5), ('noise', 0.0), ('corrans', 'down')])
+99.1419 	DATA 	Keypress: up
+99.1451 	EXP 	image: autoDraw = False
+99.1451 	EXP 	text: autoDraw = False
+99.1451 	EXP 	image: image = 'dataset/164.png'
+99.6422 	EXP 	image: autoDraw = True
+100.2659 	EXP 	New trial (rep=0, index=68): OrderedDict([('path', 'dataset/74.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.125), ('corrans', 'up')])
+100.2912 	DATA 	Keypress: down
+100.2943 	EXP 	image: autoDraw = False
+100.2943 	EXP 	text: autoDraw = False
+100.2943 	EXP 	image: image = 'dataset/74.png'
+100.7922 	EXP 	image: autoDraw = True
+101.5976 	DATA 	Keypress: up
+101.6159 	EXP 	New trial (rep=0, index=69): OrderedDict([('path', 'dataset/16.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.1), ('corrans', 'down')])
+101.6424 	EXP 	image: autoDraw = False
+101.6424 	EXP 	text: autoDraw = False
+101.6424 	EXP 	image: image = 'dataset/16.png'
+102.1420 	EXP 	image: autoDraw = True
+103.1495 	EXP 	New trial (rep=0, index=70): OrderedDict([('path', 'dataset/61.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.05), ('corrans', 'down')])
+103.1609 	DATA 	Keypress: up
+103.1634 	EXP 	image: autoDraw = False
+103.1634 	EXP 	text: autoDraw = False
+103.1634 	EXP 	image: image = 'dataset/61.png'
+103.6590 	EXP 	image: autoDraw = True
+104.4991 	EXP 	New trial (rep=0, index=71): OrderedDict([('path', 'dataset/115.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.05), ('corrans', 'up')])
+104.5220 	DATA 	Keypress: down
+104.5251 	EXP 	image: autoDraw = False
+104.5251 	EXP 	text: autoDraw = False
+104.5251 	EXP 	image: image = 'dataset/115.png'
+105.0255 	EXP 	image: autoDraw = True
+105.6962 	EXP 	New trial (rep=0, index=72): OrderedDict([('path', 'dataset/104.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.0), ('corrans', 'down')])
+105.7112 	DATA 	Keypress: up
+105.7137 	EXP 	image: autoDraw = False
+105.7137 	EXP 	text: autoDraw = False
+105.7137 	EXP 	image: image = 'dataset/104.png'
+106.2083 	EXP 	image: autoDraw = True
+106.8467 	DATA 	Keypress: down
+106.8666 	EXP 	New trial (rep=0, index=73): OrderedDict([('path', 'dataset/152.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.3), ('corrans', 'down')])
+106.8963 	EXP 	image: autoDraw = False
+106.8963 	EXP 	text: autoDraw = False
+106.8963 	EXP 	image: image = 'dataset/152.png'
+107.3921 	EXP 	image: autoDraw = True
+108.1653 	EXP 	New trial (rep=0, index=74): OrderedDict([('path', 'dataset/42.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.25), ('corrans', 'up')])
+108.1912 	DATA 	Keypress: down
+108.1944 	EXP 	image: autoDraw = False
+108.1944 	EXP 	text: autoDraw = False
+108.1944 	EXP 	image: image = 'dataset/42.png'
+108.6918 	EXP 	image: autoDraw = True
+109.6308 	DATA 	Keypress: up
+109.6485 	EXP 	New trial (rep=0, index=75): OrderedDict([('path', 'dataset/10.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.05), ('corrans', 'up')])
+109.6753 	EXP 	image: autoDraw = False
+109.6753 	EXP 	text: autoDraw = False
+109.6753 	EXP 	image: image = 'dataset/10.png'
+110.1754 	EXP 	image: autoDraw = True
+111.0487 	EXP 	New trial (rep=0, index=76): OrderedDict([('path', 'dataset/88.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.225), ('corrans', 'down')])
+111.0748 	DATA 	Keypress: up
+111.0780 	EXP 	image: autoDraw = False
+111.0780 	EXP 	text: autoDraw = False
+111.0780 	EXP 	image: image = 'dataset/88.png'
+111.5754 	EXP 	image: autoDraw = True
+112.4809 	EXP 	New trial (rep=0, index=77): OrderedDict([('path', 'dataset/124.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.125), ('corrans', 'down')])
+112.4987 	DATA 	Keypress: up
+112.5015 	EXP 	image: autoDraw = False
+112.5015 	EXP 	text: autoDraw = False
+112.5015 	EXP 	image: image = 'dataset/124.png'
+112.9919 	EXP 	image: autoDraw = True
+113.7984 	EXP 	New trial (rep=0, index=78): OrderedDict([('path', 'dataset/150.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.275), ('corrans', 'up')])
+113.8244 	DATA 	Keypress: down
+113.8275 	EXP 	image: autoDraw = False
+113.8275 	EXP 	text: autoDraw = False
+113.8275 	EXP 	image: image = 'dataset/150.png'
+114.3252 	EXP 	image: autoDraw = True
+114.9161 	EXP 	New trial (rep=0, index=79): OrderedDict([('path', 'dataset/130.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.15), ('corrans', 'up')])
+114.9413 	DATA 	Keypress: up
+114.9441 	EXP 	image: autoDraw = False
+114.9441 	EXP 	text: autoDraw = False
+114.9441 	EXP 	image: image = 'dataset/130.png'
+115.4417 	EXP 	image: autoDraw = True
+116.0825 	EXP 	New trial (rep=0, index=80): OrderedDict([('path', 'dataset/77.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.15), ('corrans', 'down')])
+116.1064 	DATA 	Keypress: up
+116.1095 	EXP 	image: autoDraw = False
+116.1095 	EXP 	text: autoDraw = False
+116.1095 	EXP 	image: image = 'dataset/77.png'
+116.6084 	EXP 	image: autoDraw = True
+117.1658 	EXP 	New trial (rep=0, index=81): OrderedDict([('path', 'dataset/5.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.025), ('corrans', 'down')])
+117.1756 	DATA 	Keypress: down
+117.1782 	EXP 	image: autoDraw = False
+117.1782 	EXP 	text: autoDraw = False
+117.1782 	EXP 	image: image = 'dataset/5.png'
+117.6753 	EXP 	image: autoDraw = True
+118.5980 	EXP 	New trial (rep=0, index=82): OrderedDict([('path', 'dataset/34.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.2), ('corrans', 'up')])
+118.6236 	DATA 	Keypress: up
+118.6263 	EXP 	image: autoDraw = False
+118.6263 	EXP 	text: autoDraw = False
+118.6263 	EXP 	image: image = 'dataset/34.png'
+119.1252 	EXP 	image: autoDraw = True
+119.7987 	EXP 	New trial (rep=0, index=83): OrderedDict([('path', 'dataset/59.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.025), ('corrans', 'up')])
+119.8217 	DATA 	Keypress: down
+119.8244 	EXP 	image: autoDraw = False
+119.8244 	EXP 	text: autoDraw = False
+119.8244 	EXP 	image: image = 'dataset/59.png'
+120.3251 	EXP 	image: autoDraw = True
+120.8823 	EXP 	New trial (rep=0, index=84): OrderedDict([('path', 'dataset/47.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.275), ('corrans', 'up')])
+120.9083 	DATA 	Keypress: up
+120.9113 	EXP 	image: autoDraw = False
+120.9113 	EXP 	text: autoDraw = False
+120.9113 	EXP 	image: image = 'dataset/47.png'
+121.4086 	EXP 	image: autoDraw = True
+122.1326 	EXP 	New trial (rep=0, index=85): OrderedDict([('path', 'dataset/136.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.2), ('corrans', 'down')])
+122.1580 	DATA 	Keypress: down
+122.1609 	EXP 	image: autoDraw = False
+122.1609 	EXP 	text: autoDraw = False
+122.1609 	EXP 	image: image = 'dataset/136.png'
+122.6585 	EXP 	image: autoDraw = True
+123.2487 	EXP 	New trial (rep=0, index=86): OrderedDict([('path', 'dataset/22.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.125), ('corrans', 'up')])
+123.2736 	DATA 	Keypress: down
+123.2766 	EXP 	image: autoDraw = False
+123.2766 	EXP 	text: autoDraw = False
+123.2766 	EXP 	image: image = 'dataset/22.png'
+123.7751 	EXP 	image: autoDraw = True
+124.3640 	DATA 	Keypress: up
+124.3824 	EXP 	New trial (rep=0, index=87): OrderedDict([('path', 'dataset/138.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.2), ('corrans', 'up')])
+124.4117 	EXP 	image: autoDraw = False
+124.4117 	EXP 	text: autoDraw = False
+124.4117 	EXP 	image: image = 'dataset/138.png'
+124.9083 	EXP 	image: autoDraw = True
+125.6657 	EXP 	New trial (rep=0, index=88): OrderedDict([('path', 'dataset/131.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.15), ('corrans', 'up')])
+125.6903 	DATA 	Keypress: up
+125.6932 	EXP 	image: autoDraw = False
+125.6932 	EXP 	text: autoDraw = False
+125.6932 	EXP 	image: image = 'dataset/131.png'
+126.1917 	EXP 	image: autoDraw = True
+126.9156 	EXP 	New trial (rep=0, index=89): OrderedDict([('path', 'dataset/68.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.1), ('corrans', 'down')])
+126.9385 	DATA 	Keypress: up
+126.9414 	EXP 	image: autoDraw = False
+126.9414 	EXP 	text: autoDraw = False
+126.9414 	EXP 	image: image = 'dataset/68.png'
+127.4417 	EXP 	image: autoDraw = True
+128.2806 	DATA 	Keypress: down
+128.2986 	EXP 	New trial (rep=0, index=90): OrderedDict([('path', 'dataset/11.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.05), ('corrans', 'up')])
+128.3259 	EXP 	image: autoDraw = False
+128.3259 	EXP 	text: autoDraw = False
+128.3259 	EXP 	image: image = 'dataset/11.png'
+128.8252 	EXP 	image: autoDraw = True
+129.6135 	DATA 	Keypress: up
+129.6320 	EXP 	New trial (rep=0, index=91): OrderedDict([('path', 'dataset/107.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.0), ('corrans', 'up')])
+129.6583 	EXP 	image: autoDraw = False
+129.6583 	EXP 	text: autoDraw = False
+129.6583 	EXP 	image: image = 'dataset/107.png'
+130.1582 	EXP 	image: autoDraw = True
+130.7300 	DATA 	Keypress: up
+130.7489 	EXP 	New trial (rep=0, index=92): OrderedDict([('path', 'dataset/141.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.225), ('corrans', 'down')])
+130.7787 	EXP 	image: autoDraw = False
+130.7787 	EXP 	text: autoDraw = False
+130.7787 	EXP 	image: image = 'dataset/141.png'
+131.2751 	EXP 	image: autoDraw = True
+131.9486 	EXP 	New trial (rep=0, index=93): OrderedDict([('path', 'dataset/106.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.0), ('corrans', 'up')])
+131.9601 	DATA 	Keypress: down
+131.9626 	EXP 	image: autoDraw = False
+131.9626 	EXP 	text: autoDraw = False
+131.9626 	EXP 	image: image = 'dataset/106.png'
+132.4582 	EXP 	image: autoDraw = True
+132.9797 	DATA 	Keypress: up
+132.9985 	EXP 	New trial (rep=0, index=94): OrderedDict([('path', 'dataset/26.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.15), ('corrans', 'up')])
+133.0265 	EXP 	image: autoDraw = False
+133.0265 	EXP 	text: autoDraw = False
+133.0265 	EXP 	image: image = 'dataset/26.png'
+133.5250 	EXP 	image: autoDraw = True
+134.3323 	EXP 	New trial (rep=0, index=95): OrderedDict([('path', 'dataset/71.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.1), ('corrans', 'up')])
+134.3575 	DATA 	Keypress: down
+134.3605 	EXP 	image: autoDraw = False
+134.3605 	EXP 	text: autoDraw = False
+134.3605 	EXP 	image: image = 'dataset/71.png'
+134.8583 	EXP 	image: autoDraw = True
+135.5459 	DATA 	Keypress: up
+136.3567 	EXP 	image: autoDraw = False
+136.3567 	EXP 	text: autoDraw = True
+136.9977 	EXP 	New trial (rep=0, index=96): OrderedDict([('path', 'dataset/33.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.2), ('corrans', 'down')])
+137.0232 	DATA 	Keypress: up
+137.0262 	EXP 	image: autoDraw = False
+137.0262 	EXP 	text: autoDraw = False
+137.0262 	EXP 	image: image = 'dataset/33.png'
+137.5249 	EXP 	image: autoDraw = True
+138.3809 	DATA 	Keypress: down
+138.3985 	EXP 	New trial (rep=0, index=97): OrderedDict([('path', 'dataset/19.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.1), ('corrans', 'up')])
+138.4251 	EXP 	image: autoDraw = False
+138.4251 	EXP 	text: autoDraw = False
+138.4251 	EXP 	image: image = 'dataset/19.png'
+138.9248 	EXP 	image: autoDraw = True
+140.0650 	EXP 	New trial (rep=0, index=98): OrderedDict([('path', 'dataset/161.png'), ('is_control', True), ('slope', -0.0), ('noise', 0.3), ('corrans', 'none')])
+140.0914 	DATA 	Keypress: down
+140.0945 	EXP 	image: autoDraw = False
+140.0945 	EXP 	text: autoDraw = False
+140.0945 	EXP 	image: image = 'dataset/161.png'
+140.5912 	EXP 	image: autoDraw = True
+141.3652 	EXP 	New trial (rep=0, index=99): OrderedDict([('path', 'dataset/69.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.1), ('corrans', 'down')])
+141.3893 	DATA 	Keypress: up
+141.3922 	EXP 	image: autoDraw = False
+141.3922 	EXP 	text: autoDraw = False
+141.3922 	EXP 	image: image = 'dataset/69.png'
+141.8913 	EXP 	image: autoDraw = True
+142.5811 	EXP 	New trial (rep=0, index=100): OrderedDict([('path', 'dataset/129.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.15), ('corrans', 'down')])
+142.6056 	DATA 	Keypress: down
+142.6086 	EXP 	image: autoDraw = False
+142.6086 	EXP 	text: autoDraw = False
+142.6086 	EXP 	image: image = 'dataset/129.png'
+143.1081 	EXP 	image: autoDraw = True
+143.9143 	EXP 	New trial (rep=0, index=101): OrderedDict([('path', 'dataset/53.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.0), ('corrans', 'down')])
+143.9326 	DATA 	Keypress: down
+143.9352 	EXP 	image: autoDraw = False
+143.9352 	EXP 	text: autoDraw = False
+143.9352 	EXP 	image: image = 'dataset/53.png'
+144.4248 	EXP 	image: autoDraw = True
+144.9969 	DATA 	Keypress: down
+145.0150 	EXP 	New trial (rep=0, index=102): OrderedDict([('path', 'dataset/154.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.3), ('corrans', 'up')])
+145.0441 	EXP 	image: autoDraw = False
+145.0441 	EXP 	text: autoDraw = False
+145.0441 	EXP 	image: image = 'dataset/154.png'
+145.5414 	EXP 	image: autoDraw = True
+146.0818 	EXP 	New trial (rep=0, index=103): OrderedDict([('path', 'dataset/17.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.1), ('corrans', 'down')])
+146.1087 	DATA 	Keypress: up
+146.1116 	EXP 	image: autoDraw = False
+146.1116 	EXP 	text: autoDraw = False
+146.1116 	EXP 	image: image = 'dataset/17.png'
+146.6080 	EXP 	image: autoDraw = True
+147.2319 	EXP 	New trial (rep=0, index=104): OrderedDict([('path', 'dataset/39.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.225), ('corrans', 'up')])
+147.2598 	DATA 	Keypress: down
+147.2628 	EXP 	image: autoDraw = False
+147.2628 	EXP 	text: autoDraw = False
+147.2628 	EXP 	image: image = 'dataset/39.png'
+147.7580 	EXP 	image: autoDraw = True
+148.4312 	EXP 	New trial (rep=0, index=105): OrderedDict([('path', 'dataset/60.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.05), ('corrans', 'down')])
+148.4567 	DATA 	Keypress: down
+148.4594 	EXP 	image: autoDraw = False
+148.4594 	EXP 	text: autoDraw = False
+148.4594 	EXP 	image: image = 'dataset/60.png'
+148.9578 	EXP 	image: autoDraw = True
+149.6149 	EXP 	New trial (rep=0, index=106): OrderedDict([('path', 'dataset/143.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.225), ('corrans', 'up')])
+149.6411 	DATA 	Keypress: down
+149.6438 	EXP 	image: autoDraw = False
+149.6438 	EXP 	text: autoDraw = False
+149.6438 	EXP 	image: image = 'dataset/143.png'
+150.1410 	EXP 	image: autoDraw = True
+150.7320 	EXP 	New trial (rep=0, index=107): OrderedDict([('path', 'dataset/118.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.075), ('corrans', 'up')])
+150.7573 	DATA 	Keypress: up
+150.7602 	EXP 	image: autoDraw = False
+150.7602 	EXP 	text: autoDraw = False
+150.7602 	EXP 	image: image = 'dataset/118.png'
+151.2577 	EXP 	image: autoDraw = True
+151.8322 	EXP 	New trial (rep=0, index=108): OrderedDict([('path', 'dataset/101.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.3), ('corrans', 'down')])
+151.8576 	DATA 	Keypress: up
+151.8605 	EXP 	image: autoDraw = False
+151.8605 	EXP 	text: autoDraw = False
+151.8605 	EXP 	image: image = 'dataset/101.png'
+152.3580 	EXP 	image: autoDraw = True
+152.9813 	EXP 	New trial (rep=0, index=109): OrderedDict([('path', 'dataset/155.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.3), ('corrans', 'up')])
+153.0070 	DATA 	Keypress: down
+153.0100 	EXP 	image: autoDraw = False
+153.0100 	EXP 	text: autoDraw = False
+153.0100 	EXP 	image: image = 'dataset/155.png'
+153.5079 	EXP 	image: autoDraw = True
+154.1979 	EXP 	New trial (rep=0, index=110): OrderedDict([('path', 'dataset/121.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.1), ('corrans', 'down')])
+154.2244 	DATA 	Keypress: up
+154.2276 	EXP 	image: autoDraw = False
+154.2276 	EXP 	text: autoDraw = False
+154.2276 	EXP 	image: image = 'dataset/121.png'
+154.7243 	EXP 	image: autoDraw = True
+155.2318 	EXP 	New trial (rep=0, index=111): OrderedDict([('path', 'dataset/7.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.025), ('corrans', 'up')])
+155.2563 	DATA 	Keypress: down
+155.2593 	EXP 	image: autoDraw = False
+155.2593 	EXP 	text: autoDraw = False
+155.2593 	EXP 	image: image = 'dataset/7.png'
+155.7579 	EXP 	image: autoDraw = True
+156.6320 	EXP 	New trial (rep=0, index=112): OrderedDict([('path', 'dataset/15.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.075), ('corrans', 'up')])
+156.6558 	DATA 	Keypress: up
+156.6584 	EXP 	image: autoDraw = False
+156.6584 	EXP 	text: autoDraw = False
+156.6584 	EXP 	image: image = 'dataset/15.png'
+157.1579 	EXP 	image: autoDraw = True
+158.0151 	EXP 	New trial (rep=0, index=113): OrderedDict([('path', 'dataset/91.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.225), ('corrans', 'up')])
+158.0417 	DATA 	Keypress: up
+158.0446 	EXP 	image: autoDraw = False
+158.0446 	EXP 	text: autoDraw = False
+158.0446 	EXP 	image: image = 'dataset/91.png'
+158.5409 	EXP 	image: autoDraw = True
+159.2968 	DATA 	Keypress: up
+159.3144 	EXP 	New trial (rep=0, index=114): OrderedDict([('path', 'dataset/45.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.275), ('corrans', 'down')])
+159.3433 	EXP 	image: autoDraw = False
+159.3433 	EXP 	text: autoDraw = False
+159.3433 	EXP 	image: image = 'dataset/45.png'
+159.8409 	EXP 	image: autoDraw = True
+160.6144 	EXP 	New trial (rep=0, index=115): OrderedDict([('path', 'dataset/158.png'), ('is_control', True), ('slope', 0.0), ('noise', 0.0), ('corrans', 'none')])
+160.6399 	DATA 	Keypress: down
+160.6441 	EXP 	image: autoDraw = False
+160.6441 	EXP 	text: autoDraw = False
+160.6441 	EXP 	image: image = 'dataset/158.png'
+161.1411 	EXP 	image: autoDraw = True
+161.9317 	EXP 	New trial (rep=0, index=116): OrderedDict([('path', 'dataset/122.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.1), ('corrans', 'up')])
+161.9571 	DATA 	Keypress: up
+161.9602 	EXP 	image: autoDraw = False
+161.9602 	EXP 	text: autoDraw = False
+161.9602 	EXP 	image: image = 'dataset/122.png'
+162.4578 	EXP 	image: autoDraw = True
+163.2979 	EXP 	New trial (rep=0, index=117): OrderedDict([('path', 'dataset/67.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.075), ('corrans', 'up')])
+163.3221 	DATA 	Keypress: up
+163.3251 	EXP 	image: autoDraw = False
+163.3251 	EXP 	text: autoDraw = False
+163.3251 	EXP 	image: image = 'dataset/67.png'
+163.8245 	EXP 	image: autoDraw = True
+164.4986 	EXP 	New trial (rep=0, index=118): OrderedDict([('path', 'dataset/163.png'), ('is_control', True), ('slope', 0.0), ('noise', 0.3), ('corrans', 'none')])
+164.5254 	DATA 	Keypress: up
+164.5283 	EXP 	image: autoDraw = False
+164.5283 	EXP 	text: autoDraw = False
+164.5283 	EXP 	image: image = 'dataset/163.png'
+165.0244 	EXP 	image: autoDraw = True
+165.9301 	DATA 	Keypress: up
+165.9477 	EXP 	New trial (rep=0, index=119): OrderedDict([('path', 'dataset/86.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.2), ('corrans', 'up')])
+165.9769 	EXP 	image: autoDraw = False
+165.9769 	EXP 	text: autoDraw = False
+165.9769 	EXP 	image: image = 'dataset/86.png'
+166.4744 	EXP 	image: autoDraw = True
+167.0655 	EXP 	New trial (rep=0, index=120): OrderedDict([('path', 'dataset/137.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.2), ('corrans', 'down')])
+167.0931 	DATA 	Keypress: up
+167.0961 	EXP 	image: autoDraw = False
+167.0961 	EXP 	text: autoDraw = False
+167.0961 	EXP 	image: image = 'dataset/137.png'
+167.5910 	EXP 	image: autoDraw = True
+168.1465 	EXP 	New trial (rep=0, index=121): OrderedDict([('path', 'dataset/159.png'), ('is_control', True), ('slope', 0.0), ('noise', 0.0), ('corrans', 'none')])
+168.1618 	DATA 	Keypress: down
+168.1646 	EXP 	image: autoDraw = False
+168.1646 	EXP 	text: autoDraw = False
+168.1646 	EXP 	image: image = 'dataset/159.png'
+168.6575 	EXP 	image: autoDraw = True
+169.3806 	EXP 	New trial (rep=0, index=122): OrderedDict([('path', 'dataset/64.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.075), ('corrans', 'down')])
+169.4059 	DATA 	Keypress: up
+169.4088 	EXP 	image: autoDraw = False
+169.4088 	EXP 	text: autoDraw = False
+169.4088 	EXP 	image: image = 'dataset/64.png'
+169.9076 	EXP 	image: autoDraw = True
+170.5453 	EXP 	New trial (rep=0, index=123): OrderedDict([('path', 'dataset/38.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.225), ('corrans', 'up')])
+170.5571 	DATA 	Keypress: down
+170.5599 	EXP 	image: autoDraw = False
+170.5599 	EXP 	text: autoDraw = False
+170.5599 	EXP 	image: image = 'dataset/38.png'
+171.0576 	EXP 	image: autoDraw = True
+171.9481 	EXP 	New trial (rep=0, index=124): OrderedDict([('path', 'dataset/119.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.075), ('corrans', 'up')])
+171.9735 	DATA 	Keypress: up
+171.9761 	EXP 	image: autoDraw = False
+171.9761 	EXP 	text: autoDraw = False
+171.9761 	EXP 	image: image = 'dataset/119.png'
+172.4735 	EXP 	image: autoDraw = True
+173.1319 	EXP 	New trial (rep=0, index=125): OrderedDict([('path', 'dataset/62.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.05), ('corrans', 'up')])
+173.1573 	DATA 	Keypress: up
+173.1601 	EXP 	image: autoDraw = False
+173.1601 	EXP 	text: autoDraw = False
+173.1601 	EXP 	image: image = 'dataset/62.png'
+173.6575 	EXP 	image: autoDraw = True
+174.2801 	DATA 	Keypress: up
+174.2980 	EXP 	New trial (rep=0, index=126): OrderedDict([('path', 'dataset/37.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.225), ('corrans', 'down')])
+174.3274 	EXP 	image: autoDraw = False
+174.3274 	EXP 	text: autoDraw = False
+174.3274 	EXP 	image: image = 'dataset/37.png'
+174.8242 	EXP 	image: autoDraw = True
+175.5147 	EXP 	New trial (rep=0, index=127): OrderedDict([('path', 'dataset/111.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.025), ('corrans', 'up')])
+175.5394 	DATA 	Keypress: down
+175.5425 	EXP 	image: autoDraw = False
+175.5425 	EXP 	text: autoDraw = False
+175.5425 	EXP 	image: image = 'dataset/111.png'
+176.0407 	EXP 	image: autoDraw = True
+176.6969 	DATA 	Keypress: up
+176.7146 	EXP 	New trial (rep=0, index=128): OrderedDict([('path', 'dataset/28.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.175), ('corrans', 'down')])
+176.7428 	EXP 	image: autoDraw = False
+176.7428 	EXP 	text: autoDraw = False
+176.7428 	EXP 	image: image = 'dataset/28.png'
+177.2408 	EXP 	image: autoDraw = True
+177.8810 	EXP 	New trial (rep=0, index=129): OrderedDict([('path', 'dataset/151.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.275), ('corrans', 'up')])
+177.9072 	DATA 	Keypress: down
+177.9101 	EXP 	image: autoDraw = False
+177.9101 	EXP 	text: autoDraw = False
+177.9101 	EXP 	image: image = 'dataset/151.png'
+178.4073 	EXP 	image: autoDraw = True
+179.0635 	DATA 	Keypress: up
+179.0810 	EXP 	New trial (rep=0, index=130): OrderedDict([('path', 'dataset/99.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.275), ('corrans', 'up')])
+179.1114 	EXP 	image: autoDraw = False
+179.1114 	EXP 	text: autoDraw = False
+179.1114 	EXP 	image: image = 'dataset/99.png'
+179.6071 	EXP 	image: autoDraw = True
+180.3981 	EXP 	New trial (rep=0, index=131): OrderedDict([('path', 'dataset/110.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.025), ('corrans', 'up')])
+180.4240 	DATA 	Keypress: down
+180.4272 	EXP 	image: autoDraw = False
+180.4272 	EXP 	text: autoDraw = False
+180.4272 	EXP 	image: image = 'dataset/110.png'
+180.9241 	EXP 	image: autoDraw = True
+181.4654 	EXP 	New trial (rep=0, index=132): OrderedDict([('path', 'dataset/149.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.275), ('corrans', 'down')])
+181.4830 	DATA 	Keypress: up
+181.4859 	EXP 	image: autoDraw = False
+181.4859 	EXP 	text: autoDraw = False
+181.4859 	EXP 	image: image = 'dataset/149.png'
+181.9736 	EXP 	image: autoDraw = True
+182.6960 	DATA 	Keypress: down
+182.7145 	EXP 	New trial (rep=0, index=133): OrderedDict([('path', 'dataset/63.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.05), ('corrans', 'up')])
+182.7425 	EXP 	image: autoDraw = False
+182.7425 	EXP 	text: autoDraw = False
+182.7425 	EXP 	image: image = 'dataset/63.png'
+183.2406 	EXP 	image: autoDraw = True
+183.9648 	EXP 	New trial (rep=0, index=134): OrderedDict([('path', 'dataset/32.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.2), ('corrans', 'down')])
+183.9914 	DATA 	Keypress: up
+183.9945 	EXP 	image: autoDraw = False
+183.9945 	EXP 	text: autoDraw = False
+183.9945 	EXP 	image: image = 'dataset/32.png'
+184.4906 	EXP 	image: autoDraw = True
+185.0807 	DATA 	Keypress: down
+185.0982 	EXP 	New trial (rep=0, index=135): OrderedDict([('path', 'dataset/156.png'), ('is_control', True), ('slope', -0.0), ('noise', 0.0), ('corrans', 'none')])
+185.1110 	EXP 	image: autoDraw = False
+185.1110 	EXP 	text: autoDraw = False
+185.1110 	EXP 	image: image = 'dataset/156.png'
+185.6070 	EXP 	image: autoDraw = True
+186.4482 	EXP 	New trial (rep=0, index=136): OrderedDict([('path', 'dataset/100.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.3), ('corrans', 'down')])
+186.4758 	DATA 	Keypress: up
+186.4787 	EXP 	image: autoDraw = False
+186.4787 	EXP 	text: autoDraw = False
+186.4787 	EXP 	image: image = 'dataset/100.png'
+186.9739 	EXP 	image: autoDraw = True
+187.7310 	EXP 	New trial (rep=0, index=137): OrderedDict([('path', 'dataset/24.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.15), ('corrans', 'down')])
+187.7562 	DATA 	Keypress: down
+187.7591 	EXP 	image: autoDraw = False
+187.7591 	EXP 	text: autoDraw = False
+187.7591 	EXP 	image: image = 'dataset/24.png'
+188.2571 	EXP 	image: autoDraw = True
+189.0807 	EXP 	New trial (rep=0, index=138): OrderedDict([('path', 'dataset/160.png'), ('is_control', True), ('slope', -0.0), ('noise', 0.3), ('corrans', 'none')])
+189.1092 	DATA 	Keypress: down
+189.1119 	EXP 	image: autoDraw = False
+189.1119 	EXP 	text: autoDraw = False
+189.1119 	EXP 	image: image = 'dataset/160.png'
+189.6073 	EXP 	image: autoDraw = True
+190.2475 	EXP 	New trial (rep=0, index=139): OrderedDict([('path', 'dataset/144.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.25), ('corrans', 'down')])
+190.2745 	DATA 	Keypress: down
+190.2775 	EXP 	image: autoDraw = False
+190.2775 	EXP 	text: autoDraw = False
+190.2775 	EXP 	image: image = 'dataset/144.png'
+190.7737 	EXP 	image: autoDraw = True
+191.3956 	DATA 	Keypress: down
+191.4137 	EXP 	New trial (rep=0, index=140): OrderedDict([('path', 'dataset/43.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.25), ('corrans', 'up')])
+191.4421 	EXP 	image: autoDraw = False
+191.4421 	EXP 	text: autoDraw = False
+191.4421 	EXP 	image: image = 'dataset/43.png'
+191.9405 	EXP 	image: autoDraw = True
+192.7474 	EXP 	New trial (rep=0, index=141): OrderedDict([('path', 'dataset/57.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.025), ('corrans', 'down')])
+192.7729 	DATA 	Keypress: up
+192.7760 	EXP 	image: autoDraw = False
+192.7760 	EXP 	text: autoDraw = False
+192.7760 	EXP 	image: image = 'dataset/57.png'
+193.2736 	EXP 	image: autoDraw = True
+193.9307 	EXP 	New trial (rep=0, index=142): OrderedDict([('path', 'dataset/147.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.25), ('corrans', 'up')])
+193.9571 	DATA 	Keypress: down
+193.9600 	EXP 	image: autoDraw = False
+193.9600 	EXP 	text: autoDraw = False
+193.9600 	EXP 	image: image = 'dataset/147.png'
+194.4570 	EXP 	image: autoDraw = True
+195.1956 	EXP 	New trial (rep=0, index=143): OrderedDict([('path', 'dataset/79.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.15), ('corrans', 'up')])
+195.2119 	DATA 	Keypress: up
+195.2148 	EXP 	image: autoDraw = False
+195.2148 	EXP 	text: autoDraw = False
+195.2148 	EXP 	image: image = 'dataset/79.png'
+195.7072 	EXP 	image: autoDraw = True
+196.3644 	EXP 	New trial (rep=0, index=144): OrderedDict([('path', 'dataset/171.png'), ('is_control', True), ('slope', 0.5), ('noise', 0.3), ('corrans', 'up')])
+196.3900 	DATA 	Keypress: up
+196.3930 	EXP 	image: autoDraw = False
+196.3930 	EXP 	text: autoDraw = False
+196.3930 	EXP 	image: image = 'dataset/171.png'
+196.8905 	EXP 	image: autoDraw = True
+197.4788 	DATA 	Keypress: up
+197.4974 	EXP 	New trial (rep=0, index=145): OrderedDict([('path', 'dataset/102.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.3), ('corrans', 'up')])
+197.5273 	EXP 	image: autoDraw = False
+197.5273 	EXP 	text: autoDraw = False
+197.5273 	EXP 	image: image = 'dataset/102.png'
+198.0235 	EXP 	image: autoDraw = True
+198.6958 	DATA 	Keypress: down
+198.7143 	EXP 	New trial (rep=0, index=146): OrderedDict([('path', 'dataset/105.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.0), ('corrans', 'down')])
+198.7432 	EXP 	image: autoDraw = False
+198.7432 	EXP 	text: autoDraw = False
+198.7432 	EXP 	image: image = 'dataset/105.png'
+199.2402 	EXP 	image: autoDraw = True
+199.8141 	EXP 	New trial (rep=0, index=147): OrderedDict([('path', 'dataset/139.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.2), ('corrans', 'up')])
+199.8400 	DATA 	Keypress: down
+199.8431 	EXP 	image: autoDraw = False
+199.8431 	EXP 	text: autoDraw = False
+199.8431 	EXP 	image: image = 'dataset/139.png'
+200.3405 	EXP 	image: autoDraw = True
+201.1138 	EXP 	New trial (rep=0, index=148): OrderedDict([('path', 'dataset/44.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.275), ('corrans', 'down')])
+201.1383 	DATA 	Keypress: up
+201.1410 	EXP 	image: autoDraw = False
+201.1410 	EXP 	text: autoDraw = False
+201.1410 	EXP 	image: image = 'dataset/44.png'
+201.6401 	EXP 	image: autoDraw = True
+202.2970 	EXP 	New trial (rep=0, index=149): OrderedDict([('path', 'dataset/29.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.175), ('corrans', 'down')])
+202.3239 	DATA 	Keypress: up
+202.3270 	EXP 	image: autoDraw = False
+202.3270 	EXP 	text: autoDraw = False
+202.3270 	EXP 	image: image = 'dataset/29.png'
+202.8237 	EXP 	image: autoDraw = True
+203.4785 	DATA 	Keypress: up
+203.4973 	EXP 	New trial (rep=0, index=150): OrderedDict([('path', 'dataset/14.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.075), ('corrans', 'up')])
+203.5241 	EXP 	image: autoDraw = False
+203.5241 	EXP 	text: autoDraw = False
+203.5241 	EXP 	image: image = 'dataset/14.png'
+204.0234 	EXP 	image: autoDraw = True
+204.9812 	EXP 	New trial (rep=0, index=151): OrderedDict([('path', 'dataset/50.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.3), ('corrans', 'up')])
+205.0079 	DATA 	Keypress: up
+205.0109 	EXP 	image: autoDraw = False
+205.0109 	EXP 	text: autoDraw = False
+205.0109 	EXP 	image: image = 'dataset/50.png'
+205.5069 	EXP 	image: autoDraw = True
+206.2294 	DATA 	Keypress: down
+206.2474 	EXP 	New trial (rep=0, index=152): OrderedDict([('path', 'dataset/140.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.225), ('corrans', 'down')])
+206.2765 	EXP 	image: autoDraw = False
+206.2765 	EXP 	text: autoDraw = False
+206.2765 	EXP 	image: image = 'dataset/140.png'
+206.7736 	EXP 	image: autoDraw = True
+207.4141 	EXP 	New trial (rep=0, index=153): OrderedDict([('path', 'dataset/36.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.225), ('corrans', 'down')])
+207.4408 	DATA 	Keypress: down
+207.4437 	EXP 	image: autoDraw = False
+207.4437 	EXP 	text: autoDraw = False
+207.4437 	EXP 	image: image = 'dataset/36.png'
+207.9403 	EXP 	image: autoDraw = True
+208.5292 	DATA 	Keypress: up
+209.4387 	EXP 	image: autoDraw = False
+209.4387 	EXP 	text: autoDraw = True
+210.1438 	DATA 	Keypress: up
+210.1625 	EXP 	New trial (rep=0, index=154): OrderedDict([('path', 'dataset/65.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.075), ('corrans', 'down')])
+210.1900 	EXP 	image: autoDraw = False
+210.1900 	EXP 	text: autoDraw = False
+210.1900 	EXP 	image: image = 'dataset/65.png'
+210.6898 	EXP 	image: autoDraw = True
+211.2968 	EXP 	New trial (rep=0, index=155): OrderedDict([('path', 'dataset/98.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.275), ('corrans', 'up')])
+211.3233 	DATA 	Keypress: down
+211.3262 	EXP 	image: autoDraw = False
+211.3262 	EXP 	text: autoDraw = False
+211.3262 	EXP 	image: image = 'dataset/98.png'
+211.8233 	EXP 	image: autoDraw = True
+212.5140 	EXP 	New trial (rep=0, index=156): OrderedDict([('path', 'dataset/31.png'), ('is_control', False), ('slope', 0.01), ('noise', 0.175), ('corrans', 'up')])
+212.5397 	DATA 	Keypress: up
+212.5427 	EXP 	image: autoDraw = False
+212.5427 	EXP 	text: autoDraw = False
+212.5427 	EXP 	image: image = 'dataset/31.png'
+213.0400 	EXP 	image: autoDraw = True
+213.6803 	EXP 	New trial (rep=0, index=157): OrderedDict([('path', 'dataset/108.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.025), ('corrans', 'down')])
+213.6959 	DATA 	Keypress: down
+213.6985 	EXP 	image: autoDraw = False
+213.6985 	EXP 	text: autoDraw = False
+213.6985 	EXP 	image: image = 'dataset/108.png'
+214.1899 	EXP 	image: autoDraw = True
+214.6953 	DATA 	Keypress: down
+214.7133 	EXP 	New trial (rep=0, index=158): OrderedDict([('path', 'dataset/55.png'), ('is_control', False), ('slope', 0.05), ('noise', 0.0), ('corrans', 'up')])
+214.7413 	EXP 	image: autoDraw = False
+214.7413 	EXP 	text: autoDraw = False
+214.7413 	EXP 	image: image = 'dataset/55.png'
+215.2398 	EXP 	image: autoDraw = True
+215.7970 	EXP 	New trial (rep=0, index=159): OrderedDict([('path', 'dataset/49.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.3), ('corrans', 'down')])
+215.8228 	DATA 	Keypress: up
+215.8258 	EXP 	image: autoDraw = False
+215.8258 	EXP 	text: autoDraw = False
+215.8258 	EXP 	image: image = 'dataset/49.png'
+216.3235 	EXP 	image: autoDraw = True
+216.9637 	EXP 	New trial (rep=0, index=160): OrderedDict([('path', 'dataset/170.png'), ('is_control', True), ('slope', 0.5), ('noise', 0.3), ('corrans', 'up')])
+216.9907 	DATA 	Keypress: up
+216.9935 	EXP 	image: autoDraw = False
+216.9935 	EXP 	text: autoDraw = False
+216.9935 	EXP 	image: image = 'dataset/170.png'
+217.4898 	EXP 	image: autoDraw = True
+218.0132 	EXP 	New trial (rep=0, index=161): OrderedDict([('path', 'dataset/72.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.125), ('corrans', 'down')])
+218.0382 	DATA 	Keypress: up
+218.0412 	EXP 	image: autoDraw = False
+218.0412 	EXP 	text: autoDraw = False
+218.0412 	EXP 	image: image = 'dataset/72.png'
+218.5397 	EXP 	image: autoDraw = True
+218.9977 	EXP 	New trial (rep=0, index=162): OrderedDict([('path', 'dataset/89.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.225), ('corrans', 'down')])
+219.0233 	DATA 	Keypress: down
+219.0268 	EXP 	image: autoDraw = False
+219.0268 	EXP 	text: autoDraw = False
+219.0268 	EXP 	image: image = 'dataset/89.png'
+219.5234 	EXP 	image: autoDraw = True
+220.1630 	DATA 	Keypress: down
+220.1806 	EXP 	New trial (rep=0, index=163): OrderedDict([('path', 'dataset/93.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.25), ('corrans', 'down')])
+220.2079 	EXP 	image: autoDraw = False
+220.2079 	EXP 	text: autoDraw = False
+220.2079 	EXP 	image: image = 'dataset/93.png'
+220.7067 	EXP 	image: autoDraw = True
+221.2641 	EXP 	New trial (rep=0, index=164): OrderedDict([('path', 'dataset/126.png'), ('is_control', False), ('slope', 0.1), ('noise', 0.125), ('corrans', 'up')])
+221.2903 	DATA 	Keypress: down
+221.2934 	EXP 	image: autoDraw = False
+221.2934 	EXP 	text: autoDraw = False
+221.2934 	EXP 	image: image = 'dataset/126.png'
+221.7897 	EXP 	image: autoDraw = True
+222.3636 	EXP 	New trial (rep=0, index=165): OrderedDict([('path', 'dataset/9.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.05), ('corrans', 'down')])
+222.3884 	DATA 	Keypress: up
+222.3914 	EXP 	image: autoDraw = False
+222.3914 	EXP 	text: autoDraw = False
+222.3914 	EXP 	image: image = 'dataset/9.png'
+222.8897 	EXP 	image: autoDraw = True
+223.4807 	EXP 	New trial (rep=0, index=166): OrderedDict([('path', 'dataset/20.png'), ('is_control', False), ('slope', -0.01), ('noise', 0.125), ('corrans', 'down')])
+223.5078 	DATA 	Keypress: down
+223.5107 	EXP 	image: autoDraw = False
+223.5107 	EXP 	text: autoDraw = False
+223.5107 	EXP 	image: image = 'dataset/20.png'
+224.0066 	EXP 	image: autoDraw = True
+224.5114 	DATA 	Keypress: down
+224.5304 	EXP 	New trial (rep=0, index=167): OrderedDict([('path', 'dataset/81.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.175), ('corrans', 'down')])
+224.5583 	EXP 	image: autoDraw = False
+224.5583 	EXP 	text: autoDraw = False
+224.5583 	EXP 	image: image = 'dataset/81.png'
+225.0564 	EXP 	image: autoDraw = True
+225.6134 	EXP 	New trial (rep=0, index=168): OrderedDict([('path', 'dataset/169.png'), ('is_control', True), ('slope', -0.5), ('noise', 0.3), ('corrans', 'down')])
+225.6407 	DATA 	Keypress: down
+225.6438 	EXP 	image: autoDraw = False
+225.6438 	EXP 	text: autoDraw = False
+225.6438 	EXP 	image: image = 'dataset/169.png'
+226.1397 	EXP 	image: autoDraw = True
+226.6802 	EXP 	New trial (rep=0, index=169): OrderedDict([('path', 'dataset/166.png'), ('is_control', True), ('slope', 0.5), ('noise', 0.0), ('corrans', 'up')])
+226.7083 	DATA 	Keypress: down
+226.7110 	EXP 	image: autoDraw = False
+226.7110 	EXP 	text: autoDraw = False
+226.7110 	EXP 	image: image = 'dataset/166.png'
+227.2063 	EXP 	image: autoDraw = True
+227.5969 	EXP 	New trial (rep=0, index=170): OrderedDict([('path', 'dataset/109.png'), ('is_control', False), ('slope', -0.1), ('noise', 0.025), ('corrans', 'down')])
+227.6132 	DATA 	Keypress: up
+227.6160 	EXP 	image: autoDraw = False
+227.6160 	EXP 	text: autoDraw = False
+227.6160 	EXP 	image: image = 'dataset/109.png'
+228.1064 	EXP 	image: autoDraw = True
+228.6303 	EXP 	New trial (rep=0, index=171): OrderedDict([('path', 'dataset/92.png'), ('is_control', False), ('slope', -0.05), ('noise', 0.25), ('corrans', 'down')])
+228.6563 	DATA 	Keypress: down
+228.6592 	EXP 	image: autoDraw = False
+228.6592 	EXP 	text: autoDraw = False
+228.6592 	EXP 	image: image = 'dataset/92.png'
+229.1566 	EXP 	image: autoDraw = True
+229.9779 	DATA 	Keypress: down
+230.0075 	EXP 	image: autoDraw = False
+230.0075 	EXP 	text: autoDraw = False
+230.0075 	EXP 	text_2: autoDraw = True
+231.2614 	DATA 	Keypress: return
+231.2718 	EXP 	text_2: autoDraw = False
+233.8564 	EXP 	window1: mouseVisible = True

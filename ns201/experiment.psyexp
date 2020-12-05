@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2020.2.8">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant': '', 'session': '001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="fileList"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1280, 720]" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[1,1,1]" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="expName" updates="None" val="experiment" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Save" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <ImageComponent name="image">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$path" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="image" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(1, 0.75)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <TextComponent name="text">
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.04" valType="code"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0,0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="2.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Press 'up' if the trend was increasing.&amp;#10;Press 'down' if the trend was decreasing.&amp;#10;" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp">
+        <Param name="allowedKeys" updates="constant" val="'up','down'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="instruct">
+      <TextComponent name="instruct_text">
+        <Param name="color" updates="constant" val="$[-1.000,-1.000,-1.000]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="instruct_text" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Instructions&amp;#10;1. Test&amp;#10;2. Test&amp;#10;3. Test&amp;#10;&amp;#10;Press any key to start!" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="ready">
+        <Param name="allowedKeys" updates="constant" val="" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="ready" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="timer">
+      <TextComponent name="timer1">
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="timer1" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="3" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <TextComponent name="timer2">
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="timer2" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="2" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <TextComponent name="timer3">
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="timer3" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="2.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="1" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <TextComponent name="timergo">
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="timergo" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="3.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Start!&amp;#10;" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="thanks">
+      <TextComponent name="text_2">
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="text_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Thank you for participating!&amp;#10;&amp;#10;Press any key to exit.&amp;#10;" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param name="allowedKeys" updates="constant" val="" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_2" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instruct"/>
+    <Routine name="timer"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('label', 0), ('is_control', False), ('repl_no', -0.01), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 1), ('is_control', False), ('repl_no', -0.01), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 2), ('is_control', False), ('repl_no', -0.01), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 3), ('is_control', False), ('repl_no', -0.01), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 4), ('is_control', False), ('repl_no', 0.01), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 5), ('is_control', False), ('repl_no', 0.01), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 6), ('is_control', False), ('repl_no', 0.01), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 7), ('is_control', False), ('repl_no', 0.01), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 8), ('is_control', False), ('repl_no', -0.01), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 9), ('is_control', False), ('repl_no', -0.01), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 10), ('is_control', False), ('repl_no', -0.01), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 11), ('is_control', False), ('repl_no', -0.01), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 12), ('is_control', False), ('repl_no', 0.01), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 13), ('is_control', False), ('repl_no', 0.01), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 14), ('is_control', False), ('repl_no', 0.01), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 15), ('is_control', False), ('repl_no', 0.01), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 16), ('is_control', False), ('repl_no', -0.01), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 17), ('is_control', False), ('repl_no', -0.01), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 18), ('is_control', False), ('repl_no', -0.01), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 19), ('is_control', False), ('repl_no', -0.01), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 20), ('is_control', False), ('repl_no', 0.01), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 21), ('is_control', False), ('repl_no', 0.01), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 22), ('is_control', False), ('repl_no', 0.01), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 23), ('is_control', False), ('repl_no', 0.01), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 24), ('is_control', False), ('repl_no', -0.01), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 25), ('is_control', False), ('repl_no', -0.01), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 26), ('is_control', False), ('repl_no', -0.01), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 27), ('is_control', False), ('repl_no', -0.01), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 28), ('is_control', False), ('repl_no', 0.01), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 29), ('is_control', False), ('repl_no', 0.01), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 30), ('is_control', False), ('repl_no', 0.01), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 31), ('is_control', False), ('repl_no', 0.01), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 32), ('is_control', False), ('repl_no', -0.01), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 33), ('is_control', False), ('repl_no', -0.01), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 34), ('is_control', False), ('repl_no', -0.01), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 35), ('is_control', False), ('repl_no', -0.01), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 36), ('is_control', False), ('repl_no', 0.01), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 37), ('is_control', False), ('repl_no', 0.01), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 38), ('is_control', False), ('repl_no', 0.01), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 39), ('is_control', False), ('repl_no', 0.01), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 40), ('is_control', False), ('repl_no', -0.01), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 41), ('is_control', False), ('repl_no', -0.01), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 42), ('is_control', False), ('repl_no', -0.01), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 43), ('is_control', False), ('repl_no', -0.01), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 44), ('is_control', False), ('repl_no', 0.01), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 45), ('is_control', False), ('repl_no', 0.01), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 46), ('is_control', False), ('repl_no', 0.01), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 47), ('is_control', False), ('repl_no', 0.01), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 48), ('is_control', False), ('repl_no', -0.01), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 49), ('is_control', False), ('repl_no', -0.01), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 50), ('is_control', False), ('repl_no', -0.01), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 51), ('is_control', False), ('repl_no', -0.01), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 52), ('is_control', False), ('repl_no', 0.01), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 53), ('is_control', False), ('repl_no', 0.01), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 54), ('is_control', False), ('repl_no', 0.01), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 55), ('is_control', False), ('repl_no', 0.01), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 56), ('is_control', False), ('repl_no', -0.01), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 57), ('is_control', False), ('repl_no', -0.01), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 58), ('is_control', False), ('repl_no', -0.01), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 59), ('is_control', False), ('repl_no', -0.01), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 60), ('is_control', False), ('repl_no', 0.01), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 61), ('is_control', False), ('repl_no', 0.01), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 62), ('is_control', False), ('repl_no', 0.01), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 63), ('is_control', False), ('repl_no', 0.01), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 64), ('is_control', False), ('repl_no', -0.01), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 65), ('is_control', False), ('repl_no', -0.01), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 66), ('is_control', False), ('repl_no', -0.01), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 67), ('is_control', False), ('repl_no', -0.01), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 68), ('is_control', False), ('repl_no', 0.01), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 69), ('is_control', False), ('repl_no', 0.01), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 70), ('is_control', False), ('repl_no', 0.01), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 71), ('is_control', False), ('repl_no', 0.01), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 72), ('is_control', False), ('repl_no', -0.01), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 73), ('is_control', False), ('repl_no', -0.01), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 74), ('is_control', False), ('repl_no', -0.01), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 75), ('is_control', False), ('repl_no', -0.01), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 76), ('is_control', False), ('repl_no', 0.01), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 77), ('is_control', False), ('repl_no', 0.01), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 78), ('is_control', False), ('repl_no', 0.01), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 79), ('is_control', False), ('repl_no', 0.01), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 80), ('is_control', False), ('repl_no', -0.01), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 81), ('is_control', False), ('repl_no', -0.01), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 82), ('is_control', False), ('repl_no', -0.01), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 83), ('is_control', False), ('repl_no', -0.01), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 84), ('is_control', False), ('repl_no', 0.01), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 85), ('is_control', False), ('repl_no', 0.01), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 86), ('is_control', False), ('repl_no', 0.01), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 87), ('is_control', False), ('repl_no', 0.01), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 88), ('is_control', False), ('repl_no', -0.01), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 89), ('is_control', False), ('repl_no', -0.01), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 90), ('is_control', False), ('repl_no', -0.01), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 91), ('is_control', False), ('repl_no', -0.01), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 92), ('is_control', False), ('repl_no', 0.01), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 93), ('is_control', False), ('repl_no', 0.01), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 94), ('is_control', False), ('repl_no', 0.01), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 95), ('is_control', False), ('repl_no', 0.01), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 96), ('is_control', False), ('repl_no', -0.01), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 97), ('is_control', False), ('repl_no', -0.01), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 98), ('is_control', False), ('repl_no', -0.01), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 99), ('is_control', False), ('repl_no', -0.01), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 100), ('is_control', False), ('repl_no', 0.01), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 101), ('is_control', False), ('repl_no', 0.01), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 102), ('is_control', False), ('repl_no', 0.01), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 103), ('is_control', False), ('repl_no', 0.01), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 104), ('is_control', False), ('repl_no', -0.1), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 105), ('is_control', False), ('repl_no', -0.1), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 106), ('is_control', False), ('repl_no', -0.1), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 107), ('is_control', False), ('repl_no', -0.1), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 108), ('is_control', False), ('repl_no', 0.1), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 109), ('is_control', False), ('repl_no', 0.1), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 110), ('is_control', False), ('repl_no', 0.1), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 111), ('is_control', False), ('repl_no', 0.1), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 112), ('is_control', False), ('repl_no', -0.1), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 113), ('is_control', False), ('repl_no', -0.1), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 114), ('is_control', False), ('repl_no', -0.1), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 115), ('is_control', False), ('repl_no', -0.1), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 116), ('is_control', False), ('repl_no', 0.1), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 117), ('is_control', False), ('repl_no', 0.1), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 118), ('is_control', False), ('repl_no', 0.1), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 119), ('is_control', False), ('repl_no', 0.1), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 120), ('is_control', False), ('repl_no', -0.1), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 121), ('is_control', False), ('repl_no', -0.1), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 122), ('is_control', False), ('repl_no', -0.1), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 123), ('is_control', False), ('repl_no', -0.1), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 124), ('is_control', False), ('repl_no', 0.1), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 125), ('is_control', False), ('repl_no', 0.1), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 126), ('is_control', False), ('repl_no', 0.1), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 127), ('is_control', False), ('repl_no', 0.1), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 128), ('is_control', False), ('repl_no', -0.1), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 129), ('is_control', False), ('repl_no', -0.1), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 130), ('is_control', False), ('repl_no', -0.1), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 131), ('is_control', False), ('repl_no', -0.1), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 132), ('is_control', False), ('repl_no', 0.1), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 133), ('is_control', False), ('repl_no', 0.1), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 134), ('is_control', False), ('repl_no', 0.1), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 135), ('is_control', False), ('repl_no', 0.1), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 136), ('is_control', False), ('repl_no', -0.1), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 137), ('is_control', False), ('repl_no', -0.1), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 138), ('is_control', False), ('repl_no', -0.1), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 139), ('is_control', False), ('repl_no', -0.1), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 140), ('is_control', False), ('repl_no', 0.1), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 141), ('is_control', False), ('repl_no', 0.1), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 142), ('is_control', False), ('repl_no', 0.1), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 143), ('is_control', False), ('repl_no', 0.1), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 144), ('is_control', False), ('repl_no', -0.1), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 145), ('is_control', False), ('repl_no', -0.1), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 146), ('is_control', False), ('repl_no', -0.1), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 147), ('is_control', False), ('repl_no', -0.1), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 148), ('is_control', False), ('repl_no', 0.1), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 149), ('is_control', False), ('repl_no', 0.1), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 150), ('is_control', False), ('repl_no', 0.1), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 151), ('is_control', False), ('repl_no', 0.1), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 152), ('is_control', False), ('repl_no', -0.1), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 153), ('is_control', False), ('repl_no', -0.1), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 154), ('is_control', False), ('repl_no', -0.1), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 155), ('is_control', False), ('repl_no', -0.1), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 156), ('is_control', False), ('repl_no', 0.1), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 157), ('is_control', False), ('repl_no', 0.1), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 158), ('is_control', False), ('repl_no', 0.1), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 159), ('is_control', False), ('repl_no', 0.1), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 160), ('is_control', False), ('repl_no', -0.1), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 161), ('is_control', False), ('repl_no', -0.1), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 162), ('is_control', False), ('repl_no', -0.1), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 163), ('is_control', False), ('repl_no', -0.1), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 164), ('is_control', False), ('repl_no', 0.1), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 165), ('is_control', False), ('repl_no', 0.1), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 166), ('is_control', False), ('repl_no', 0.1), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 167), ('is_control', False), ('repl_no', 0.1), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 168), ('is_control', False), ('repl_no', -0.1), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 169), ('is_control', False), ('repl_no', -0.1), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 170), ('is_control', False), ('repl_no', -0.1), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 171), ('is_control', False), ('repl_no', -0.1), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 172), ('is_control', False), ('repl_no', 0.1), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 173), ('is_control', False), ('repl_no', 0.1), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 174), ('is_control', False), ('repl_no', 0.1), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 175), ('is_control', False), ('repl_no', 0.1), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 176), ('is_control', False), ('repl_no', -0.1), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 177), ('is_control', False), ('repl_no', -0.1), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 178), ('is_control', False), ('repl_no', -0.1), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 179), ('is_control', False), ('repl_no', -0.1), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 180), ('is_control', False), ('repl_no', 0.1), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 181), ('is_control', False), ('repl_no', 0.1), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 182), ('is_control', False), ('repl_no', 0.1), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 183), ('is_control', False), ('repl_no', 0.1), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 184), ('is_control', False), ('repl_no', -0.1), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 185), ('is_control', False), ('repl_no', -0.1), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 186), ('is_control', False), ('repl_no', -0.1), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 187), ('is_control', False), ('repl_no', -0.1), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 188), ('is_control', False), ('repl_no', 0.1), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 189), ('is_control', False), ('repl_no', 0.1), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 190), ('is_control', False), ('repl_no', 0.1), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 191), ('is_control', False), ('repl_no', 0.1), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 192), ('is_control', False), ('repl_no', -0.1), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 193), ('is_control', False), ('repl_no', -0.1), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 194), ('is_control', False), ('repl_no', -0.1), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 195), ('is_control', False), ('repl_no', -0.1), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 196), ('is_control', False), ('repl_no', 0.1), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 197), ('is_control', False), ('repl_no', 0.1), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 198), ('is_control', False), ('repl_no', 0.1), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 199), ('is_control', False), ('repl_no', 0.1), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 200), ('is_control', False), ('repl_no', -0.1), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 201), ('is_control', False), ('repl_no', -0.1), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 202), ('is_control', False), ('repl_no', -0.1), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 203), ('is_control', False), ('repl_no', -0.1), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 204), ('is_control', False), ('repl_no', 0.1), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 205), ('is_control', False), ('repl_no', 0.1), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 206), ('is_control', False), ('repl_no', 0.1), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 207), ('is_control', False), ('repl_no', 0.1), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 208), ('is_control', False), ('repl_no', -0.25), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 209), ('is_control', False), ('repl_no', -0.25), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 210), ('is_control', False), ('repl_no', -0.25), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 211), ('is_control', False), ('repl_no', -0.25), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 212), ('is_control', False), ('repl_no', 0.25), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 213), ('is_control', False), ('repl_no', 0.25), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 214), ('is_control', False), ('repl_no', 0.25), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 215), ('is_control', False), ('repl_no', 0.25), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 216), ('is_control', False), ('repl_no', -0.25), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 217), ('is_control', False), ('repl_no', -0.25), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 218), ('is_control', False), ('repl_no', -0.25), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 219), ('is_control', False), ('repl_no', -0.25), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 220), ('is_control', False), ('repl_no', 0.25), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 221), ('is_control', False), ('repl_no', 0.25), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 222), ('is_control', False), ('repl_no', 0.25), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 223), ('is_control', False), ('repl_no', 0.25), ('slope', 0.025), ('noise', None)]), OrderedDict([('label', 224), ('is_control', False), ('repl_no', -0.25), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 225), ('is_control', False), ('repl_no', -0.25), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 226), ('is_control', False), ('repl_no', -0.25), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 227), ('is_control', False), ('repl_no', -0.25), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 228), ('is_control', False), ('repl_no', 0.25), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 229), ('is_control', False), ('repl_no', 0.25), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 230), ('is_control', False), ('repl_no', 0.25), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 231), ('is_control', False), ('repl_no', 0.25), ('slope', 0.05), ('noise', None)]), OrderedDict([('label', 232), ('is_control', False), ('repl_no', -0.25), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 233), ('is_control', False), ('repl_no', -0.25), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 234), ('is_control', False), ('repl_no', -0.25), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 235), ('is_control', False), ('repl_no', -0.25), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 236), ('is_control', False), ('repl_no', 0.25), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 237), ('is_control', False), ('repl_no', 0.25), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 238), ('is_control', False), ('repl_no', 0.25), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 239), ('is_control', False), ('repl_no', 0.25), ('slope', 0.075), ('noise', None)]), OrderedDict([('label', 240), ('is_control', False), ('repl_no', -0.25), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 241), ('is_control', False), ('repl_no', -0.25), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 242), ('is_control', False), ('repl_no', -0.25), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 243), ('is_control', False), ('repl_no', -0.25), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 244), ('is_control', False), ('repl_no', 0.25), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 245), ('is_control', False), ('repl_no', 0.25), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 246), ('is_control', False), ('repl_no', 0.25), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 247), ('is_control', False), ('repl_no', 0.25), ('slope', 0.1), ('noise', None)]), OrderedDict([('label', 248), ('is_control', False), ('repl_no', -0.25), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 249), ('is_control', False), ('repl_no', -0.25), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 250), ('is_control', False), ('repl_no', -0.25), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 251), ('is_control', False), ('repl_no', -0.25), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 252), ('is_control', False), ('repl_no', 0.25), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 253), ('is_control', False), ('repl_no', 0.25), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 254), ('is_control', False), ('repl_no', 0.25), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 255), ('is_control', False), ('repl_no', 0.25), ('slope', 0.125), ('noise', None)]), OrderedDict([('label', 256), ('is_control', False), ('repl_no', -0.25), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 257), ('is_control', False), ('repl_no', -0.25), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 258), ('is_control', False), ('repl_no', -0.25), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 259), ('is_control', False), ('repl_no', -0.25), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 260), ('is_control', False), ('repl_no', 0.25), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 261), ('is_control', False), ('repl_no', 0.25), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 262), ('is_control', False), ('repl_no', 0.25), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 263), ('is_control', False), ('repl_no', 0.25), ('slope', 0.15), ('noise', None)]), OrderedDict([('label', 264), ('is_control', False), ('repl_no', -0.25), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 265), ('is_control', False), ('repl_no', -0.25), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 266), ('is_control', False), ('repl_no', -0.25), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 267), ('is_control', False), ('repl_no', -0.25), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 268), ('is_control', False), ('repl_no', 0.25), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 269), ('is_control', False), ('repl_no', 0.25), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 270), ('is_control', False), ('repl_no', 0.25), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 271), ('is_control', False), ('repl_no', 0.25), ('slope', 0.175), ('noise', None)]), OrderedDict([('label', 272), ('is_control', False), ('repl_no', -0.25), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 273), ('is_control', False), ('repl_no', -0.25), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 274), ('is_control', False), ('repl_no', -0.25), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 275), ('is_control', False), ('repl_no', -0.25), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 276), ('is_control', False), ('repl_no', 0.25), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 277), ('is_control', False), ('repl_no', 0.25), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 278), ('is_control', False), ('repl_no', 0.25), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 279), ('is_control', False), ('repl_no', 0.25), ('slope', 0.2), ('noise', None)]), OrderedDict([('label', 280), ('is_control', False), ('repl_no', -0.25), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 281), ('is_control', False), ('repl_no', -0.25), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 282), ('is_control', False), ('repl_no', -0.25), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 283), ('is_control', False), ('repl_no', -0.25), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 284), ('is_control', False), ('repl_no', 0.25), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 285), ('is_control', False), ('repl_no', 0.25), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 286), ('is_control', False), ('repl_no', 0.25), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 287), ('is_control', False), ('repl_no', 0.25), ('slope', 0.225), ('noise', None)]), OrderedDict([('label', 288), ('is_control', False), ('repl_no', -0.25), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 289), ('is_control', False), ('repl_no', -0.25), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 290), ('is_control', False), ('repl_no', -0.25), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 291), ('is_control', False), ('repl_no', -0.25), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 292), ('is_control', False), ('repl_no', 0.25), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 293), ('is_control', False), ('repl_no', 0.25), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 294), ('is_control', False), ('repl_no', 0.25), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 295), ('is_control', False), ('repl_no', 0.25), ('slope', 0.25), ('noise', None)]), OrderedDict([('label', 296), ('is_control', False), ('repl_no', -0.25), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 297), ('is_control', False), ('repl_no', -0.25), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 298), ('is_control', False), ('repl_no', -0.25), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 299), ('is_control', False), ('repl_no', -0.25), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 300), ('is_control', False), ('repl_no', 0.25), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 301), ('is_control', False), ('repl_no', 0.25), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 302), ('is_control', False), ('repl_no', 0.25), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 303), ('is_control', False), ('repl_no', 0.25), ('slope', 0.275), ('noise', None)]), OrderedDict([('label', 304), ('is_control', False), ('repl_no', -0.25), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 305), ('is_control', False), ('repl_no', -0.25), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 306), ('is_control', False), ('repl_no', -0.25), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 307), ('is_control', False), ('repl_no', -0.25), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 308), ('is_control', False), ('repl_no', 0.25), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 309), ('is_control', False), ('repl_no', 0.25), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 310), ('is_control', False), ('repl_no', 0.25), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 311), ('is_control', False), ('repl_no', 0.25), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 312), ('is_control', True), ('repl_no', -0.0), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 313), ('is_control', True), ('repl_no', -0.0), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 314), ('is_control', True), ('repl_no', -0.0), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 315), ('is_control', True), ('repl_no', -0.0), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 316), ('is_control', True), ('repl_no', 0.0), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 317), ('is_control', True), ('repl_no', 0.0), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 318), ('is_control', True), ('repl_no', 0.0), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 319), ('is_control', True), ('repl_no', 0.0), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 320), ('is_control', True), ('repl_no', -0.0), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 321), ('is_control', True), ('repl_no', -0.0), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 322), ('is_control', True), ('repl_no', -0.0), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 323), ('is_control', True), ('repl_no', -0.0), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 324), ('is_control', True), ('repl_no', 0.0), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 325), ('is_control', True), ('repl_no', 0.0), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 326), ('is_control', True), ('repl_no', 0.0), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 327), ('is_control', True), ('repl_no', 0.0), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 328), ('is_control', True), ('repl_no', -0.5), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 329), ('is_control', True), ('repl_no', -0.5), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 330), ('is_control', True), ('repl_no', -0.5), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 331), ('is_control', True), ('repl_no', -0.5), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 332), ('is_control', True), ('repl_no', 0.5), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 333), ('is_control', True), ('repl_no', 0.5), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 334), ('is_control', True), ('repl_no', 0.5), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 335), ('is_control', True), ('repl_no', 0.5), ('slope', 0.0), ('noise', None)]), OrderedDict([('label', 336), ('is_control', True), ('repl_no', -0.5), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 337), ('is_control', True), ('repl_no', -0.5), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 338), ('is_control', True), ('repl_no', -0.5), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 339), ('is_control', True), ('repl_no', -0.5), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 340), ('is_control', True), ('repl_no', 0.5), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 341), ('is_control', True), ('repl_no', 0.5), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 342), ('is_control', True), ('repl_no', 0.5), ('slope', 0.3), ('noise', None)]), OrderedDict([('label', 343), ('is_control', True), ('repl_no', 0.5), ('slope', 0.3), ('noise', None)])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="dataset\setdesc.csv" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="thanks"/>
+  </Flow>
+</PsychoPy2experiment>
