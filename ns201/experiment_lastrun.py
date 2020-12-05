@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.2.8),
-    on December 05, 2020, at 20:19
+    on December 05, 2020, at 21:46
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -114,7 +114,7 @@ text_4 = visual.TextStim(win=win, name='text_4',
 image_2 = visual.ImageStim(
     win=win,
     name='image_2', 
-    image='C:\\Users\\kmwtb\\Desktop\\Semester IX\\NS201\\Assignment SP\\code\\dataset\\135.png', mask=None,
+    image='dataset\\135.png', mask=None,
     ori=0, pos=(0, -0.05), size=(1, 0.75),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -980,6 +980,15 @@ for thisTrial in trials:
     
 # completed 1 repeats of 'trials'
 
+# get names of stimulus parameters
+if trials.trialList in ([], [None], None):
+    params = []
+else:
+    params = trials.trialList[0].keys()
+# save data for this loop
+trials.saveAsExcel(filename + '.xlsx', sheetName='trials',
+    stimOut=params,
+    dataOut=['n','all_mean','all_std', 'all_raw'])
 
 # ------Prepare to start Routine "thanks"-------
 continueRoutine = True
