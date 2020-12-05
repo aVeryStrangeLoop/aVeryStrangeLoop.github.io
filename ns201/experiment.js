@@ -3,13 +3,13 @@
  *******************/
 
 
-import { PsychoJS } from './lib/core-2020.2.js';
-import * as core from './lib/core-2020.2.js';
-import { TrialHandler } from './lib/data-2020.2.js';
-import { Scheduler } from './lib/util-2020.2.js';
-import * as visual from './lib/visual-2020.2.js';
-import * as sound from './lib/sound-2020.2.js';
-import * as util from './lib/util-2020.2.js';
+import { PsychoJS } from './lib/core.js';
+import * as core from './lib/core.js';
+import { TrialHandler } from './lib/data.js';
+import { Scheduler } from './lib/util.js';
+import * as visual from './lib/visual.js';
+import * as sound from './lib/sound.js';
+import * as util from './lib/util.js';
 
 /*
 import { PsychoJS } from 'https://pavlovia.org/lib/core.js';
