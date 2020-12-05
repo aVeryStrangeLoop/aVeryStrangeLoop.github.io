@@ -47,6 +47,18 @@ flowScheduler.add(experimentInit);
 flowScheduler.add(instructRoutineBegin());
 flowScheduler.add(instructRoutineEachFrame());
 flowScheduler.add(instructRoutineEnd());
+flowScheduler.add(example1RoutineBegin());
+flowScheduler.add(example1RoutineEachFrame());
+flowScheduler.add(example1RoutineEnd());
+flowScheduler.add(example2RoutineBegin());
+flowScheduler.add(example2RoutineEachFrame());
+flowScheduler.add(example2RoutineEnd());
+flowScheduler.add(example3RoutineBegin());
+flowScheduler.add(example3RoutineEachFrame());
+flowScheduler.add(example3RoutineEnd());
+flowScheduler.add(get_readyRoutineBegin());
+flowScheduler.add(get_readyRoutineEachFrame());
+flowScheduler.add(get_readyRoutineEnd());
 flowScheduler.add(timerRoutineBegin());
 flowScheduler.add(timerRoutineEachFrame());
 flowScheduler.add(timerRoutineEnd());
@@ -66,229 +78,143 @@ psychoJS.start({
   expName: expName,
   expInfo: expInfo,
   resources: [
-    {'name': 'dataset/97.png', 'path': 'dataset/97.png'},
-    {'name': 'dataset/85.png', 'path': 'dataset/85.png'},
-    {'name': 'dataset/181.png', 'path': 'dataset/181.png'},
-    {'name': 'dataset/177.png', 'path': 'dataset/177.png'},
-    {'name': 'dataset/41.png', 'path': 'dataset/41.png'},
-    {'name': 'dataset/197.png', 'path': 'dataset/197.png'},
-    {'name': 'dataset/139.png', 'path': 'dataset/139.png'},
-    {'name': 'dataset/79.png', 'path': 'dataset/79.png'},
-    {'name': 'dataset/206.png', 'path': 'dataset/206.png'},
-    {'name': 'dataset/117.png', 'path': 'dataset/117.png'},
-    {'name': 'dataset/11.png', 'path': 'dataset/11.png'},
-    {'name': 'dataset/23.png', 'path': 'dataset/23.png'},
-    {'name': 'dataset/61.png', 'path': 'dataset/61.png'},
-    {'name': 'dataset/64.png', 'path': 'dataset/64.png'},
-    {'name': 'dataset/175.png', 'path': 'dataset/175.png'},
-    {'name': 'dataset/125.png', 'path': 'dataset/125.png'},
-    {'name': 'dataset/182.png', 'path': 'dataset/182.png'},
-    {'name': 'dataset/28.png', 'path': 'dataset/28.png'},
-    {'name': 'dataset/163.png', 'path': 'dataset/163.png'},
-    {'name': 'dataset/174.png', 'path': 'dataset/174.png'},
-    {'name': 'dataset/45.png', 'path': 'dataset/45.png'},
-    {'name': 'dataset/104.png', 'path': 'dataset/104.png'},
-    {'name': 'dataset/136.png', 'path': 'dataset/136.png'},
-    {'name': 'dataset/133.png', 'path': 'dataset/133.png'},
-    {'name': 'dataset/1.png', 'path': 'dataset/1.png'},
-    {'name': 'dataset/213.png', 'path': 'dataset/213.png'},
-    {'name': 'dataset/168.png', 'path': 'dataset/168.png'},
-    {'name': 'dataset/149.png', 'path': 'dataset/149.png'},
-    {'name': 'dataset/205.png', 'path': 'dataset/205.png'},
-    {'name': 'dataset/144.png', 'path': 'dataset/144.png'},
-    {'name': 'dataset/169.png', 'path': 'dataset/169.png'},
-    {'name': 'dataset/209.png', 'path': 'dataset/209.png'},
-    {'name': 'dataset/9.png', 'path': 'dataset/9.png'},
-    {'name': 'dataset/77.png', 'path': 'dataset/77.png'},
-    {'name': 'dataset/33.png', 'path': 'dataset/33.png'},
-    {'name': 'dataset/87.png', 'path': 'dataset/87.png'},
-    {'name': 'dataset/152.png', 'path': 'dataset/152.png'},
-    {'name': 'dataset/170.png', 'path': 'dataset/170.png'},
-    {'name': 'dataset/26.png', 'path': 'dataset/26.png'},
-    {'name': 'dataset/38.png', 'path': 'dataset/38.png'},
-    {'name': 'dataset/172.png', 'path': 'dataset/172.png'},
-    {'name': 'dataset/89.png', 'path': 'dataset/89.png'},
-    {'name': 'dataset/62.png', 'path': 'dataset/62.png'},
-    {'name': 'dataset/219.png', 'path': 'dataset/219.png'},
-    {'name': 'dataset/159.png', 'path': 'dataset/159.png'},
-    {'name': 'dataset/52.png', 'path': 'dataset/52.png'},
-    {'name': 'dataset/74.png', 'path': 'dataset/74.png'},
-    {'name': 'dataset/88.png', 'path': 'dataset/88.png'},
-    {'name': 'dataset/148.png', 'path': 'dataset/148.png'},
-    {'name': 'dataset/221.png', 'path': 'dataset/221.png'},
-    {'name': 'dataset/211.png', 'path': 'dataset/211.png'},
-    {'name': 'dataset/146.png', 'path': 'dataset/146.png'},
-    {'name': 'dataset/65.png', 'path': 'dataset/65.png'},
-    {'name': 'dataset/20.png', 'path': 'dataset/20.png'},
-    {'name': 'dataset/119.png', 'path': 'dataset/119.png'},
-    {'name': 'dataset/60.png', 'path': 'dataset/60.png'},
-    {'name': 'dataset/143.png', 'path': 'dataset/143.png'},
-    {'name': 'dataset/164.png', 'path': 'dataset/164.png'},
-    {'name': 'dataset/30.png', 'path': 'dataset/30.png'},
-    {'name': 'dataset/44.png', 'path': 'dataset/44.png'},
-    {'name': 'dataset/91.png', 'path': 'dataset/91.png'},
-    {'name': 'dataset/8.png', 'path': 'dataset/8.png'},
-    {'name': 'dataset/58.png', 'path': 'dataset/58.png'},
-    {'name': 'dataset/13.png', 'path': 'dataset/13.png'},
-    {'name': 'dataset/157.png', 'path': 'dataset/157.png'},
-    {'name': 'dataset/191.png', 'path': 'dataset/191.png'},
-    {'name': 'dataset/103.png', 'path': 'dataset/103.png'},
-    {'name': 'dataset/82.png', 'path': 'dataset/82.png'},
-    {'name': 'dataset/154.png', 'path': 'dataset/154.png'},
-    {'name': 'dataset/53.png', 'path': 'dataset/53.png'},
-    {'name': 'dataset/48.png', 'path': 'dataset/48.png'},
-    {'name': 'dataset/72.png', 'path': 'dataset/72.png'},
-    {'name': 'dataset/132.png', 'path': 'dataset/132.png'},
-    {'name': 'dataset/189.png', 'path': 'dataset/189.png'},
-    {'name': 'dataset/75.png', 'path': 'dataset/75.png'},
-    {'name': 'dataset/14.png', 'path': 'dataset/14.png'},
-    {'name': 'dataset/81.png', 'path': 'dataset/81.png'},
-    {'name': 'dataset/22.png', 'path': 'dataset/22.png'},
-    {'name': 'dataset/111.png', 'path': 'dataset/111.png'},
-    {'name': 'dataset/220.png', 'path': 'dataset/220.png'},
-    {'name': 'dataset/190.png', 'path': 'dataset/190.png'},
-    {'name': 'dataset/19.png', 'path': 'dataset/19.png'},
-    {'name': 'dataset/106.png', 'path': 'dataset/106.png'},
-    {'name': 'dataset/115.png', 'path': 'dataset/115.png'},
-    {'name': 'dataset/196.png', 'path': 'dataset/196.png'},
-    {'name': 'dataset/135.png', 'path': 'dataset/135.png'},
-    {'name': 'dataset/110.png', 'path': 'dataset/110.png'},
-    {'name': 'dataset/80.png', 'path': 'dataset/80.png'},
-    {'name': 'dataset/192.png', 'path': 'dataset/192.png'},
-    {'name': 'dataset/3.png', 'path': 'dataset/3.png'},
-    {'name': 'dataset/31.png', 'path': 'dataset/31.png'},
-    {'name': 'dataset/113.png', 'path': 'dataset/113.png'},
-    {'name': 'dataset/184.png', 'path': 'dataset/184.png'},
-    {'name': 'dataset/193.png', 'path': 'dataset/193.png'},
-    {'name': 'dataset/194.png', 'path': 'dataset/194.png'},
-    {'name': 'dataset/86.png', 'path': 'dataset/86.png'},
-    {'name': 'dataset/32.png', 'path': 'dataset/32.png'},
-    {'name': 'dataset/63.png', 'path': 'dataset/63.png'},
-    {'name': 'dataset/100.png', 'path': 'dataset/100.png'},
-    {'name': 'dataset/49.png', 'path': 'dataset/49.png'},
-    {'name': 'dataset/118.png', 'path': 'dataset/118.png'},
-    {'name': 'dataset/178.png', 'path': 'dataset/178.png'},
-    {'name': 'dataset/27.png', 'path': 'dataset/27.png'},
-    {'name': 'dataset/187.png', 'path': 'dataset/187.png'},
-    {'name': 'dataset/122.png', 'path': 'dataset/122.png'},
-    {'name': 'dataset/218.png', 'path': 'dataset/218.png'},
-    {'name': 'dataset/99.png', 'path': 'dataset/99.png'},
-    {'name': 'dataset/71.png', 'path': 'dataset/71.png'},
-    {'name': 'dataset/59.png', 'path': 'dataset/59.png'},
-    {'name': 'dataset/46.png', 'path': 'dataset/46.png'},
-    {'name': 'dataset/198.png', 'path': 'dataset/198.png'},
-    {'name': 'dataset/68.png', 'path': 'dataset/68.png'},
-    {'name': 'dataset/98.png', 'path': 'dataset/98.png'},
-    {'name': 'dataset/201.png', 'path': 'dataset/201.png'},
-    {'name': 'dataset/127.png', 'path': 'dataset/127.png'},
     {'name': 'dataset/50.png', 'path': 'dataset/50.png'},
-    {'name': 'dataset/24.png', 'path': 'dataset/24.png'},
-    {'name': 'dataset/102.png', 'path': 'dataset/102.png'},
-    {'name': 'dataset/129.png', 'path': 'dataset/129.png'},
-    {'name': 'dataset/7.png', 'path': 'dataset/7.png'},
-    {'name': 'dataset/116.png', 'path': 'dataset/116.png'},
-    {'name': 'dataset/126.png', 'path': 'dataset/126.png'},
-    {'name': 'dataset/185.png', 'path': 'dataset/185.png'},
+    {'name': 'dataset/115.png', 'path': 'dataset/115.png'},
+    {'name': 'dataset/61.png', 'path': 'dataset/61.png'},
+    {'name': 'dataset/21.png', 'path': 'dataset/21.png'},
+    {'name': 'dataset/63.png', 'path': 'dataset/63.png'},
+    {'name': 'dataset/135.png', 'path': 'dataset/135.png'},
+    {'name': 'dataset/132.png', 'path': 'dataset/132.png'},
+    {'name': 'dataset/57.png', 'path': 'dataset/57.png'},
     {'name': 'dataset/34.png', 'path': 'dataset/34.png'},
-    {'name': 'dataset/10.png', 'path': 'dataset/10.png'},
+    {'name': 'dataset/124.png', 'path': 'dataset/124.png'},
+    {'name': 'dataset/60.png', 'path': 'dataset/60.png'},
+    {'name': 'dataset/35.png', 'path': 'dataset/35.png'},
+    {'name': 'dataset/134.png', 'path': 'dataset/134.png'},
+    {'name': 'dataset/91.png', 'path': 'dataset/91.png'},
+    {'name': 'dataset/102.png', 'path': 'dataset/102.png'},
+    {'name': 'dataset/127.png', 'path': 'dataset/127.png'},
+    {'name': 'dataset/0.png', 'path': 'dataset/0.png'},
+    {'name': 'dataset/133.png', 'path': 'dataset/133.png'},
+    {'name': 'dataset/36.png', 'path': 'dataset/36.png'},
+    {'name': 'dataset/54.png', 'path': 'dataset/54.png'},
+    {'name': 'dataset/128.png', 'path': 'dataset/128.png'},
+    {'name': 'dataset/96.png', 'path': 'dataset/96.png'},
     {'name': 'dataset/47.png', 'path': 'dataset/47.png'},
     {'name': 'dataset/101.png', 'path': 'dataset/101.png'},
-    {'name': 'dataset/37.png', 'path': 'dataset/37.png'},
-    {'name': 'dataset/2.png', 'path': 'dataset/2.png'},
-    {'name': 'dataset/70.png', 'path': 'dataset/70.png'},
-    {'name': 'dataset/121.png', 'path': 'dataset/121.png'},
-    {'name': 'dataset/57.png', 'path': 'dataset/57.png'},
-    {'name': 'dataset/35.png', 'path': 'dataset/35.png'},
-    {'name': 'dataset/95.png', 'path': 'dataset/95.png'},
-    {'name': 'dataset/25.png', 'path': 'dataset/25.png'},
-    {'name': 'dataset/56.png', 'path': 'dataset/56.png'},
-    {'name': 'dataset/128.png', 'path': 'dataset/128.png'},
-    {'name': 'dataset/212.png', 'path': 'dataset/212.png'},
     {'name': 'dataset/15.png', 'path': 'dataset/15.png'},
-    {'name': 'dataset/199.png', 'path': 'dataset/199.png'},
-    {'name': 'dataset/94.png', 'path': 'dataset/94.png'},
-    {'name': 'dataset/84.png', 'path': 'dataset/84.png'},
-    {'name': 'dataset/43.png', 'path': 'dataset/43.png'},
-    {'name': 'dataset/5.png', 'path': 'dataset/5.png'},
-    {'name': 'dataset/51.png', 'path': 'dataset/51.png'},
-    {'name': 'dataset/140.png', 'path': 'dataset/140.png'},
-    {'name': 'dataset/78.png', 'path': 'dataset/78.png'},
-    {'name': 'dataset/12.png', 'path': 'dataset/12.png'},
-    {'name': 'dataset/96.png', 'path': 'dataset/96.png'},
-    {'name': 'dataset/216.png', 'path': 'dataset/216.png'},
-    {'name': 'dataset/138.png', 'path': 'dataset/138.png'},
-    {'name': 'dataset/107.png', 'path': 'dataset/107.png'},
-    {'name': 'dataset/141.png', 'path': 'dataset/141.png'},
-    {'name': 'dataset/161.png', 'path': 'dataset/161.png'},
-    {'name': 'dataset/195.png', 'path': 'dataset/195.png'},
-    {'name': 'dataset/204.png', 'path': 'dataset/204.png'},
-    {'name': 'dataset/165.png', 'path': 'dataset/165.png'},
-    {'name': 'dataset/114.png', 'path': 'dataset/114.png'},
-    {'name': 'dataset/207.png', 'path': 'dataset/207.png'},
-    {'name': 'dataset/142.png', 'path': 'dataset/142.png'},
-    {'name': 'dataset/124.png', 'path': 'dataset/124.png'},
-    {'name': 'dataset/150.png', 'path': 'dataset/150.png'},
-    {'name': 'dataset/83.png', 'path': 'dataset/83.png'},
-    {'name': 'dataset/4.png', 'path': 'dataset/4.png'},
-    {'name': 'dataset/108.png', 'path': 'dataset/108.png'},
-    {'name': 'dataset/130.png', 'path': 'dataset/130.png'},
-    {'name': 'dataset/55.png', 'path': 'dataset/55.png'},
-    {'name': 'dataset/145.png', 'path': 'dataset/145.png'},
-    {'name': 'dataset/137.png', 'path': 'dataset/137.png'},
-    {'name': 'dataset/210.png', 'path': 'dataset/210.png'},
-    {'name': 'dataset/21.png', 'path': 'dataset/21.png'},
-    {'name': 'dataset/173.png', 'path': 'dataset/173.png'},
-    {'name': 'dataset/123.png', 'path': 'dataset/123.png'},
-    {'name': 'dataset/208.png', 'path': 'dataset/208.png'},
-    {'name': 'dataset/215.png', 'path': 'dataset/215.png'},
-    {'name': 'dataset/131.png', 'path': 'dataset/131.png'},
-    {'name': 'dataset/54.png', 'path': 'dataset/54.png'},
-    {'name': 'dataset/setdesc.csv', 'path': 'dataset/setdesc.csv'},
-    {'name': 'dataset/188.png', 'path': 'dataset/188.png'},
-    {'name': 'dataset/0.png', 'path': 'dataset/0.png'},
-    {'name': 'dataset/67.png', 'path': 'dataset/67.png'},
-    {'name': 'dataset/160.png', 'path': 'dataset/160.png'},
-    {'name': 'dataset/158.png', 'path': 'dataset/158.png'},
-    {'name': 'dataset/176.png', 'path': 'dataset/176.png'},
-    {'name': 'dataset/167.png', 'path': 'dataset/167.png'},
-    {'name': 'dataset/93.png', 'path': 'dataset/93.png'},
-    {'name': 'dataset/183.png', 'path': 'dataset/183.png'},
-    {'name': 'dataset/214.png', 'path': 'dataset/214.png'},
-    {'name': 'dataset/17.png', 'path': 'dataset/17.png'},
-    {'name': 'dataset/66.png', 'path': 'dataset/66.png'},
-    {'name': 'dataset/203.png', 'path': 'dataset/203.png'},
-    {'name': 'dataset/29.png', 'path': 'dataset/29.png'},
-    {'name': 'dataset/202.png', 'path': 'dataset/202.png'},
-    {'name': 'dataset/200.png', 'path': 'dataset/200.png'},
-    {'name': 'dataset/18.png', 'path': 'dataset/18.png'},
-    {'name': 'dataset/109.png', 'path': 'dataset/109.png'},
-    {'name': 'dataset/42.png', 'path': 'dataset/42.png'},
-    {'name': 'dataset/166.png', 'path': 'dataset/166.png'},
-    {'name': 'dataset/40.png', 'path': 'dataset/40.png'},
-    {'name': 'dataset/39.png', 'path': 'dataset/39.png'},
-    {'name': 'dataset/90.png', 'path': 'dataset/90.png'},
-    {'name': 'dataset/151.png', 'path': 'dataset/151.png'},
-    {'name': 'dataset/180.png', 'path': 'dataset/180.png'},
-    {'name': 'dataset/120.png', 'path': 'dataset/120.png'},
-    {'name': 'dataset/73.png', 'path': 'dataset/73.png'},
-    {'name': 'dataset/112.png', 'path': 'dataset/112.png'},
-    {'name': 'dataset/156.png', 'path': 'dataset/156.png'},
-    {'name': 'dataset/162.png', 'path': 'dataset/162.png'},
-    {'name': 'dataset/217.png', 'path': 'dataset/217.png'},
-    {'name': 'dataset/105.png', 'path': 'dataset/105.png'},
-    {'name': 'dataset/155.png', 'path': 'dataset/155.png'},
-    {'name': 'dataset/153.png', 'path': 'dataset/153.png'},
-    {'name': 'dataset/16.png', 'path': 'dataset/16.png'},
-    {'name': 'dataset/69.png', 'path': 'dataset/69.png'},
-    {'name': 'dataset/76.png', 'path': 'dataset/76.png'},
-    {'name': 'dataset/147.png', 'path': 'dataset/147.png'},
-    {'name': 'dataset/36.png', 'path': 'dataset/36.png'},
-    {'name': 'dataset/134.png', 'path': 'dataset/134.png'},
-    {'name': 'dataset/179.png', 'path': 'dataset/179.png'},
-    {'name': 'dataset/186.png', 'path': 'dataset/186.png'},
-    {'name': 'dataset/92.png', 'path': 'dataset/92.png'},
+    {'name': 'dataset/59.png', 'path': 'dataset/59.png'},
+    {'name': 'dataset/77.png', 'path': 'dataset/77.png'},
+    {'name': 'dataset/116.png', 'path': 'dataset/116.png'},
     {'name': 'dataset/6.png', 'path': 'dataset/6.png'},
-    {'name': 'dataset/171.png', 'path': 'dataset/171.png'}
+    {'name': 'dataset/93.png', 'path': 'dataset/93.png'},
+    {'name': 'dataset/62.png', 'path': 'dataset/62.png'},
+    {'name': 'dataset/26.png', 'path': 'dataset/26.png'},
+    {'name': 'dataset/31.png', 'path': 'dataset/31.png'},
+    {'name': 'dataset/120.png', 'path': 'dataset/120.png'},
+    {'name': 'dataset/44.png', 'path': 'dataset/44.png'},
+    {'name': 'dataset/55.png', 'path': 'dataset/55.png'},
+    {'name': 'dataset/117.png', 'path': 'dataset/117.png'},
+    {'name': 'dataset/98.png', 'path': 'dataset/98.png'},
+    {'name': 'dataset/105.png', 'path': 'dataset/105.png'},
+    {'name': 'dataset/103.png', 'path': 'dataset/103.png'},
+    {'name': 'dataset/81.png', 'path': 'dataset/81.png'},
+    {'name': 'dataset/8.png', 'path': 'dataset/8.png'},
+    {'name': 'dataset/1.png', 'path': 'dataset/1.png'},
+    {'name': 'dataset/82.png', 'path': 'dataset/82.png'},
+    {'name': 'dataset/67.png', 'path': 'dataset/67.png'},
+    {'name': 'dataset/30.png', 'path': 'dataset/30.png'},
+    {'name': 'dataset/49.png', 'path': 'dataset/49.png'},
+    {'name': 'dataset/122.png', 'path': 'dataset/122.png'},
+    {'name': 'dataset/123.png', 'path': 'dataset/123.png'},
+    {'name': 'dataset/88.png', 'path': 'dataset/88.png'},
+    {'name': 'dataset/19.png', 'path': 'dataset/19.png'},
+    {'name': 'dataset/118.png', 'path': 'dataset/118.png'},
+    {'name': 'dataset/113.png', 'path': 'dataset/113.png'},
+    {'name': 'dataset/76.png', 'path': 'dataset/76.png'},
+    {'name': 'dataset/23.png', 'path': 'dataset/23.png'},
+    {'name': 'dataset/84.png', 'path': 'dataset/84.png'},
+    {'name': 'dataset/106.png', 'path': 'dataset/106.png'},
+    {'name': 'dataset/125.png', 'path': 'dataset/125.png'},
+    {'name': 'dataset/42.png', 'path': 'dataset/42.png'},
+    {'name': 'dataset/58.png', 'path': 'dataset/58.png'},
+    {'name': 'dataset/74.png', 'path': 'dataset/74.png'},
+    {'name': 'dataset/40.png', 'path': 'dataset/40.png'},
+    {'name': 'dataset/9.png', 'path': 'dataset/9.png'},
+    {'name': 'dataset/79.png', 'path': 'dataset/79.png'},
+    {'name': 'dataset/86.png', 'path': 'dataset/86.png'},
+    {'name': 'dataset/111.png', 'path': 'dataset/111.png'},
+    {'name': 'dataset/121.png', 'path': 'dataset/121.png'},
+    {'name': 'dataset/53.png', 'path': 'dataset/53.png'},
+    {'name': 'dataset/14.png', 'path': 'dataset/14.png'},
+    {'name': 'dataset/45.png', 'path': 'dataset/45.png'},
+    {'name': 'dataset/119.png', 'path': 'dataset/119.png'},
+    {'name': 'dataset/20.png', 'path': 'dataset/20.png'},
+    {'name': 'dataset/72.png', 'path': 'dataset/72.png'},
+    {'name': 'dataset/71.png', 'path': 'dataset/71.png'},
+    {'name': 'dataset/43.png', 'path': 'dataset/43.png'},
+    {'name': 'dataset/65.png', 'path': 'dataset/65.png'},
+    {'name': 'dataset/92.png', 'path': 'dataset/92.png'},
+    {'name': 'dataset/66.png', 'path': 'dataset/66.png'},
+    {'name': 'dataset/2.png', 'path': 'dataset/2.png'},
+    {'name': 'dataset/18.png', 'path': 'dataset/18.png'},
+    {'name': 'dataset/70.png', 'path': 'dataset/70.png'},
+    {'name': 'dataset/33.png', 'path': 'dataset/33.png'},
+    {'name': 'dataset/10.png', 'path': 'dataset/10.png'},
+    {'name': 'dataset/80.png', 'path': 'dataset/80.png'},
+    {'name': 'dataset/114.png', 'path': 'dataset/114.png'},
+    {'name': 'dataset/41.png', 'path': 'dataset/41.png'},
+    {'name': 'dataset/7.png', 'path': 'dataset/7.png'},
+    {'name': 'dataset/5.png', 'path': 'dataset/5.png'},
+    {'name': 'dataset/87.png', 'path': 'dataset/87.png'},
+    {'name': 'dataset/16.png', 'path': 'dataset/16.png'},
+    {'name': 'dataset/126.png', 'path': 'dataset/126.png'},
+    {'name': 'dataset/131.png', 'path': 'dataset/131.png'},
+    {'name': 'dataset/108.png', 'path': 'dataset/108.png'},
+    {'name': 'dataset/89.png', 'path': 'dataset/89.png'},
+    {'name': 'dataset/29.png', 'path': 'dataset/29.png'},
+    {'name': 'dataset/22.png', 'path': 'dataset/22.png'},
+    {'name': 'dataset/11.png', 'path': 'dataset/11.png'},
+    {'name': 'dataset/99.png', 'path': 'dataset/99.png'},
+    {'name': 'dataset/109.png', 'path': 'dataset/109.png'},
+    {'name': 'dataset/37.png', 'path': 'dataset/37.png'},
+    {'name': 'dataset/94.png', 'path': 'dataset/94.png'},
+    {'name': 'dataset/107.png', 'path': 'dataset/107.png'},
+    {'name': 'dataset/13.png', 'path': 'dataset/13.png'},
+    {'name': 'dataset/17.png', 'path': 'dataset/17.png'},
+    {'name': 'dataset/46.png', 'path': 'dataset/46.png'},
+    {'name': 'dataset/90.png', 'path': 'dataset/90.png'},
+    {'name': 'dataset/78.png', 'path': 'dataset/78.png'},
+    {'name': 'dataset/83.png', 'path': 'dataset/83.png'},
+    {'name': 'dataset/38.png', 'path': 'dataset/38.png'},
+    {'name': 'dataset/68.png', 'path': 'dataset/68.png'},
+    {'name': 'dataset/69.png', 'path': 'dataset/69.png'},
+    {'name': 'dataset/104.png', 'path': 'dataset/104.png'},
+    {'name': 'dataset/73.png', 'path': 'dataset/73.png'},
+    {'name': 'dataset/setdesc.csv', 'path': 'dataset/setdesc.csv'},
+    {'name': 'dataset/48.png', 'path': 'dataset/48.png'},
+    {'name': 'dataset/24.png', 'path': 'dataset/24.png'},
+    {'name': 'dataset/56.png', 'path': 'dataset/56.png'},
+    {'name': 'dataset/32.png', 'path': 'dataset/32.png'},
+    {'name': 'dataset/100.png', 'path': 'dataset/100.png'},
+    {'name': 'dataset/97.png', 'path': 'dataset/97.png'},
+    {'name': 'dataset/51.png', 'path': 'dataset/51.png'},
+    {'name': 'dataset/28.png', 'path': 'dataset/28.png'},
+    {'name': 'dataset/64.png', 'path': 'dataset/64.png'},
+    {'name': 'dataset/27.png', 'path': 'dataset/27.png'},
+    {'name': 'dataset/85.png', 'path': 'dataset/85.png'},
+    {'name': 'dataset/129.png', 'path': 'dataset/129.png'},
+    {'name': 'dataset/110.png', 'path': 'dataset/110.png'},
+    {'name': 'dataset/39.png', 'path': 'dataset/39.png'},
+    {'name': 'dataset/25.png', 'path': 'dataset/25.png'},
+    {'name': 'dataset/12.png', 'path': 'dataset/12.png'},
+    {'name': 'dataset/95.png', 'path': 'dataset/95.png'},
+    {'name': 'dataset/4.png', 'path': 'dataset/4.png'},
+    {'name': 'dataset/75.png', 'path': 'dataset/75.png'},
+    {'name': 'dataset/3.png', 'path': 'dataset/3.png'},
+    {'name': 'dataset/52.png', 'path': 'dataset/52.png'},
+    {'name': 'dataset/130.png', 'path': 'dataset/130.png'},
+    {'name': 'dataset/112.png', 'path': 'dataset/112.png'}
   ]
 });
 
@@ -319,6 +245,20 @@ function updateInfo() {
 var instructClock;
 var instruct_text;
 var ready;
+var example1Clock;
+var text_3;
+var key_resp_6;
+var example2Clock;
+var text_4;
+var image_2;
+var key_resp_3;
+var example3Clock;
+var text_5;
+var text_6;
+var key_resp_4;
+var get_readyClock;
+var text_7;
+var key_resp_5;
 var timerClock;
 var timer1;
 var timer2;
@@ -339,15 +279,95 @@ function experimentInit() {
   instruct_text = new visual.TextStim({
     win: psychoJS.window,
     name: 'instruct_text',
-    text: 'Instructions\n1. Test\n2. Test\n3. Test\n\nPress any key to start!',
+    text: "Instructions\n\nIn the trials in this experiment, you will be shown different graphs and you have to determine whether the overall trend is increasing or decreasing from left-to-right.\n\n1. Please sit straight and pay attention to the screen throughout the experiment. Graphs will only be displayed for 1.5 seconds and you will have to take a decision in this time.\n\n2. If you think the left-to-right trend is increasing, press the 'up arrow' key on your keyboard. If you think the trend is decreasing, press the 'down arrow' key on your keyboard. This response can be given during either the graph-display phase or after it during the response phase. There is no time constraint on response. Only the graph-display phase is limited in time.\n\n3. All the graphs have non-zero slopes. You will have to choose either increasing or decreasing as a response.\n\nThe next part of this experiment goes through an example. The actual experiment will start after a countdown.\n\nPress any key to continue.",
     font: 'Arial',
     units: undefined, 
-    pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0,
+    pos: [0, 0], height: 0.0325,  wrapWidth: undefined, ori: 0,
     color: new util.Color([(- 1.0), (- 1.0), (- 1.0)]),  opacity: 1,
     depth: 0.0 
   });
   
   ready = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
+  
+  // Initialize components for Routine "example1"
+  example1Clock = new util.Clock();
+  text_3 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'text_3',
+    text: 'Blank phase (0.5 seconds).\n\nThis phase is right before the graph-display phase. Nothing is displayed on the screen during this short period.\n\nPress any key to continue.\n',
+    font: 'Arial',
+    units: undefined, 
+    pos: [0, (- 0.2)], height: 0.0325,  wrapWidth: undefined, ori: 0,
+    color: new util.Color('black'),  opacity: 1,
+    depth: 0.0 
+  });
+  
+  key_resp_6 = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
+  
+  // Initialize components for Routine "example2"
+  example2Clock = new util.Clock();
+  text_4 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'text_4',
+    text: "Graph display phase (1.5 seconds)\nYou can respond during this time. Press 'up arrow' if you think the trend is increasing and 'down arrow' if you think it is decreasing. This phase lasts only 1.5 seconds so you have to think quick, you can still respond after the graph has stopped displaying - i.e. in the next phase. Press 'up' key to continue.\n",
+    font: 'Arial',
+    units: undefined, 
+    pos: [0, 0.4], height: 0.02,  wrapWidth: undefined, ori: 0,
+    color: new util.Color('black'),  opacity: 1,
+    depth: 0.0 
+  });
+  
+  image_2 = new visual.ImageStim({
+    win : psychoJS.window,
+    name : 'image_2', units : undefined, 
+    image : 'C:\\Users\\kmwtb\\Desktop\\Semester IX\\NS201\\Assignment SP\\code\\dataset\\135.png', mask : undefined,
+    ori : 0, pos : [0, (- 0.05)], size : [1, 0.75],
+    color : new util.Color([1, 1, 1]), opacity : 1,
+    flipHoriz : false, flipVert : false,
+    texRes : 128, interpolate : true, depth : -1.0 
+  });
+  key_resp_3 = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
+  
+  // Initialize components for Routine "example3"
+  example3Clock = new util.Clock();
+  text_5 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'text_5',
+    text: "Press 'up' if the trend was increasing.\nPress 'down' if the trend was decreasing.",
+    font: 'Arial',
+    units: undefined, 
+    pos: [0, 0], height: 0.04,  wrapWidth: undefined, ori: 0,
+    color: new util.Color('black'),  opacity: 1,
+    depth: 0.0 
+  });
+  
+  text_6 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'text_6',
+    text: "Response phase (infinite)\n\nThis phase is only displayed if you didn't respond in the last phase and lasts as long as you don't respond with either 'increasing' or 'decreasing'. \n\nPress the 'up' key to continue\n\n",
+    font: 'Arial',
+    units: undefined, 
+    pos: [0, (- 0.3)], height: 0.0325,  wrapWidth: undefined, ori: 0,
+    color: new util.Color('black'),  opacity: 1,
+    depth: -1.0 
+  });
+  
+  key_resp_4 = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
+  
+  // Initialize components for Routine "get_ready"
+  get_readyClock = new util.Clock();
+  text_7 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'text_7',
+    text: "Press any key when you're ready to start the experiment.\n\nThe first graph will be displayed after a three second countdown.\n",
+    font: 'Arial',
+    units: undefined, 
+    pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0,
+    color: new util.Color('black'),  opacity: 1,
+    depth: 0.0 
+  });
+  
+  key_resp_5 = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
   
   // Initialize components for Routine "timer"
   timerClock = new util.Clock();
@@ -424,10 +444,10 @@ function experimentInit() {
   text_2 = new visual.TextStim({
     win: psychoJS.window,
     name: 'text_2',
-    text: 'Thank you for participating!\n\nPress any key to exit.\n',
+    text: 'Thank you for participating in this experiment!\n\nPlease attached the generated .csv file to the form circulated with this link. (The .csv file must have already been downloaded to your computer)\n\nPress any key to exit.\n',
     font: 'Arial',
     units: undefined, 
-    pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
+    pos: [0, 0], height: 0.0325,  wrapWidth: undefined, ori: 0,
     color: new util.Color('black'),  opacity: 1,
     depth: 0.0 
   });
@@ -558,6 +578,508 @@ function instructRoutineEnd(snapshot) {
     
     ready.stop();
     // the Routine "instruct" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset();
+    
+    return Scheduler.Event.NEXT;
+  };
+}
+
+
+var _key_resp_6_allKeys;
+var example1Components;
+function example1RoutineBegin(snapshot) {
+  return function () {
+    //------Prepare to start Routine 'example1'-------
+    t = 0;
+    example1Clock.reset(); // clock
+    frameN = -1;
+    // update component parameters for each repeat
+    key_resp_6.keys = undefined;
+    key_resp_6.rt = undefined;
+    _key_resp_6_allKeys = [];
+    // keep track of which components have finished
+    example1Components = [];
+    example1Components.push(text_3);
+    example1Components.push(key_resp_6);
+    
+    for (const thisComponent of example1Components)
+      if ('status' in thisComponent)
+        thisComponent.status = PsychoJS.Status.NOT_STARTED;
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function example1RoutineEachFrame(snapshot) {
+  return function () {
+    //------Loop for each frame of Routine 'example1'-------
+    let continueRoutine = true; // until we're told otherwise
+    // get current time
+    t = example1Clock.getTime();
+    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+    // update/draw components on each frame
+    
+    // *text_3* updates
+    if (t >= 0.0 && text_3.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      text_3.tStart = t;  // (not accounting for frame time here)
+      text_3.frameNStart = frameN;  // exact frame index
+      
+      text_3.setAutoDraw(true);
+    }
+
+    
+    // *key_resp_6* updates
+    if (t >= 0.0 && key_resp_6.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      key_resp_6.tStart = t;  // (not accounting for frame time here)
+      key_resp_6.frameNStart = frameN;  // exact frame index
+      
+      // keyboard checking is just starting
+      psychoJS.window.callOnFlip(function() { key_resp_6.clock.reset(); });  // t=0 on next screen flip
+      psychoJS.window.callOnFlip(function() { key_resp_6.start(); }); // start on screen flip
+      psychoJS.window.callOnFlip(function() { key_resp_6.clearEvents(); });
+    }
+
+    if (key_resp_6.status === PsychoJS.Status.STARTED) {
+      let theseKeys = key_resp_6.getKeys({keyList: [], waitRelease: false});
+      _key_resp_6_allKeys = _key_resp_6_allKeys.concat(theseKeys);
+      if (_key_resp_6_allKeys.length > 0) {
+        key_resp_6.keys = _key_resp_6_allKeys[_key_resp_6_allKeys.length - 1].name;  // just the last key pressed
+        key_resp_6.rt = _key_resp_6_allKeys[_key_resp_6_allKeys.length - 1].rt;
+        // a response ends the routine
+        continueRoutine = false;
+      }
+    }
+    
+    // check for quit (typically the Esc key)
+    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
+    }
+    
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+    
+    continueRoutine = false;  // reverts to True if at least one component still running
+    for (const thisComponent of example1Components)
+      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+        continueRoutine = true;
+        break;
+      }
+    
+    // refresh the screen if continuing
+    if (continueRoutine) {
+      return Scheduler.Event.FLIP_REPEAT;
+    } else {
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function example1RoutineEnd(snapshot) {
+  return function () {
+    //------Ending Routine 'example1'-------
+    for (const thisComponent of example1Components) {
+      if (typeof thisComponent.setAutoDraw === 'function') {
+        thisComponent.setAutoDraw(false);
+      }
+    }
+    psychoJS.experiment.addData('key_resp_6.keys', key_resp_6.keys);
+    if (typeof key_resp_6.keys !== 'undefined') {  // we had a response
+        psychoJS.experiment.addData('key_resp_6.rt', key_resp_6.rt);
+        routineTimer.reset();
+        }
+    
+    key_resp_6.stop();
+    // the Routine "example1" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset();
+    
+    return Scheduler.Event.NEXT;
+  };
+}
+
+
+var _key_resp_3_allKeys;
+var example2Components;
+function example2RoutineBegin(snapshot) {
+  return function () {
+    //------Prepare to start Routine 'example2'-------
+    t = 0;
+    example2Clock.reset(); // clock
+    frameN = -1;
+    // update component parameters for each repeat
+    key_resp_3.keys = undefined;
+    key_resp_3.rt = undefined;
+    _key_resp_3_allKeys = [];
+    // keep track of which components have finished
+    example2Components = [];
+    example2Components.push(text_4);
+    example2Components.push(image_2);
+    example2Components.push(key_resp_3);
+    
+    for (const thisComponent of example2Components)
+      if ('status' in thisComponent)
+        thisComponent.status = PsychoJS.Status.NOT_STARTED;
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function example2RoutineEachFrame(snapshot) {
+  return function () {
+    //------Loop for each frame of Routine 'example2'-------
+    let continueRoutine = true; // until we're told otherwise
+    // get current time
+    t = example2Clock.getTime();
+    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+    // update/draw components on each frame
+    
+    // *text_4* updates
+    if (t >= 0.0 && text_4.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      text_4.tStart = t;  // (not accounting for frame time here)
+      text_4.frameNStart = frameN;  // exact frame index
+      
+      text_4.setAutoDraw(true);
+    }
+
+    
+    // *image_2* updates
+    if (t >= 0.0 && image_2.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      image_2.tStart = t;  // (not accounting for frame time here)
+      image_2.frameNStart = frameN;  // exact frame index
+      
+      image_2.setAutoDraw(true);
+    }
+
+    
+    // *key_resp_3* updates
+    if (t >= 0.0 && key_resp_3.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      key_resp_3.tStart = t;  // (not accounting for frame time here)
+      key_resp_3.frameNStart = frameN;  // exact frame index
+      
+      // keyboard checking is just starting
+      psychoJS.window.callOnFlip(function() { key_resp_3.clock.reset(); });  // t=0 on next screen flip
+      psychoJS.window.callOnFlip(function() { key_resp_3.start(); }); // start on screen flip
+      psychoJS.window.callOnFlip(function() { key_resp_3.clearEvents(); });
+    }
+
+    if (key_resp_3.status === PsychoJS.Status.STARTED) {
+      let theseKeys = key_resp_3.getKeys({keyList: ['up'], waitRelease: false});
+      _key_resp_3_allKeys = _key_resp_3_allKeys.concat(theseKeys);
+      if (_key_resp_3_allKeys.length > 0) {
+        key_resp_3.keys = _key_resp_3_allKeys[_key_resp_3_allKeys.length - 1].name;  // just the last key pressed
+        key_resp_3.rt = _key_resp_3_allKeys[_key_resp_3_allKeys.length - 1].rt;
+        // a response ends the routine
+        continueRoutine = false;
+      }
+    }
+    
+    // check for quit (typically the Esc key)
+    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
+    }
+    
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+    
+    continueRoutine = false;  // reverts to True if at least one component still running
+    for (const thisComponent of example2Components)
+      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+        continueRoutine = true;
+        break;
+      }
+    
+    // refresh the screen if continuing
+    if (continueRoutine) {
+      return Scheduler.Event.FLIP_REPEAT;
+    } else {
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function example2RoutineEnd(snapshot) {
+  return function () {
+    //------Ending Routine 'example2'-------
+    for (const thisComponent of example2Components) {
+      if (typeof thisComponent.setAutoDraw === 'function') {
+        thisComponent.setAutoDraw(false);
+      }
+    }
+    psychoJS.experiment.addData('key_resp_3.keys', key_resp_3.keys);
+    if (typeof key_resp_3.keys !== 'undefined') {  // we had a response
+        psychoJS.experiment.addData('key_resp_3.rt', key_resp_3.rt);
+        routineTimer.reset();
+        }
+    
+    key_resp_3.stop();
+    // the Routine "example2" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset();
+    
+    return Scheduler.Event.NEXT;
+  };
+}
+
+
+var _key_resp_4_allKeys;
+var example3Components;
+function example3RoutineBegin(snapshot) {
+  return function () {
+    //------Prepare to start Routine 'example3'-------
+    t = 0;
+    example3Clock.reset(); // clock
+    frameN = -1;
+    // update component parameters for each repeat
+    key_resp_4.keys = undefined;
+    key_resp_4.rt = undefined;
+    _key_resp_4_allKeys = [];
+    // keep track of which components have finished
+    example3Components = [];
+    example3Components.push(text_5);
+    example3Components.push(text_6);
+    example3Components.push(key_resp_4);
+    
+    for (const thisComponent of example3Components)
+      if ('status' in thisComponent)
+        thisComponent.status = PsychoJS.Status.NOT_STARTED;
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function example3RoutineEachFrame(snapshot) {
+  return function () {
+    //------Loop for each frame of Routine 'example3'-------
+    let continueRoutine = true; // until we're told otherwise
+    // get current time
+    t = example3Clock.getTime();
+    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+    // update/draw components on each frame
+    
+    // *text_5* updates
+    if (t >= 0.0 && text_5.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      text_5.tStart = t;  // (not accounting for frame time here)
+      text_5.frameNStart = frameN;  // exact frame index
+      
+      text_5.setAutoDraw(true);
+    }
+
+    
+    // *text_6* updates
+    if (t >= 0.0 && text_6.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      text_6.tStart = t;  // (not accounting for frame time here)
+      text_6.frameNStart = frameN;  // exact frame index
+      
+      text_6.setAutoDraw(true);
+    }
+
+    
+    // *key_resp_4* updates
+    if (t >= 0.0 && key_resp_4.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      key_resp_4.tStart = t;  // (not accounting for frame time here)
+      key_resp_4.frameNStart = frameN;  // exact frame index
+      
+      // keyboard checking is just starting
+      psychoJS.window.callOnFlip(function() { key_resp_4.clock.reset(); });  // t=0 on next screen flip
+      psychoJS.window.callOnFlip(function() { key_resp_4.start(); }); // start on screen flip
+      psychoJS.window.callOnFlip(function() { key_resp_4.clearEvents(); });
+    }
+
+    if (key_resp_4.status === PsychoJS.Status.STARTED) {
+      let theseKeys = key_resp_4.getKeys({keyList: [], waitRelease: false});
+      _key_resp_4_allKeys = _key_resp_4_allKeys.concat(theseKeys);
+      if (_key_resp_4_allKeys.length > 0) {
+        key_resp_4.keys = _key_resp_4_allKeys[_key_resp_4_allKeys.length - 1].name;  // just the last key pressed
+        key_resp_4.rt = _key_resp_4_allKeys[_key_resp_4_allKeys.length - 1].rt;
+        // a response ends the routine
+        continueRoutine = false;
+      }
+    }
+    
+    // check for quit (typically the Esc key)
+    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
+    }
+    
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+    
+    continueRoutine = false;  // reverts to True if at least one component still running
+    for (const thisComponent of example3Components)
+      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+        continueRoutine = true;
+        break;
+      }
+    
+    // refresh the screen if continuing
+    if (continueRoutine) {
+      return Scheduler.Event.FLIP_REPEAT;
+    } else {
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function example3RoutineEnd(snapshot) {
+  return function () {
+    //------Ending Routine 'example3'-------
+    for (const thisComponent of example3Components) {
+      if (typeof thisComponent.setAutoDraw === 'function') {
+        thisComponent.setAutoDraw(false);
+      }
+    }
+    psychoJS.experiment.addData('key_resp_4.keys', key_resp_4.keys);
+    if (typeof key_resp_4.keys !== 'undefined') {  // we had a response
+        psychoJS.experiment.addData('key_resp_4.rt', key_resp_4.rt);
+        routineTimer.reset();
+        }
+    
+    key_resp_4.stop();
+    // the Routine "example3" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset();
+    
+    return Scheduler.Event.NEXT;
+  };
+}
+
+
+var _key_resp_5_allKeys;
+var get_readyComponents;
+function get_readyRoutineBegin(snapshot) {
+  return function () {
+    //------Prepare to start Routine 'get_ready'-------
+    t = 0;
+    get_readyClock.reset(); // clock
+    frameN = -1;
+    // update component parameters for each repeat
+    key_resp_5.keys = undefined;
+    key_resp_5.rt = undefined;
+    _key_resp_5_allKeys = [];
+    // keep track of which components have finished
+    get_readyComponents = [];
+    get_readyComponents.push(text_7);
+    get_readyComponents.push(key_resp_5);
+    
+    for (const thisComponent of get_readyComponents)
+      if ('status' in thisComponent)
+        thisComponent.status = PsychoJS.Status.NOT_STARTED;
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function get_readyRoutineEachFrame(snapshot) {
+  return function () {
+    //------Loop for each frame of Routine 'get_ready'-------
+    let continueRoutine = true; // until we're told otherwise
+    // get current time
+    t = get_readyClock.getTime();
+    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+    // update/draw components on each frame
+    
+    // *text_7* updates
+    if (t >= 0.0 && text_7.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      text_7.tStart = t;  // (not accounting for frame time here)
+      text_7.frameNStart = frameN;  // exact frame index
+      
+      text_7.setAutoDraw(true);
+    }
+
+    
+    // *key_resp_5* updates
+    if (t >= 0.0 && key_resp_5.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      key_resp_5.tStart = t;  // (not accounting for frame time here)
+      key_resp_5.frameNStart = frameN;  // exact frame index
+      
+      // keyboard checking is just starting
+      psychoJS.window.callOnFlip(function() { key_resp_5.clock.reset(); });  // t=0 on next screen flip
+      psychoJS.window.callOnFlip(function() { key_resp_5.start(); }); // start on screen flip
+      psychoJS.window.callOnFlip(function() { key_resp_5.clearEvents(); });
+    }
+
+    if (key_resp_5.status === PsychoJS.Status.STARTED) {
+      let theseKeys = key_resp_5.getKeys({keyList: [], waitRelease: false});
+      _key_resp_5_allKeys = _key_resp_5_allKeys.concat(theseKeys);
+      if (_key_resp_5_allKeys.length > 0) {
+        key_resp_5.keys = _key_resp_5_allKeys[_key_resp_5_allKeys.length - 1].name;  // just the last key pressed
+        key_resp_5.rt = _key_resp_5_allKeys[_key_resp_5_allKeys.length - 1].rt;
+        // a response ends the routine
+        continueRoutine = false;
+      }
+    }
+    
+    // check for quit (typically the Esc key)
+    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
+    }
+    
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+    
+    continueRoutine = false;  // reverts to True if at least one component still running
+    for (const thisComponent of get_readyComponents)
+      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+        continueRoutine = true;
+        break;
+      }
+    
+    // refresh the screen if continuing
+    if (continueRoutine) {
+      return Scheduler.Event.FLIP_REPEAT;
+    } else {
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function get_readyRoutineEnd(snapshot) {
+  return function () {
+    //------Ending Routine 'get_ready'-------
+    for (const thisComponent of get_readyComponents) {
+      if (typeof thisComponent.setAutoDraw === 'function') {
+        thisComponent.setAutoDraw(false);
+      }
+    }
+    psychoJS.experiment.addData('key_resp_5.keys', key_resp_5.keys);
+    if (typeof key_resp_5.keys !== 'undefined') {  // we had a response
+        psychoJS.experiment.addData('key_resp_5.rt', key_resp_5.rt);
+        routineTimer.reset();
+        }
+    
+    key_resp_5.stop();
+    // the Routine "get_ready" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
     
     return Scheduler.Event.NEXT;
