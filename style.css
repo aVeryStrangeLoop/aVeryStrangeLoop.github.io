@@ -5,6 +5,28 @@
 	--accent2: #D48082;
 }
 
+.button{
+	transition-duration: 0.4s;
+}
+
+.printButton {
+  background-color: white; 
+  color: var(--accent1); 
+  text-decoration:underline;
+  text-decoration-skip: ink;
+  border: 0px;
+}
+
+.printButton:hover {
+  color: var(--accent2);
+}
+
+@media print {
+  #printPageButton, #cvbar, #cvlinks {
+    display: none;
+  }
+}
+
 
 @font-face {
   font-family: headfont;

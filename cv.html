@@ -16,10 +16,15 @@
 			<div class="bar"></div>
 		</div>
 		
-		<div class="menubar">
-			<font><a href="index.html">about</a> &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp; <a href="research.html">research</a> &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp; <a href="cv.html" style="font-weight: bold;">cv</a> &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp; <a href="pubs.html">publications</a></font>
+		<div class="menubar" id="cvbar">
+			<font><a href="/">about</a> 
+				&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp; <a href="research.html">research</a> 
+				&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp; <a href="pubs.html">publications</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp; <a href="cv.html" style="font-weight: bold;">cv</a> 
+			</font>
 		</div>
-		
+		<br>
+		<center><button id="printPageButton" onClick="window.print();" class="printButton">(Print this CV)</button></center>
 		<div class="about">
 			<h3 class="cvtitle">Education</h3>
 			<p><b>BS + MS (Research)</b><br>Indian Institute of Science (2016-Present)<br>GPA: 8.7/10</p>
@@ -58,43 +63,6 @@ Biotechnology, Govt. of India for iGEM 2017.</td>
 					<td class="rowdesc">National level competitive scholarship by NCERT, Govt. of India (&lt;0.1% selection rate)</td>
 				</tr>
 			</table>
-			<h3 class="cvtitle">Research</h3>
-			<h4 style="margin-bottom: 5px">Evolution across scales</h4>
-			<font style="font-size: 10pt;">Undergraduate thesis project with Dr. Ramray Bhat, IISc, Bangalore (2019-2020)</font>
-			<ul>
-				<li class="cvli">Showed that a population of single-celled or multi-cellular organisms under different environmental contexts develop a range of emergent dynamics and characteristics as a result of the multi-scale nature of the system.</li>
-				<li class="cvli">Specifically for single-celled asexual populations, we found that increased mutation rates, population sizes and resource abundances promote the evolution of metabolic signaling. (See Kumawat &amp; Bhat, 2020)</li>
-			</ul>
-			
-			<h4 style="margin-bottom: 5px">Utility functions promote co-operative behaviour in contextual evolving agents</h4>
-			<font style="font-size: 10pt;">Independent project with Preetham Venkatesh, IISc, Bangalore (2019-2020)</font>
-			<ul>
-				<li class="cvli">Developed a program to simulate agents that perform tasks and evolve in the presence of other agents in a 2D network. (Python + Rust)</li>
-				<li class="cvli">Showed that certain forms of utility functions in these agent networks lead to evolution of high levels of co-operativity.</li>
-				<li class="cvli">Determined the conditions under which specialisation and differentiation emerges in this system.</li>
-			</ul>
-			<h4 style="margin-bottom: 5px">PhageShift : Improving treatment of bacterial infections through novel modifications to conventional phage therapeutics</h4>
-			<font style="font-size: 10pt;">iGEM 2018 as Team lead with Dr. Sandeep Eswarappa and Prof. Umesh Varshney, IISc, Bangalore (2018)</font>
-			<ul>
-				<li class="cvli">Carried out administrative duties and budget planning for a team consisting of 26 members.</li>
-				<li class="cvli">Designed and cloned mouse CCL2 chemokine and its fusion derivatives into bacterial vectors.</li>
-				<li class="cvli">Expressed, optimized the expression and purified mouse CCL2 for characterization in human monocyte chemoattraction studies.</li>
-				<li class="cvli">Executed protocols for phage isolation, amplification and modification.</li>
-				<li class="cvli">Mentored the 2018 IISER-Kolkata iGEM Team with their project to develop a arsenic sequestering bacteria – BacMan.</li>
-			</ul>
-			<h4 style="margin-bottom: 5px">iFloat : A multifaceted approach to cluster bioengineered gas vesicles in vitro to improve flotation</h4>
-			<font style="font-size: 10pt;">iGEM 2017 Modelling and Biophysics with Prof. Dipshikha Chakravortty And Prof. Rajan Dighe, IISc, Bangalore (2017)</font>
-			<ul>
-				<li class="cvli">Demonstrated that clustering is important to ensure successful flotation of free floating gas vesicles using a mathematical model.</li>
-				<li class="cvli">Used Dynamic Light Scattering (DLS) to measure cluster sizes and TE Microscopy to image isolated gas vesicles.</li>
-				<li class="cvli">Designed a spectrophotometric assay to quantify gas vesicle flotation.</li>
-			</ul>
-			<h4 style="margin-bottom: 5px">Design of dry active brownian particles without long range interactions</h4>
-			<font style="font-size: 10pt;">Summer internship with Dr. Shashi Thutupalli, NCBS, Bangalore (2017)</font>
-			<ul>
-				<li class="cvli">Studied active brownian motion and its role in giving rise to order and phase transition-like phenomena (Motility Induced Phase Separation).</li>
-				<li>Designed active brownian particles that can transduce energy from a vertically vibrating surface into horizontal active motion.</li>
-			</ul>
 			<h3 class="cvtitle">Publications & Conferences</h3>
 				<h4>Publications</h4>
 				<table>
@@ -137,6 +105,44 @@ Biotechnology, Govt. of India for iGEM 2017.</td>
 					<td>PhageShift talk (and poster) at the International Genetic Engineering Machine Competition (iGEM) Giant Jamboree, Boston, MA. Winner of a Gold Medal and Best Software Tool Nomination.</td>
 					</tr>
 				</table>
+			<h3 class="cvtitle">Research</h3>
+			<h4 style="margin-bottom: 5px">Evolution across scales</h4>
+			<font style="font-size: 10pt;">Undergraduate thesis project with Dr. Ramray Bhat, IISc, Bangalore (2019-2020)</font>
+			<ul>
+				<li class="cvli">Showed that a population of single-celled or multi-cellular organisms under different environmental contexts develop a range of emergent dynamics and characteristics as a result of the multi-scale nature of the system.</li>
+				<li class="cvli">Specifically for single-celled asexual populations, we found that increased mutation rates, population sizes and resource abundances promote the evolution of metabolic signaling. (See Kumawat &amp; Bhat, 2020)</li>
+			</ul>
+			
+			<h4 style="margin-bottom: 5px">Utility functions promote co-operative behaviour in contextual evolving agents</h4>
+			<font style="font-size: 10pt;">Independent project with Preetham Venkatesh, IISc, Bangalore (2019-2020)</font>
+			<ul>
+				<li class="cvli">Developed a program to simulate agents that perform tasks and evolve in the presence of other agents in a 2D network. (Python + Rust)</li>
+				<li class="cvli">Showed that certain forms of utility functions in these agent networks lead to evolution of high levels of co-operativity.</li>
+				<li class="cvli">Determined the conditions under which specialisation and differentiation emerges in this system.</li>
+			</ul>
+			<h4 style="margin-bottom: 5px">PhageShift : Improving treatment of bacterial infections through novel modifications to conventional phage therapeutics</h4>
+			<font style="font-size: 10pt;">iGEM 2018 as Team lead with Dr. Sandeep Eswarappa and Prof. Umesh Varshney, IISc, Bangalore (2018)</font>
+			<ul>
+				<li class="cvli">Carried out administrative duties and budget planning for a team consisting of 26 members.</li>
+				<li class="cvli">Designed and cloned mouse CCL2 chemokine and its fusion derivatives into bacterial vectors.</li>
+				<li class="cvli">Expressed, optimized the expression and purified mouse CCL2 for characterization in human monocyte chemoattraction studies.</li>
+				<li class="cvli">Executed protocols for phage isolation, amplification and modification.</li>
+				<li class="cvli">Mentored the 2018 IISER-Kolkata iGEM Team with their project to develop a arsenic sequestering bacteria – BacMan.</li>
+			</ul>
+			<h4 style="margin-bottom: 5px">iFloat : A multifaceted approach to cluster bioengineered gas vesicles in vitro to improve flotation</h4>
+			<font style="font-size: 10pt;">iGEM 2017 Modelling and Biophysics with Prof. Dipshikha Chakravortty And Prof. Rajan Dighe, IISc, Bangalore (2017)</font>
+			<ul>
+				<li class="cvli">Demonstrated that clustering is important to ensure successful flotation of free floating gas vesicles using a mathematical model.</li>
+				<li class="cvli">Used Dynamic Light Scattering (DLS) to measure cluster sizes and TE Microscopy to image isolated gas vesicles.</li>
+				<li class="cvli">Designed a spectrophotometric assay to quantify gas vesicle flotation.</li>
+			</ul>
+			<h4 style="margin-bottom: 5px">Design of dry active brownian particles without long range interactions</h4>
+			<font style="font-size: 10pt;">Summer internship with Dr. Shashi Thutupalli, NCBS, Bangalore (2017)</font>
+			<ul>
+				<li class="cvli">Studied active brownian motion and its role in giving rise to order and phase transition-like phenomena (Motility Induced Phase Separation).</li>
+				<li>Designed active brownian particles that can transduce energy from a vertically vibrating surface into horizontal active motion.</li>
+			</ul>
+			
 			<h3 class="cvtitle">Coursework</h3>
 			<h4>Graduate Level</h4>
 			<table>
@@ -189,7 +195,7 @@ Biotechnology, Govt. of India for iGEM 2017.</td>
 				<font>bhaskar kumawat<br>
 					kbhaskar [at] iisc.ac.in</font>
 			</div>
-			<div class="half" style="text-align:right">
+			<div class="half" id="cvlinks" style="text-align:right">
 				<font style="text-decoration:underline;"><a href="https://github.com/aVeryStrangeLoop">github</a><br>
 					<a href="https://scholar.google.com/citations?user=gZCvqlUAAAAJ">scholar</a></font>
 			</div>
