@@ -61,6 +61,7 @@ var time_avg_flag = false;
 var avg_pop = [];
 
 var env = false; // Switches between 0 and 1
+var envswitching = true; // Should environment switching be ON?
 
 
 function add_genotypes(popi,gtype,n=1) {
@@ -160,6 +161,10 @@ function setup(){
   button2.position(worldxmax+20,worldymax-40);
   button2.mousePressed(startTimeAverage);
 
+  button3 = createButton('Turn off Environment switching');
+  button3.position(worldxmax+20,worldymax-160);
+  button3.mousePressed(envSwitchOff);
+
 
 
   for (let i=0; i<Math.pow(10,popsize); i++){
@@ -228,8 +233,12 @@ function draw(){
   for(let i=0;i<Math.pow(10,speed);i++){
     pop = evostep(pop);
     // Switch environment with switchprob;
-    if(Math.pow(10,switchprob)>=Math.random()){
-      env = !env;
+    if(envswitching){
+      if(Math.pow(10,switchprob)>=Math.random()){
+        env = !env;
+      } 
+    } else {
+      env = false;
     }
     if(time_avg_flag){
       avg_pop = get_avg_pop(avg_pop,pop);
@@ -267,6 +276,16 @@ function startTimeAverage(){
     button2.html("Stop Time Averaging");
     avg_pop = [...pop];
     popLayer.clear();
+  }
+}
+
+function envSwitchOff(){
+  if(envswitching){
+    envswitching = false;
+    button3.html("Turn on Environment switching");
+  } else {
+    envswitching = true;
+    button3.html("Turn off Environment switching");
   }
 }
 
