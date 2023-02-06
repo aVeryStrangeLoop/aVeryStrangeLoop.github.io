@@ -11,3 +11,10 @@ Let us assume that the particle starts out at $x=0$, this implies that the proba
 
 $$p(x,0)=\delta (x)$$ (2)
 
+Let $p(k,t)$ be the spatial Fourier-transform of $p(x,t)$ given by,
+
+$$p(k,t)=\int_{-\infin}^{\infin}e^{-ikx}p(x,t)\;dx$$ (3)
+
+Applying the F.T (3) to both sides of equation (1) gives,
+
+$$
