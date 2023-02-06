@@ -27,3 +27,6 @@ Taking a reverse fourier transform gives,
 
 $$p(x,t)=\frac{1}{2\pi} \int_{-\infin}^{\infin} e^{ikx-Dk^2t} dk$$ (6)
 
+To solve (6), we need to complete the square in the exponent to give,
+
+$$p(x,t) = \frac{1}{2\pi}e^{\frac{ix}{2\sqrt{Dt}}$$
