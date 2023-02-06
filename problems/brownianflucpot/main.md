@@ -39,3 +39,4 @@ $$p(x,t) = \frac{1}{2\pi\sqrt{Dt}} e^{\left(\frac{ix}{2\sqrt{Dt}}\right)^2} \int
 The initial delta distribution thus spreads out over the entire space. 
 
 ## Flat potential on a bounded domain with reflecting boundaries
+
