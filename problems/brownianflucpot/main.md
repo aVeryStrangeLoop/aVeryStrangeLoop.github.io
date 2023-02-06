@@ -40,3 +40,4 @@ The initial delta distribution thus spreads out over the entire space.
 
 ## Flat potential on a bounded domain with reflecting boundaries
 
+Let the brownian particle (with no potential gradient) be bound by reflecting walls at $x=\{ -a,a \}$ as shown in Fig. 1.
