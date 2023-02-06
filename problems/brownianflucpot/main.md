@@ -1,5 +1,5 @@
 # Brownian Particle in a fluctuating potential
-
+**Author**: Bhaskar Kumawat
 
 ## Flat Potential with reflecting boundaries in $x\in(-a,a)$
 
@@ -17,4 +17,6 @@ $$p(k,t)=\int_{-\infin}^{\infin}e^{-ikx}p(x,t)\;dx$$ (3)
 
 Applying the F.T (3) to both sides of equation (1) gives,
 
-$$\frac{\partial p(k,t)}{\partial t}$$ 
+$$\frac{\partial p(k,t)}{\partial t} = -Dk^2 p(k,t)$$ (4)
+
+The general solution of  (4) is given by,
