@@ -17,4 +17,4 @@ $$p(k,t)=\int_{-\infin}^{\infin}e^{-ikx}p(x,t)\;dx$$ (3)
 
 Applying the F.T (3) to both sides of equation (1) gives,
 
-$$
+$$\frac{\partial p(k,t)}{\partial t}$$ 
