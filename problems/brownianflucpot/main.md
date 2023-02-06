@@ -1,7 +1,7 @@
 # Brownian Particle in a fluctuating potential
 **Author**: Bhaskar Kumawat
 
-## Flat Potential with reflecting boundaries in $x\in(-a,a)$
+## Flat Potential over an infinite domain
 
 In the absence of a potential gradient, the drift speed of the Brownian particle is zero and the Fokker-Planck equation for its probability distribution is given by,
 
@@ -21,6 +21,6 @@ $$\frac{\partial p(k,t)}{\partial t} = -Dk^2 p(k,t)$$ (4)
 
 The general solution of  (4) is given by,
 
-$$p(k,t)=p(k,0) \; e^{-Dk^2t}$$ (5)
+$$p(k,t)=p(k,0) \; e^{-Dk^2t} = e^{-Dk^2t}$$ (5)
 
-
+Taking a reverse fourier 
