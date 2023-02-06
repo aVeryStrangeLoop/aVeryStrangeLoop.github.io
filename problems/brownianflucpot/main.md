@@ -61,6 +61,10 @@ This signifies that the slope of the probability function should be zero at both
 
 ### Stationary solution
 
+Under a stationary distribution, $p(x,t)\rightarrow p(x)$. Equation (1) is then,
+
+$$ D\frac{\partial^2 p(x)}{\partial x^2} = 0$$
+
 
 
 ## Linear potential with reflecting boundaries
