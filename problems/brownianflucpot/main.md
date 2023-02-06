@@ -48,4 +48,6 @@ Where $J(x,t)$ is the probability current on the domain that can be obtained fro
 
 $$ \frac{\partial p(x,t)}{\partial t} = - \frac{\partial J(x,t)}{\partial x} \\ \implies J(x,t) = -D \frac{\partial p(x,t)}{\partial x}$$ (10)
 
+Thus, for the probability current to be zero at $x=\{-a,a\}$, 
 
+$$\frac{\partial p(x,t)}{\del x}$$
