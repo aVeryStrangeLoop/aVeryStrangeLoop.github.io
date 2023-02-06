@@ -40,6 +40,8 @@ The initial delta distribution thus spreads out over the entire space.
 
 ## Flat potential on a bounded domain with reflecting boundaries
 
-Let the brownian particle (with no potential gradient) be bound by reflecting walls at $x=\{ -a,a \}$.
+Let the brownian particle (with no potential gradient) be bound by reflecting walls at $x=\{ -a,a \}$. In this case, the _probability current_ on both walls of the domain should be zero at all times. This implies,
 
-![]()
+$$J(-a,t) = J(a,t)=0$$ (9)
+
+
