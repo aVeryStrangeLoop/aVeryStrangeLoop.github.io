@@ -3,6 +3,7 @@
 
 ## Flat Potential over an infinite domain
 
+### Setup
 In the absence of a potential gradient, the drift speed of the Brownian particle is zero and the Fokker-Planck equation for its probability distribution is given by,
 
 $$\frac{\partial p(x,t)}{\partial t} = D \frac{\partial ^2p(x,t)}{\partial x^2}$$ (1)
@@ -11,6 +12,7 @@ Let us assume that the particle starts out at $x=0$, this implies that the proba
 
 $$p(x,0)=\delta (x),\\ \text{The F.T is given by } p(k,0) = 1$$ (2)
 
+### Solution
 Let $p(k,t)$ be the spatial Fourier-transform of $p(x,t)$ given by,
 
 $$p(k,t)=\int_{-\infin}^{\infin}e^{-ikx}p(x,t)\;dx$$ (3)
@@ -40,6 +42,7 @@ The initial delta distribution thus spreads out over the entire space.
 
 ## Flat potential on a bounded domain with reflecting boundaries
 
+### Setup
 Let the brownian particle (with no potential gradient) be bound by reflecting walls at $x=\{ -a,a \}$. In this case, the _probability current_ on both walls of the domain should be zero at all times. This implies,
 
 $$J(-a,t) = J(a,t)=0$$ (9)
@@ -52,6 +55,8 @@ Thus, for the probability current to be zero at $x=\{-a,a\}$,
 
 $$\left. \frac{\partial p(x,t)}{\partial x} \right|_{x=-a} = \left. \frac{\partial p(x,t)}{\partial x} \right|_{x=a} = 0 $$ (11)
 
-This signifies that the slope of the probability function should be zero at both the boundaries. 
+This signifies that the slope of the probability function should be zero at both the boundaries. We must thus solve equation (1) with boundary conditions in (11) and an initial value described by (2). 
 
-We must thus solve equation (1) with boundary conditions in (11) and an initial value described by (2)
+### Solution
+
+The easiest way to solve this is to assume a separation of variables for 
