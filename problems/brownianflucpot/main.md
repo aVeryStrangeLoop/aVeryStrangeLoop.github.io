@@ -63,8 +63,14 @@ This signifies that the slope of the probability function should be zero at both
 
 Under a stationary distribution, $p(x,t)\rightarrow p(x)$. Equation (1) is then,
 
-$$ D\frac{\partial^2 p(x)}{\partial x^2} = 0$$
+$$ D\frac{\partial^2 p(x)}{\partial x^2} = 0 \\ 
+\implies \frac{\partial p(x)}{\partial x}=c_1 \\
+\implies p(x) = c_1 x + c_2$$  (12)
 
+Where $c_1$ and $c_2$ are constants.
 
+The only way for (12) to satisfy the boundary condition in (11) is if $c_1=0$. In addition, the normalization condition for $p(x)$ ($\int_{-a}^{a} p(x)=1$)gives the solution,
+
+$$ p(x) = \frac{1}{2a} $$ (13)
 
 ## Linear potential with reflecting boundaries
