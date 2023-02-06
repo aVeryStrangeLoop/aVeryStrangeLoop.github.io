@@ -44,4 +44,8 @@ Let the brownian particle (with no potential gradient) be bound by reflecting wa
 
 $$J(-a,t) = J(a,t)=0$$ (9)
 
+Where $J(x,t)$ is the probability current on the domain that can be obtained from (1) as,
+
+$$ \frac{\partial p(x,t)}{\partial t} = - \frac{\partial J(x,t)}{\partial x} \\ \implies J(x,t) = -D \frac{\partial p(x,t)}{\partial x}$$ (10)
+
 
