@@ -17,4 +17,4 @@ Assuming the system has reflecting boundaries at $x=-a$ and $x=a$, the probabili
 
 $$ J(-a,t)=J(a,t)=0$$ 
 
-To get the stationary distribution, the left hand side of equation (2) and hence $\frac{\partial J}{\partial x}$ should be zero, which means J should be constant independent of x and t. This in turn implies that p(x,t) has to be
+To get the stationary distribution, the left hand side of equation (2) and hence $\frac{\partial J}{\partial x}$ should be zero, which means J should be constant independent of x and t. This in turn implies that p(x,t) has to be this.
