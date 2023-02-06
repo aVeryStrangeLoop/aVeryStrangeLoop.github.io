@@ -4,6 +4,11 @@
 ## Flat Potential over an infinite domain
 
 ### Setup
+
+<center>
+<img width=40% src="f1.png">
+</center>
+
 In the absence of a potential gradient, the drift speed of the Brownian particle is zero and the Fokker-Planck equation for its probability distribution is given by,
 
 $$\frac{\partial p(x,t)}{\partial t} = D \frac{\partial ^2p(x,t)}{\partial x^2}$$ (1)
