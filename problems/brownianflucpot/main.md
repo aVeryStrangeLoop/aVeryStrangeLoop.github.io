@@ -23,4 +23,7 @@ The general solution of  (4) is given by,
 
 $$p(k,t)=p(k,0) \; e^{-Dk^2t} = e^{-Dk^2t}$$ (5)
 
-Taking a reverse fourier 
+Taking a reverse fourier transform gives,
+
+$$p(x,t)=\frac{1}{2\pi} \int_{-\infin}^{\infin} e^{ikx-Dk^2t} dk$$ (6)
+
