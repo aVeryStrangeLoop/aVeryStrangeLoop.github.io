@@ -20,3 +20,7 @@ Applying the F.T (3) to both sides of equation (1) gives,
 $$\frac{\partial p(k,t)}{\partial t} = -Dk^2 p(k,t)$$ (4)
 
 The general solution of  (4) is given by,
+
+$$p(k,t)=p(k,0) \; e^{-Dk^2t}$$ (5)
+
+
