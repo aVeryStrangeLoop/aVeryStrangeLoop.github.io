@@ -53,3 +53,5 @@ Thus, for the probability current to be zero at $x=\{-a,a\}$,
 $$\left. \frac{\partial p(x,t)}{\partial x} \right|_{x=-a} = \left. \frac{\partial p(x,t)}{\partial x} \right|_{x=a} = 0 $$ (11)
 
 This signifies that the slope of the probability function should be zero at both the boundaries. 
+
+We must thus solve equation (1) with boundary conditions in (11) and an initial value described by (2)
