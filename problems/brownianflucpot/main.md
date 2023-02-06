@@ -6,7 +6,7 @@
 ### Setup
 
 <center>
-<img width=40% src="f1.png">
+<img width=60% src="f1.png">
 </center>
 
 In the absence of a potential gradient, the drift speed of the Brownian particle is zero and the Fokker-Planck equation for its probability distribution is given by,
