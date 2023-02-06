@@ -50,4 +50,6 @@ $$ \frac{\partial p(x,t)}{\partial t} = - \frac{\partial J(x,t)}{\partial x} \\ 
 
 Thus, for the probability current to be zero at $x=\{-a,a\}$, 
 
-$$\frac{\partial p(x,t)}{\del x}$$
+$$\left. \frac{\partial p(x,t)}{\partial x} \right|_{x=-a} = \left. \frac{\partial p(x,t)}{\partial x} \right|_{x=a} = 0 $$ (11)
+
+
