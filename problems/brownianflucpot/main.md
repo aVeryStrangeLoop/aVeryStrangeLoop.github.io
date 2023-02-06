@@ -59,7 +59,6 @@ This signifies that the slope of the probability function should be zero at both
 
 ### Solution
 
-The easiest way to solve this is to assume that $p(x,t)$ can be separated as,
 
-$$ p(x,t) = P(x)T(t)$$ (12)
 
+## Linear potential with reflecting boundaries
