@@ -9,7 +9,7 @@ $$\frac{\partial p(x,t)}{\partial t} = D \frac{\partial ^2p(x,t)}{\partial x^2}$
 
 Let us assume that the particle starts out at $x=0$, this implies that the probability distribution $p(x,0)$ is given by,
 
-$$p(x,0)=\delta (x)$$ (2)
+$$p(x,0)=\delta (x),\\ \text{The F.T is given by } p(k,0) = 1$$ (2)
 
 Let $p(k,t)$ be the spatial Fourier-transform of $p(x,t)$ given by,
 
