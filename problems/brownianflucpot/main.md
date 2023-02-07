@@ -95,8 +95,9 @@ Where the dot notation is used to denote a derivative with respect to the releva
 
 $$ \frac{\dot{T}}{T} = D \frac{\ddot{X}}{X}$$ (16)
 
-Both sides of this equation are dependent on two different variables and hence must be equal to the same constant (say $k$).
+Both sides of this equation are dependent on two different variables and hence must be equal to the same constant (say $k$). Then, the equation can be separated as,
 
+$$\dot{T} = kT \text{ and } \ddot{X} = \frac{k}{D} X$$ (17)
 
 
 
