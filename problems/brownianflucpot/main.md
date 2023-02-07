@@ -93,6 +93,8 @@ $$ X \dot{T}  =DT\ddot{X}$$ (15)
 
 Where the dot notation is used to denote a derivative with respect to the relevant variable. Rewriting this, we get
 
-$$ \frac{\dot{T}}{T} = D \frac{\ddot{X}}{X}$$
+$$ \frac{\dot{T}}{T} = D \frac{\ddot{X}}{X}$$ (16)
+
+
 
 ## Linear potential with reflecting boundaries
