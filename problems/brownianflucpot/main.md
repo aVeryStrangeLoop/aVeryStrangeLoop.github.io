@@ -102,8 +102,11 @@ $$\dot{T} = kT \text{ and } \ddot{X} = \frac{k}{D} X$$ (17)
 The general solution for both equations are given by,
 
 $$ T(t) = c e^{kt}$$ (18)
-$$ X(x) = c_1 e^{x\sqrt{k/D}} + c_2 e^{-x\sqrt{k/D}}$$
+$$ X(x) = c_1 e^{x\sqrt{k/D}} + c_2 e^{-x\sqrt{k/D}}$$ (19)
 
+The zero current boundary conditions in (11) imply,
+
+$$\left. \frac{\partial X}{\partial x} \right|_{x=\pm a}=0$$ 
 
 
 
