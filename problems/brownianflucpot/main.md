@@ -1,6 +1,5 @@
 # Brownian Particle in a fluctuating potential
 **Author**: Bhaskar Kumawat
-
 ## Flat Potential over an infinite domain
 
 ### Setup
@@ -44,6 +43,8 @@ $$p(x,t) = \frac{1}{2\pi\sqrt{Dt}} e^{\left(\frac{ix}{2\sqrt{Dt}}\right)^2} \int
 \implies p(x,t) = \frac{1}{\sqrt{4\pi Dt}} e^{\left(\frac{ix}{2\sqrt{Dt}}\right)^2} = \frac{e^{-\frac{x^2}{4Dt}}}{\sqrt{4\pi Dt}}$$ (8)
 
 The initial delta distribution thus spreads out over the entire space. 
+
+---
 
 ## Flat potential on a bounded domain with reflecting boundaries
 
@@ -157,5 +158,7 @@ The overall solution is thus,
 $$p(x,t)= \frac{1}{2a} + \frac{1}{a} \sum_{n=1}^\infin \cos\left(\frac{n \pi x}{a}\right) \; e^{-t\left(\frac{n\pi D}{a}\right)^2}$$
 
 As expected, all modes except the zeroth vanish after some time. The exponential decay rate of the first mode, $(\pi D/a)^2$ determines the rate at which the relaxation to the stationary solution is observed.
+
+---
 
 ## Linear potential with reflecting boundaries
