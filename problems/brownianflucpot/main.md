@@ -9,11 +9,11 @@
     - [Setup](#setup)
     - [Solution](#solution)
   - [Flat potential on a bounded domain with reflecting boundaries](#flat-potential-on-a-bounded-domain-with-reflecting-boundaries)
-    - [Setup](#setup)
+    - [Setup](#setup-1)
     - [Stationary solution](#stationary-solution)
     - [Time-dependent solution](#time-dependent-solution)
   - [Linear potential over an infinite domain](#linear-potential-over-an-infinite-domain)
-    - [Setup](#setup)
+    - [Setup](#setup-2)
 
 ## Flat Potential over an infinite domain
 
@@ -157,20 +157,20 @@ $$p_n(x,t)=a_n \cos\left(\frac{n \pi x}{a}\right) \; e^{-t\left(\frac{n\pi D}{a}
 
 Where $p_n$ is the nth normal mode with a normalizing constant $a_n$. We can write the full distribution as a superposition of all these modes, thus obtaining
 
-$$p(x,t)= a_0 + \sum_{n=1}^\infin a_n \cos\left(\frac{n \pi x}{a}\right) \; e^{-t\left(\frac{n\pi D}{a}\right)^2}$$
+$$p(x,t)= a_0 + \sum_{n=1}^\infin a_n \cos\left(\frac{n \pi x}{a}\right) \; e^{-t\left(\frac{n\pi D}{a}\right)^2}$$ (26)
 
 To satisfy the initial condition, 
 
-$$ p(x,0) = a_0 + \sum_{n=1}^\infin a_n \cos\left(\frac{n \pi x}{a}\right) = \delta(x)$$
+$$ p(x,0) = a_0 + \sum_{n=1}^\infin a_n \cos\left(\frac{n \pi x}{a}\right) = \delta(x)$$ (27)
 
 Thus, the coefficients $a_0,a_1,...$ etc. are just the cosine coefficients of $\delta(x)$ and are given by,
 
 $$ a_0 = \frac{1}{2a} \int_{-a}^{a} \delta(x) dx = \frac{1}{2a} \\
-a_n = \frac{1}{a} \int_{-a}^{a} \delta(x) cos\left(\frac{n\pi x}{a}\right) = \frac{1}{a}$$ (26)
+a_n = \frac{1}{a} \int_{-a}^{a} \delta(x) cos\left(\frac{n\pi x}{a}\right) = \frac{1}{a}$$ (28)
 
 The overall solution is thus,
 
-$$p(x,t)= \frac{1}{2a} + \frac{1}{a} \sum_{n=1}^\infin \cos\left(\frac{n \pi x}{a}\right) \; e^{-t\left(\frac{n\pi D}{a}\right)^2}$$
+$$p(x,t)= \frac{1}{2a} + \frac{1}{a} \sum_{n=1}^\infin \cos\left(\frac{n \pi x}{a}\right) \; e^{-t\left(\frac{n\pi D}{a}\right)^2}$$ (29)
 
 As expected, all modes except the zeroth vanish after some time. The exponential decay rate of the first mode, $(\pi D/a)^2$ determines the rate at which the relaxation to the stationary solution is observed.
 
@@ -179,7 +179,6 @@ As expected, all modes except the zeroth vanish after some time. The exponential
 ## Linear potential over an infinite domain
 
 ### Setup
-
 
 <center>
 <img width=60% src="f3.png">
