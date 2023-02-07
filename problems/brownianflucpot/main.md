@@ -133,13 +133,15 @@ $$\gamma = \frac{n\pi}{a}\\
 
 $X(x)$ is in turn given by,
 
-$$X(x) = c_1 \cos(\frac{n\pi x}{a}), \text{where } n\in \{\pm 1,\pm 2...\}$$ (25)
+$$X(x) = c_1 \cos\left(\frac{n\pi x}{a}\right), \text{where } n\in \{\pm 1,\pm 2...\}$$ (25)
 
 The full solution can now be written as,
 
-$$p(x,t)=c \cos(\frac{n \pi x}{a}) \; e^{-\left(\frac{n\pi D}{a}\right)^2}$$
+$$p_n(x,t)=a_n \cos\left(\frac{n \pi x}{a}\right) \; e^{-\left(\frac{n\pi D}{a}\right)^2}$$
 
+Where $p_n$ is the nth normal mode with a normalizing constant $a_n$. We can write the full distribution as a superposition of all these modes, thus obtaining
 
+$$p(x,t)= a_0 + \sum_{n=1}^\infin a_n \cos\left(\frac{n \pi x}{a}\right) \; e^{-\left(\frac{n\pi D}{a}\right)^2}$$
 
 
 
