@@ -1,4 +1,6 @@
-# Illustrative problems in Brownian motion
+# Illustrative problems in Brownian motion 
+(Solved using the Fokker-Planck equation)
+
 **Author**: Bhaskar Kumawat
 
 **Table of Contents**
