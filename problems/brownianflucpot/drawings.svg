@@ -34,9 +34,9 @@
      inkscape:bbox-nodes="true"
      inkscape:bbox-paths="true"
      inkscape:snap-bbox-midpoints="true"
-     inkscape:zoom="1.5037598"
-     inkscape:cx="-16.624996"
-     inkscape:cy="340.81241"
+     inkscape:zoom="2.1266375"
+     inkscape:cx="50.784395"
+     inkscape:cy="791.15505"
      inkscape:window-width="1870"
      inkscape:window-height="1016"
      inkscape:window-x="1970"
@@ -163,6 +163,84 @@
          y="74.724823">V(x)</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 20.198058,205.31368 H 68.931304"
+       id="path857-0"
+       inkscape:export-filename="/home/kumawatb/Dropbox (University of Michigan)/Personal Website/aVeryStrangeLoop.github.io/problems/brownianflucpot/f4.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.3, 0.3;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 44.414678,184.43129 v 41.76477"
+       id="path859-3-3"
+       inkscape:export-filename="/home/kumawatb/Dropbox (University of Michigan)/Personal Website/aVeryStrangeLoop.github.io/problems/brownianflucpot/f4.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.285782px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 20.297868,214.2127 70.559321,195.18958"
+       id="path7744-0-3-3"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/kumawatb/Dropbox (University of Michigan)/Personal Website/aVeryStrangeLoop.github.io/problems/brownianflucpot/f4.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="65.21801"
+       y="203.95093"
+       id="text4015-6"
+       inkscape:export-filename="/home/kumawatb/Dropbox (University of Michigan)/Personal Website/aVeryStrangeLoop.github.io/problems/brownianflucpot/f4.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan4013-2"
+         style="font-size:2.82222px;stroke-width:0.264583"
+         x="65.21801"
+         y="203.95093">+a</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="45.270481"
+       y="204.23053"
+       id="text4015-5-6"
+       inkscape:export-filename="/home/kumawatb/Dropbox (University of Michigan)/Personal Website/aVeryStrangeLoop.github.io/problems/brownianflucpot/f4.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan4013-6-18"
+         style="font-size:2.82222px;stroke-width:0.264583"
+         x="45.270481"
+         y="204.23053">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="21.324808"
+       y="204.4895"
+       id="text4015-7-7"
+       inkscape:export-filename="/home/kumawatb/Dropbox (University of Michigan)/Personal Website/aVeryStrangeLoop.github.io/problems/brownianflucpot/f4.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan4013-5-9"
+         style="font-size:2.82222px;stroke-width:0.264583"
+         x="21.324808"
+         y="204.4895">-a</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="41.722889"
+       y="183.30807"
+       id="text8748-0"
+       inkscape:export-filename="/home/kumawatb/Dropbox (University of Michigan)/Personal Website/aVeryStrangeLoop.github.io/problems/brownianflucpot/f4.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan8746-2"
+         style="font-size:2.82222px;fill:#ff0000;stroke-width:0.264583"
+         x="41.722889"
+         y="183.30807">V(x)</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 19.996669,39.915057 h 48.73325"
        id="path857-3"
        inkscape:export-filename="/home/kumawatb/Dropbox (University of Michigan)/Personal Website/aVeryStrangeLoop.github.io/problems/brownianflucpot/f1.png"
@@ -239,5 +317,118 @@
          style="font-size:2.82222px;stroke-width:0.264583"
          x="76.110252"
          y="42.321232">x</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 19.89805,154.55028 H 68.6313"
+       id="path857-3-3"
+       inkscape:export-filename="/home/kumawatb/Dropbox (University of Michigan)/Personal Website/aVeryStrangeLoop.github.io/problems/brownianflucpot/f3.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.3, 0.3;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 44.11468,133.66788 v 41.76478"
+       id="path859-3-5-6"
+       inkscape:export-filename="/home/kumawatb/Dropbox (University of Michigan)/Personal Website/aVeryStrangeLoop.github.io/problems/brownianflucpot/f3.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="44.970467"
+       y="153.46722"
+       id="text4015-5-9-7"
+       inkscape:export-filename="/home/kumawatb/Dropbox (University of Michigan)/Personal Website/aVeryStrangeLoop.github.io/problems/brownianflucpot/f3.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan4013-6-1-5"
+         style="font-size:2.82222px;stroke-width:0.264583"
+         x="44.970467"
+         y="153.46722">0</tspan></text>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.285782px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 11.716249,163.74879 65.09685,-18.89726"
+       id="path7744-0-3"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/kumawatb/Dropbox (University of Michigan)/Personal Website/aVeryStrangeLoop.github.io/problems/brownianflucpot/f3.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="41.422882"
+       y="132.54478"
+       id="text8748-9-5"
+       inkscape:export-filename="/home/kumawatb/Dropbox (University of Michigan)/Personal Website/aVeryStrangeLoop.github.io/problems/brownianflucpot/f3.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan8746-3-6"
+         style="font-size:2.82222px;fill:#ff0000;stroke-width:0.264583"
+         x="41.422882"
+         y="132.54478">V(x)</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.265, 0.265;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 68.631298,154.55028 h 8.181801"
+       id="path1288-2"
+       inkscape:export-filename="/home/kumawatb/Dropbox (University of Michigan)/Personal Website/aVeryStrangeLoop.github.io/problems/brownianflucpot/f3.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.265, 0.265;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 11.716249,154.56778 H 19.89805"
+       id="path1288-6-9"
+       inkscape:export-filename="/home/kumawatb/Dropbox (University of Michigan)/Personal Website/aVeryStrangeLoop.github.io/problems/brownianflucpot/f3.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="76.011635"
+       y="156.95645"
+       id="text3208-1"
+       inkscape:export-filename="/home/kumawatb/Dropbox (University of Michigan)/Personal Website/aVeryStrangeLoop.github.io/problems/brownianflucpot/f3.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan3206-2"
+         style="font-size:2.82222px;stroke-width:0.264583"
+         x="76.011635"
+         y="156.95645">x</tspan></text>
+    <rect
+       style="fill:#999999;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1020-7"
+       width="2.3909657"
+       height="41.741177"
+       x="68.982536"
+       y="184.4756"
+       inkscape:export-filename="/home/kumawatb/Dropbox (University of Michigan)/Personal Website/aVeryStrangeLoop.github.io/problems/brownianflucpot/f4.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 68.982534,184.47571 v 41.76478"
+       id="path859-9"
+       inkscape:export-filename="/home/kumawatb/Dropbox (University of Michigan)/Personal Website/aVeryStrangeLoop.github.io/problems/brownianflucpot/f4.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#999999;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1020-3-6"
+       width="2.3909657"
+       height="41.741177"
+       x="-20.297876"
+       y="184.47296"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/kumawatb/Dropbox (University of Michigan)/Personal Website/aVeryStrangeLoop.github.io/problems/brownianflucpot/f4.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 20.297868,184.47307 v 41.76477"
+       id="path859-6-0"
+       inkscape:export-filename="/home/kumawatb/Dropbox (University of Michigan)/Personal Website/aVeryStrangeLoop.github.io/problems/brownianflucpot/f4.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
   </g>
 </svg>

@@ -176,3 +176,10 @@ As expected, all modes except the zeroth vanish after some time. The exponential
 ---
 
 ## Linear potential over an infinite domain
+
+### Setup
+
+
+<center>
+<img width=60% src="f3.png">
+</center>
