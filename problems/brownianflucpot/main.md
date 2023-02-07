@@ -101,7 +101,9 @@ $$\dot{T} = kT \text{ and } \ddot{X} = \frac{k}{D} X$$ (17)
 
 The general solution for both equations are given by,
 
-$$ T(t) = c_1 e^{kt}
+$$ T(t) = c e^{kt}$$ (18)
+$$ X(x) = a \cos (x\sqrt{k/D}) + b \sin(x\sqrt{k/D})$$
+
 
 
 
