@@ -110,4 +110,6 @@ $$\left. \frac{\partial X}{\partial x} \right|_{x=\pm a}=0$$
 
 
 
+
+
 ## Linear potential with reflecting boundaries
