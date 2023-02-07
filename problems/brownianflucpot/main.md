@@ -104,9 +104,40 @@ The general solution for both equations are given by,
 $$ T(t) = c e^{kt}$$ (18)
 $$ X(x) = c_1 e^{x\sqrt{k/D}} + c_2 e^{-x\sqrt{k/D}}$$ (19)
 
+**Solution for $X(x)$**
+
 The zero current boundary conditions in (11) imply,
 
-$$\left. \frac{\partial X}{\partial x} \right|_{x=\pm a}=0$$ 
+$$\left. \frac{\partial X}{\partial x} \right|_{x=\pm a}=0$$ (20)
+
+A non-trivial solution for equations (19) and (20) is possible only when the constant $k$ is negative, which results in complex exponents in equation (19). Thus, equation (19) can be rewritten in the following form without loss of generality,
+
+
+$$X(x)=c_1 \cos{\frac{\omega x}{D}}+c_2 \sin{\frac{\omega x}{D}}$$ (21)
+
+Where $k=-\omega^2$ . Substituting (21) in the boundary conditions defined by (20) gives (and taking $\gamma=\omega/D$),
+
+$$ \left. \frac{\partial X}{\partial x} \right|_{x=a} = -c_1 \gamma \sin(\gamma a)+c_2 \gamma \cos(\gamma a) = 0 \\
+
+\left. \frac{\partial X}{\partial x} \right|_{x=-a} = c_1 \gamma \sin(\gamma a)+c_2 \gamma \cos(\gamma a) = 0
+$$ (22)
+
+For a non-trivial solution of $X(x)$, $c_1$ and $c_2$ cannot be zero simultaneously. As $c_2=c_1 tan(\gamma a)$ from the first equation, the only possible way to get a non-trivial solution is if,  
+
+$$c_2=0 \text{ and } \sin(\gamma a)=0$$ (23)
+
+Which means that,
+
+$$\gamma = \frac{n\pi}{a}\\
+\implies \omega = \frac{n\pi D}{a}\\
+\implies k = -\left(\frac{n\pi D}{a}\right)^2$$ (24)
+
+$X(x)$ is in turn given by,
+
+$$X(x) = c_1 \cos(\frac{n\pi x}{a})$$ (25)
+
+**Solution for $T(t)$**
+
 
 
 
