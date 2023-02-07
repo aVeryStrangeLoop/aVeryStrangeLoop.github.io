@@ -137,12 +137,20 @@ $$X(x) = c_1 \cos\left(\frac{n\pi x}{a}\right), \text{where } n\in \{\pm 1,\pm 2
 
 The full solution can now be written as,
 
-$$p_n(x,t)=a_n \cos\left(\frac{n \pi x}{a}\right) \; e^{-\left(\frac{n\pi D}{a}\right)^2}$$
+$$p_n(x,t)=a_n \cos\left(\frac{n \pi x}{a}\right) \; e^{-t\left(\frac{n\pi D}{a}\right)^2}$$
 
 Where $p_n$ is the nth normal mode with a normalizing constant $a_n$. We can write the full distribution as a superposition of all these modes, thus obtaining
 
-$$p(x,t)= a_0 + \sum_{n=1}^\infin a_n \cos\left(\frac{n \pi x}{a}\right) \; e^{-\left(\frac{n\pi D}{a}\right)^2}$$
+$$p(x,t)= a_0 + \sum_{n=1}^\infin a_n \cos\left(\frac{n \pi x}{a}\right) \; e^{-t\left(\frac{n\pi D}{a}\right)^2}$$
 
+To satisfy the initial condition, 
+
+$$ p(x,0) = a_0 + \sum_{n=1}^\infin a_n \cos\left(\frac{n \pi x}{a}\right) = \delta(x)$$
+
+Thus, the coefficients $a_0,a_1,...$ etc. are just the cosine coefficients of $\delta(x)$ and are given by,
+
+$$ a_0 = \frac{1}{2a} \int_{-a}^{a} \delta(x) dx = \frac{1}{2a} \\
+a_n = \frac{1}{a} \int_{-a}^{a} \delta(x) cos\left(\frac{n\pi x}{a}\right) = \frac{1}{a}$$ 
 
 
 ## Linear potential with reflecting boundaries
