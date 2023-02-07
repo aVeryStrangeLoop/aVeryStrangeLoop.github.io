@@ -77,7 +77,7 @@ $$ D\frac{\partial^2 p(x)}{\partial x^2} = 0 \\
 
 Where $c_1$ and $c_2$ are constants.
 
-The only way for (12) to satisfy the boundary condition in (11) is if $c_1=0$. In addition, the normalization condition for $p(x)$ ($\int_{-a}^{a} p(x)=1$)gives the solution,
+The only way for (12) to satisfy the boundary condition in (11) is if $c_1=0$. In addition, the normalization condition for $p(x)$ ($\int_{-a}^{a} p(x)=1$) gives the solution,
 
 $$ p(x) = \frac{1}{2a} $$ (13)
 
@@ -94,6 +94,8 @@ $$ X \dot{T}  =DT\ddot{X}$$ (15)
 Where the dot notation is used to denote a derivative with respect to the relevant variable. Rewriting this, we get
 
 $$ \frac{\dot{T}}{T} = D \frac{\ddot{X}}{X}$$ (16)
+
+Both sides of this equation are dependent on two different vaiarb
 
 
 
