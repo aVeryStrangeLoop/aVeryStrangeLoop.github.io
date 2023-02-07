@@ -1,5 +1,17 @@
-# Brownian Particle in a fluctuating potential
+# Illustrative problems in Brownian motion
 **Author**: Bhaskar Kumawat
+
+**Table of Contents**
+  - [Flat Potential over an infinite domain](#flat-potential-over-an-infinite-domain)
+    - [Setup](#setup)
+    - [Solution](#solution)
+  - [Flat potential on a bounded domain with reflecting boundaries](#flat-potential-on-a-bounded-domain-with-reflecting-boundaries)
+    - [Setup](#setup)
+    - [Stationary solution](#stationary-solution)
+    - [Time-dependent solution](#time-dependent-solution)
+  - [Linear potential over an infinite domain](#linear-potential-over-an-infinite-domain)
+
+
 ## Flat Potential over an infinite domain
 
 ### Setup
@@ -161,4 +173,4 @@ As expected, all modes except the zeroth vanish after some time. The exponential
 
 ---
 
-## Linear potential with reflecting boundaries
+## Linear potential over an infinite domain
