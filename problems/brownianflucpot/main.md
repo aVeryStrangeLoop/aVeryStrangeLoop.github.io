@@ -4,6 +4,7 @@
 **Author**: Bhaskar Kumawat
 
 **Table of Contents**
+- [Illustrative problems in Brownian motion](#illustrative-problems-in-brownian-motion)
   - [Flat Potential over an infinite domain](#flat-potential-over-an-infinite-domain)
     - [Setup](#setup)
     - [Solution](#solution)
@@ -12,7 +13,7 @@
     - [Stationary solution](#stationary-solution)
     - [Time-dependent solution](#time-dependent-solution)
   - [Linear potential over an infinite domain](#linear-potential-over-an-infinite-domain)
-
+    - [Setup](#setup)
 
 ## Flat Potential over an infinite domain
 
