@@ -99,6 +99,10 @@ Both sides of this equation are dependent on two different variables and hence m
 
 $$\dot{T} = kT \text{ and } \ddot{X} = \frac{k}{D} X$$ (17)
 
+The general solution for both equations are given by,
+
+$$ T(t) = c_1 e^{kt}
+
 
 
 ## Linear potential with reflecting boundaries
