@@ -67,8 +67,6 @@ $$\left. \frac{\partial p(x,t)}{\partial x} \right|_{x=-a} = \left. \frac{\parti
 
 This signifies that the slope of the probability function should be zero at both the boundaries. We must thus solve equation (1) with boundary conditions in (11) and an initial value described by (2). 
 
-### Time-dependent solution
-
 ### Stationary solution
 
 Under a stationary distribution, $p(x,t)\rightarrow p(x)$. Equation (1) is then,
@@ -82,5 +80,19 @@ Where $c_1$ and $c_2$ are constants.
 The only way for (12) to satisfy the boundary condition in (11) is if $c_1=0$. In addition, the normalization condition for $p(x)$ ($\int_{-a}^{a} p(x)=1$)gives the solution,
 
 $$ p(x) = \frac{1}{2a} $$ (13)
+
+### Time-dependent solution
+
+Let the time dependent solution for the above system be given by, 
+
+$$p(x,t)=X(x)T(t)$$ (14)
+
+Then, equation (1) implies,
+
+$$ X \dot{T}  =DT\ddot{X}$$ (15)
+
+Where the dot notation is used to denote a derivative with respect to the relevant variable. Rewriting this, we get
+
+$$ \frac{\dot{T}}{T} = D \frac{\ddot{X}}{X}$$
 
 ## Linear potential with reflecting boundaries
