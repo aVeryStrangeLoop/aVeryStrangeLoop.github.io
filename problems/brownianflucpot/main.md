@@ -104,7 +104,6 @@ The general solution for both equations are given by,
 $$ T(t) = c e^{kt}$$ (18)
 $$ X(x) = c_1 e^{x\sqrt{k/D}} + c_2 e^{-x\sqrt{k/D}}$$ (19)
 
-**Solution for $X(x)$**
 
 The zero current boundary conditions in (11) imply,
 
@@ -134,10 +133,11 @@ $$\gamma = \frac{n\pi}{a}\\
 
 $X(x)$ is in turn given by,
 
-$$X(x) = c_1 \cos(\frac{n\pi x}{a})$$ (25)
+$$X(x) = c_1 \cos(\frac{n\pi x}{a}), \text{where } n\in \{\pm 1,\pm 2...\}$$ (25)
 
-**Solution for $T(t)$**
+The full solution can now be written as,
 
+$$p(x,t)=c \cos(\frac{n \pi x}{a}) \; e^{-\left(\frac{n\pi D}{a}\right)^2}$$
 
 
 
