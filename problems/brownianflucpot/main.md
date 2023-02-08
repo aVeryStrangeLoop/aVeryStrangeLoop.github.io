@@ -262,9 +262,9 @@ $$ \alpha = \frac{v_0 \pm \sqrt{v_0^2+4kD}}{2D}$$ (41)
 
 The general solution for (39) is the superposition of these two values of $\alpha$, i.e.,
 
-$$ X(x) = e^{\beta x}\left(c_1e^{\gamma x}+c_2e^{-\gamma x}\right)$$ (42)
+$$ X(x) =c_1 e^{(\beta+\gamma) x}+c_2e^{(\beta-\gamma) x}$$ (42)
 
 Where $\gamma = \sqrt{v_0^2+4kD}/2D$ and $\beta=v_0/2D$. Substituting this solution in the boundary conditions in equation (36) yields,
 
-$$ 
+$$ $$
 
