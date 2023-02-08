@@ -266,5 +266,5 @@ $$ X(x) =c_1 e^{(\beta+\gamma) x}+c_2e^{(\beta-\gamma) x}$$ (42)
 
 Where $\gamma = \sqrt{v_0^2+4kD}/2D$ and $\beta=v_0/2D$. Substituting this solution in the boundary conditions in equation (36) yields,
 
-$$ $$
+$$ v_0c_1e^{(\beta+\gamma)a}+v_0c_2e^{(\beta-\gamma)a} = D\{c_1(\beta+\gamma)e^{(\beta+\gamma) a}+c_2(\beta-\gamma)e^{(\beta-\gamma) a}\} $$
 
