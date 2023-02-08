@@ -225,3 +225,8 @@ So, the probability distribution behaves similar to the one in a flat potential,
 ## Linear potential on a bounded domain with reflecting boundaries
 
 ### Setup
+
+<center>
+<img width=60% src="f4.png">
+</center>
+
