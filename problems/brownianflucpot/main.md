@@ -214,4 +214,4 @@ $$ p(x,t) = \frac{1}{2\pi} \int_{-\infin}^{\infin} e^{ikx+v_0ikt-Dk^2t} dk$$ (35
 
 Taking $x-v_0t=\tilde{x}$, we can integrate as in equation (7) to get, 
 
-$$p(x,t)
+$$p(x,t) = \frac{e^{-\frac{(x-v_0t)^2}{4Dt}}}{\sqrt{4\pi D t}}$$
