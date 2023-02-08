@@ -3,7 +3,7 @@
 
 **Author**: Bhaskar Kumawat
 
-**Table of Contents**
+**Outline**
 - [Illustrative problems in Brownian motion](#illustrative-problems-in-brownian-motion)
   - [Flat Potential over an infinite domain](#flat-potential-over-an-infinite-domain)
     - [Setup](#setup)
