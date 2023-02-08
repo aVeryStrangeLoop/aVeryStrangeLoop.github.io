@@ -15,6 +15,8 @@
   - [Linear potential over an infinite domain](#linear-potential-over-an-infinite-domain)
     - [Setup](#setup-2)
     - [Solution](#solution-1)
+  - [Linear potential on a bounded domain with reflecting boundaries](#linear-potential-on-a-bounded-domain-with-reflecting-boundaries)
+    - [Setup](#setup-3)
 
 ## Flat Potential over an infinite domain
 
@@ -215,3 +217,11 @@ $$ p(x,t) = \frac{1}{2\pi} \int_{-\infin}^{\infin} e^{ikx+v_0ikt-Dk^2t} dk$$ (35
 Taking $x-v_0t=\tilde{x}$, we can integrate as in equation (7) to get, 
 
 $$p(x,t) = \frac{e^{-\frac{(x-v_0t)^2}{4Dt}}}{\sqrt{4\pi D t}}$$
+
+So, the probability distribution behaves similar to the one in a flat potential, except it drifts with a constant velocity $v_0$.
+
+---
+
+## Linear potential on a bounded domain with reflecting boundaries
+
+### Setup
