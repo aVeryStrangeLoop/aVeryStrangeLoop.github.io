@@ -17,7 +17,8 @@
     - [Solution](#solution-1)
   - [Linear potential on a bounded domain with reflecting boundaries](#linear-potential-on-a-bounded-domain-with-reflecting-boundaries)
     - [Setup](#setup-3)
-    - [Solution](#solution-2)
+    - [Stationary solution](#stationary-solution-1)
+    - [Time-dependent solution](#time-dependent-solution-1)
 
 ## Flat Potential over an infinite domain
 
@@ -239,7 +240,13 @@ and must be zero at $x=\pm a$.
 
 $$ \left[v_0p(x,t)-D\frac{\partial p(x,t)}{\partial x}\right]_{x=\pm a} = 0$$ (36)
 
-### Solution
+### Stationary solution
+
+Under a stationary state, the left-hand side of the F.P. equation is zero and $p(x,t)\rightarrow p(x)$
+
+$$ -v_0\frac{\partial p(x)}{\partial x} + D \frac{\partial^2 p(x)}{\partial x^2} = 0 $$ 
+
+### Time-dependent solution
 
 Assuming a separable solution of form $p(x,t)=X(x)T(t)$, the Fokker-Planck equation reads,
 
@@ -269,5 +276,6 @@ Where $\gamma = \sqrt{v_0^2+4kD}/2D$ and $\beta=v_0/2D$. Substituting this solut
 $$ v_0c_1e^{\gamma a}+v_0c_2e^{-\gamma a} = D\{c_1(\beta+\gamma)e^{\gamma a}+c_2(\beta-\gamma)e^{-\gamma a}\} \\
 v_0c_1e^{-\gamma a}+v_0c_2e^{\gamma a} = D\{c_1(\beta+\gamma)e^{-\gamma a}+c_2(\beta-\gamma)e^{\gamma a}\}$$ (43)
 
+Solving the first equation, 
 
-
+$$ c_1 = c_2
