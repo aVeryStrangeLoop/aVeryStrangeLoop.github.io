@@ -241,4 +241,30 @@ $$ \left[v_0p(x,t)-D\frac{\partial p(x,t)}{\partial x}\right]_{x=\pm a} = 0$$ (3
 
 ### Solution
 
-Assuming a separable solution of form $p(x,t)=X(x)T(t)$, equation 
+Assuming a separable solution of form $p(x,t)=X(x)T(t)$, the Fokker-Planck equation reads,
+
+$$ X\dot{T} = -v_0T\dot{X}+DT\ddot{X} $$ (37)
+
+
+The time dependent and space dependent parts must thus be separately equal to a constant $k$, such that
+
+
+$$ \dot{T} = kT$$ (38)
+$$\ddot{X}-\frac{v_0}{D}\dot{X}-\frac{k}{D}X=0$$ (39)
+
+Substituting $X(x) = e^{\alpha x}$ in equation (39),
+
+$$ e^{\alpha x} \left(\alpha^2-\frac{v_0}{D}\alpha-\frac{k}{D}\right)=0$$ (40)
+
+Where the term on the right is the characteristic equation in this case. For non-trivial solutions, it must be equal to zero, implying
+
+$$ \alpha = \frac{v_0 \pm \sqrt{v_0^2+4kD}}{2D}$$ (41)
+
+The general solution for (39) is the superposition of these two values of $\alpha$, i.e.,
+
+$$ X(x) = e^{\beta x}\left(c_1e^{\gamma x}+c_2e^{-\gamma x}\right)$$ (42)
+
+Where $\gamma = \sqrt{v_0^2+4kD}/2D$ and $\beta=v_0/2D$. Substituting this solution in the boundary conditions in equation (36) yields,
+
+$$ 
+
