@@ -182,7 +182,9 @@ As expected, all modes except the zeroth vanish after some time. The exponential
 
 
 ### Alternative Method
-(<a href="https://web.archive.org/web/20211109035453/https://www.ks.uiuc.edu/Services/Class/PHYS498/LectureNotes/chp3.pdf">Source</a>, section 3.5)
+(After <a href="https://web.archive.org/web/20211109035453/https://www.ks.uiuc.edu/Services/Class/PHYS498/LectureNotes/chp3.pdf">Klaus Schluten's class notes</a>, Section 3.5)
+
+We have to solve (1) given (2) and (11). The right hand side of the equation (1) is an operator $\mathcal{L}=D\partial^2/\partial x^2$ acting on $p(x,t)$. We can thus write $p(x,t)$ in terms of its eigenfunction expansion (allowing only those eigenfunctions that satisfy the boundary condition in 11). This gives, 
 
 ---
 
