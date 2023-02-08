@@ -244,7 +244,15 @@ $$ \left[v_0p(x,t)-D\frac{\partial p(x,t)}{\partial x}\right]_{x=\pm a} = 0$$ (3
 
 Under a stationary state, the left-hand side of the F.P. equation is zero and $p(x,t)\rightarrow p(x)$
 
-$$ -v_0\frac{\partial p(x)}{\partial x} + D \frac{\partial^2 p(x)}{\partial x^2} = 0 $$ 
+$$ -v_0\frac{\partial p(x)}{\partial x} + D \frac{\partial^2 p(x)}{\partial x^2} = 0 $$ (37)
+
+The general solution is given by,
+
+$$p(x) = c_1 + c_2 e^{\frac{v_0x}{D}}$$ (38)
+
+To satisfy boundary condition in (36), $c_1 = 0$. Which in-turn implies that the normalized probability distribution is given by,
+
+$$ p(x) = \left[\frac{v_0e^{\frac{v_0a}{D}}}{D\left(e^{\frac{2v_0a}{D}}-1\right)}\right] e^{\frac{v_0x}{D}}$$ (39)
 
 ### Time-dependent solution
 
