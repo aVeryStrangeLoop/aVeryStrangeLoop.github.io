@@ -180,6 +180,10 @@ $$p(x,t)= \frac{1}{2a} + \frac{1}{a} \sum_{n=1}^\infin \cos\left(\frac{n \pi x}{
 
 As expected, all modes except the zeroth vanish after some time. The exponential decay rate of the first mode, $(\pi D/a)^2$ determines the rate at which the relaxation to the stationary solution is observed.
 
+
+### Alternative Method
+(<a href="https://web.archive.org/web/20211109035453/https://www.ks.uiuc.edu/Services/Class/PHYS498/LectureNotes/chp3.pdf">Source</a>, section 3.5)
+
 ---
 
 ## Linear potential over an infinite domain
