@@ -14,6 +14,7 @@
     - [Time-dependent solution](#time-dependent-solution)
   - [Linear potential over an infinite domain](#linear-potential-over-an-infinite-domain)
     - [Setup](#setup-2)
+    - [Solution](#solution-1)
 
 ## Flat Potential over an infinite domain
 
@@ -183,3 +184,34 @@ As expected, all modes except the zeroth vanish after some time. The exponential
 <center>
 <img width=60% src="f3.png">
 </center>
+
+Let the potential be of the form,
+
+$$V(x) = f_0x$$ (30)
+ 
+The force on the particle, $\nabla V(x)$ is then $f_0$ and under the assumption of an overdamped medium the particle drifts at a velocity ($v_0$) given by,
+
+$$v_0 = \frac{f_0}{\eta}$$ (31)
+
+Where $\eta$ is the friction coefficient in the medium. The Fokker-Planck equation for such a particle is given by, 
+
+
+$$\frac{\partial p(x,t)}{\partial t} = -v_0 \frac{\partial p(x,t)}{\partial x} + D\frac{\partial^2p(x,t)}{\partial x^2}$$ (32)
+
+### Solution
+
+Once again, taking a fourier transform $p(k,t) = \int_{-\infin}^{\infin}e^{-ikx}p(x,t)$ on both sides gives us,
+
+$$ \frac{\partial p(k,t)}{\partial t} = v_0 ik p(k,t) - Dk^2 p(k,t)$$ (33)
+
+Integrating, we get
+
+$$ p(k,t) = e^{(v_0ik-Dk^2)t}$$ (34)
+
+Where, $p(k,0)=1$ due to the initial condition. Consequently, we can take an inverse Fourier transform to get,
+
+$$ p(x,t) = \frac{1}{2\pi} \int_{-\infin}^{\infin} e^{ikx+v_0ikt-Dk^2t} dk$$ (35)
+
+Taking $x-v_0t=\tilde{x}$, we can integrate as in equation (7) to get, 
+
+$$p(x,t)
