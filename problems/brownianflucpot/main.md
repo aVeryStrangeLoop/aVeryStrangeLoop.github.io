@@ -20,6 +20,7 @@
     - [Stationary solution](#stationary-solution-1)
     - [Time-dependent solution](#time-dependent-solution-1)
 
+
 ## Flat Potential over an infinite domain
 
 ### Setup
