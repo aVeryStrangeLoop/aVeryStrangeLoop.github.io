@@ -230,3 +230,7 @@ So, the probability distribution behaves similar to the one in a flat potential,
 <img width=60% src="f4.png">
 </center>
 
+In the case of a reflecting wall on both ends, the zero current condition in equation (9) applies again. The probability current in this case is, however, obtained from equation (32) as
+
+$$ J(x,t) = v_0p(x,t)-D\frac{\partial p(x,t)}{\partial x}
+
