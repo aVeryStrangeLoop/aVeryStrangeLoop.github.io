@@ -17,6 +17,7 @@
     - [Solution](#solution-1)
   - [Linear potential on a bounded domain with reflecting boundaries](#linear-potential-on-a-bounded-domain-with-reflecting-boundaries)
     - [Setup](#setup-3)
+    - [Solution](#solution-2)
 
 ## Flat Potential over an infinite domain
 
@@ -232,5 +233,12 @@ So, the probability distribution behaves similar to the one in a flat potential,
 
 In the case of a reflecting wall on both ends, the zero current condition in equation (9) applies again. The probability current in this case is, however, obtained from equation (32) as
 
-$$ J(x,t) = v_0p(x,t)-D\frac{\partial p(x,t)}{\partial x}
+$$ J(x,t) = v_0p(x,t)-D\frac{\partial p(x,t)}{\partial x}$$ (35)
 
+and must be zero at $x=\pm a$. 
+
+$$ \left[v_0p(x,t)-D\frac{\partial p(x,t)}{\partial x}\right]_{x=\pm a} = 0$$ (36)
+
+### Solution
+
+Assuming a separable solution of form $p(x,t)=X(x)T(t)$, equation 
