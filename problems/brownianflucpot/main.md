@@ -181,10 +181,8 @@ $$p(x,t)= \frac{1}{2a} + \frac{1}{a} \sum_{n=1}^\infin \cos\left(\frac{n \pi x}{
 As expected, all modes except the zeroth vanish after some time. The exponential decay rate of the first mode, $(\pi D/a)^2$ determines the rate at which the relaxation to the stationary solution is observed.
 
 
-### Alternative Method
-(After <a href="https://web.archive.org/web/20211109035453/https://www.ks.uiuc.edu/Services/Class/PHYS498/LectureNotes/chp3.pdf">Klaus Schluten's class notes</a>, Section 3.5)
+(An alternative method using the eigenfunctions of the diffusion operator can be found in <a href="https://web.archive.org/web/20211109035453/https://www.ks.uiuc.edu/Services/Class/PHYS498/LectureNotes/chp3.pdf">Klaus Schluten's class notes</a>, Section 3.5)
 
-We have to solve (1) given (2) and (11). The right hand side of the equation (1) is an operator $\mathcal{L}=D\partial^2/\partial x^2$ acting on $p(x,t)$. We can thus write $p(x,t)$ in terms of its eigenfunction expansion (allowing only those eigenfunctions that satisfy the boundary condition in 11). This gives, 
 
 ---
 
