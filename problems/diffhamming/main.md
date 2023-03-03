@@ -25,9 +25,7 @@ $$P\left[n_0(t+1),n_1(t+1),...|n_0(t),n_1(t)...\right] = \frac{N!}{\prod_k n_k(t
 
 ### Mutation without resampling
 
-In the absence of resampling, mutations can change the observed number of sequences with $k$ ones after one generation. 
-
-$$P[]
+In the absence of resampling, mutations can change the observed number of sequences with $k$ ones after one generation. For a 
 
 
 
