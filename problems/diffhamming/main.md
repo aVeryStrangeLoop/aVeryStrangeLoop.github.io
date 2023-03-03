@@ -16,6 +16,7 @@ The distribution $\psi(k)=n_k$ thus determines the distribution of the populatio
 <img width=60% src="f1.png">
 </center>
 
+## Resampling without mutation
 
 The population is resampled every generation to create a new population. Thus, assuming no mutation, the probability of observing a set of $n_k$ values at generation $t+1$ can be expressed as a multinomial distribution of the form,
 
