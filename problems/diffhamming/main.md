@@ -2,8 +2,6 @@
 
 **Author**: Bhaskar Kumawat
 
-## Setup
-
 Consider a fixed-size population consisting of $N$ organisms, each with a _genotype_ composed of $L$ sites that can be in one of two states&mdash;0 or 1. Let $k$ denote the number of $1$s present in a particular genome, and $n_k$ is the number of organisms in the population with $k$ $1$s in their genome. Thus,
 
 $$N = \sum_k n_k$$ (1)
@@ -18,9 +16,8 @@ The distribution $\psi(k)=n_k$ thus determines the distribution of the populatio
 <img width=60% src="f1.png">
 </center>
 
-## No selection
 
-The population is resampled every generation to create a new population. In the absence
+In the absence of mutation, the population is resampled every generation to create a new population. In the absence
 
 
 
