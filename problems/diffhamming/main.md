@@ -12,6 +12,16 @@ We define a quantity $k_{av}$ that tracks the average number of $1$s for genomes
 
 $$k_{av} = \frac{\sum_k kn_k}{N}$$ (2)
 
+The distribution $\psi(k)=n_k$ thus determines the distribution of the population in Hamming space. 
+
+<center>
+<img width=60% src="f1.png">
+</center>
+
+## No selection
+
+The population is resampled every generation to create a new population. In the absence
+
 
 
 
