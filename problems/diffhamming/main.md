@@ -16,11 +16,16 @@ The distribution $\psi(k)=n_k$ thus determines the distribution of the populatio
 <img width=60% src="f1.png">
 </center>
 
-## Resampling without mutation
+### Resampling without mutation
 
 The population is resampled every generation to create a new population. Thus, assuming no mutation, the probability of observing a set of $n_k$ values at generation $t+1$ can be expressed as a multinomial distribution of the form,
 
 $$P\left[n_0(t+1),n_1(t+1),...|n_0(t),n_1(t)...\right] = \frac{N!}{\prod_k n_k(t+1)!} \frac{\prod_k \left[n_k(t)^{n_k(t+1)}\right]}{N^N}$$
+
+
+### Mutation without resampling
+
+In the absence of resampling, mutations can change the observed number of sequences with $k$ ones after one generation. 
 
 
 
