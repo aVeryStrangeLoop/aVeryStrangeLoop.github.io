@@ -17,7 +17,9 @@ The distribution $\psi(k)=n_k$ thus determines the distribution of the populatio
 </center>
 
 
-In the absence of mutation, the population is resampled every generation to create a new population. In the absence
+The population is resampled every generation to create a new population. Thus, the probability of observing a set of $n_k$ values at generation $t+1$ can be expressed as,
+
+$$P\left[n_0(t+1),n_1(t+1),...|n_0(t),n_1(t)\right]$$
 
 
 
