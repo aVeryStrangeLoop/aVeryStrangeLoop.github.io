@@ -19,6 +19,7 @@
     - [Setup](#setup-3)
     - [Stationary solution](#stationary-solution-1)
   - [Piecewise linear potential over an infinite domain](#piecewise-linear-potential-over-an-infinite-domain)
+    - [Setup](#setup-4)
 
 
 ## Flat Potential over an infinite domain
@@ -262,3 +263,8 @@ $$ p(x) = \left[\frac{v_0e^{\frac{v_0a}{D}}}{D\left(e^{\frac{2v_0a}{D}}-1\right)
 ---
 
 ## Piecewise linear potential over an infinite domain
+
+### Setup
+<center>
+<img width=60% src="f5.png">
+</center>
