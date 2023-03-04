@@ -269,6 +269,5 @@ $$ p(x) = \left[\frac{v_0e^{\frac{v_0a}{D}}}{D\left(e^{\frac{2v_0a}{D}}-1\right)
 <img width=60% src="f5.png">
 </center>
 
-The potential is now divided into three piecewise differentiable regions,
+The potential is now divided into three piece-wise differentiable regions,
 
-$$ $$
