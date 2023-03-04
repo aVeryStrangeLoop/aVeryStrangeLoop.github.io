@@ -289,6 +289,4 @@ Where $\gamma = \sqrt{v_0^2+4kD}/2D$ and $\beta=v_0/2D$. Substituting this solut
 $$ v_0c_1e^{\gamma a}+v_0c_2e^{-\gamma a} = D\{c_1(\beta+\gamma)e^{\gamma a}+c_2(\beta-\gamma)e^{-\gamma a}\} \\
 v_0c_1e^{-\gamma a}+v_0c_2e^{\gamma a} = D\{c_1(\beta+\gamma)e^{-\gamma a}+c_2(\beta-\gamma)e^{\gamma a}\}$$ (43)
 
-For a non-trivial solution, $\gamma$ should be imaginary, which implies
-
-$$ X(x) = e^{v_0x/2D}
+These equations admit only a trivial solution unless $\gamma$ is complex. Let $k=-\omega^2$ and $4\omega^2D>v_0^2$ 
