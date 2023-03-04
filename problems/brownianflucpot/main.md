@@ -18,7 +18,7 @@
   - [Linear potential on a bounded domain with reflecting boundaries](#linear-potential-on-a-bounded-domain-with-reflecting-boundaries)
     - [Setup](#setup-3)
     - [Stationary solution](#stationary-solution-1)
-    - [Time-dependent solution](#time-dependent-solution-1)
+  - [Piecewise linear potential over an infinite domain](#piecewise-linear-potential-over-an-infinite-domain)
 
 
 ## Flat Potential over an infinite domain
@@ -259,34 +259,6 @@ To satisfy boundary condition in (36), $c_1 = 0$. Which in-turn implies that the
 
 $$ p(x) = \left[\frac{v_0e^{\frac{v_0a}{D}}}{D\left(e^{\frac{2v_0a}{D}}-1\right)}\right] e^{\frac{v_0x}{D}}$$ (39)
 
-### Time-dependent solution
+---
 
-Assuming a separable solution of form $p(x,t)=X(x)T(t)$, the Fokker-Planck equation reads,
-
-$$ X\dot{T} = -v_0T\dot{X}+DT\ddot{X} $$ (37)
-
-
-The time dependent and space dependent parts must thus be separately equal to a constant $k$, such that
-
-
-$$ \dot{T} = kT$$ (38)
-$$\ddot{X}-\frac{v_0}{D}\dot{X}-\frac{k}{D}X=0$$ (39)
-
-Substituting $X(x) = e^{\alpha x}$ in equation (39),
-
-$$ e^{\alpha x} \left(\alpha^2-\frac{v_0}{D}\alpha-\frac{k}{D}\right)=0$$ (40)
-
-Where the term on the right is the characteristic equation in this case. For non-trivial solutions, it must be equal to zero, implying
-
-$$ \alpha = \frac{v_0 \pm \sqrt{v_0^2+4kD}}{2D}$$ (41)
-
-The general solution for (39) is the superposition of these two values of $\alpha$, i.e.,
-
-$$ X(x) =c_1 e^{(\beta+\gamma) x}+c_2e^{(\beta-\gamma) x}$$ (42)
-
-Where $\gamma = \sqrt{v_0^2+4kD}/2D$ and $\beta=v_0/2D$. Substituting this solution in the boundary conditions in equation (36) yields,
-
-$$ v_0c_1e^{\gamma a}+v_0c_2e^{-\gamma a} = D\{c_1(\beta+\gamma)e^{\gamma a}+c_2(\beta-\gamma)e^{-\gamma a}\} \\
-v_0c_1e^{-\gamma a}+v_0c_2e^{\gamma a} = D\{c_1(\beta+\gamma)e^{-\gamma a}+c_2(\beta-\gamma)e^{\gamma a}\}$$ (43)
-
-These equations admit only a trivial solution unless $\gamma$ is complex. Let $k=-\omega^2$ and $4\omega^2D>v_0^2$ 
+## Piecewise linear potential over an infinite domain
