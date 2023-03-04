@@ -18,7 +18,7 @@
   - [Linear potential on a bounded domain with reflecting boundaries](#linear-potential-on-a-bounded-domain-with-reflecting-boundaries)
     - [Setup](#setup-3)
     - [Stationary solution](#stationary-solution-1)
-  - [Piecewise linear potential over an infinite domain](#piecewise-linear-potential-over-an-infinite-domain)
+  - [Piecewise linear potential over a bounded domain](#piecewise-linear-potential-over-a-bounded-domain)
     - [Setup](#setup-4)
 
 
@@ -262,9 +262,13 @@ $$ p(x) = \left[\frac{v_0e^{\frac{v_0a}{D}}}{D\left(e^{\frac{2v_0a}{D}}-1\right)
 
 ---
 
-## Piecewise linear potential over an infinite domain
+## Piecewise linear potential over a bounded domain
 
 ### Setup
 <center>
 <img width=60% src="f5.png">
 </center>
+
+The potential is now divided into three piecewise differentiable regions,
+
+$$ $$
