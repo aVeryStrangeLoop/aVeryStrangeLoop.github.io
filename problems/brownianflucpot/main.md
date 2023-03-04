@@ -4,7 +4,7 @@
 **Author**: Bhaskar Kumawat
 
 **Outline**
-- [Illustrative problems in Brownian motion](#illustrative-problems-in-brownian-motion)
+- [Problems in Brownian motion](#problems-in-brownian-motion)
   - [Flat Potential over an infinite domain](#flat-potential-over-an-infinite-domain)
     - [Setup](#setup)
     - [Solution](#solution)
@@ -289,6 +289,6 @@ Where $\gamma = \sqrt{v_0^2+4kD}/2D$ and $\beta=v_0/2D$. Substituting this solut
 $$ v_0c_1e^{\gamma a}+v_0c_2e^{-\gamma a} = D\{c_1(\beta+\gamma)e^{\gamma a}+c_2(\beta-\gamma)e^{-\gamma a}\} \\
 v_0c_1e^{-\gamma a}+v_0c_2e^{\gamma a} = D\{c_1(\beta+\gamma)e^{-\gamma a}+c_2(\beta-\gamma)e^{\gamma a}\}$$ (43)
 
-Solving the first equation, 
+For a non-trivial solution, $\gamma$ should be imaginary, which implies
 
-$$ c_1 = c_2
+$$ X(x) = e^{v_0x/2D}
