@@ -18,6 +18,7 @@
   - [Linear potential on a bounded domain with reflecting boundaries](#linear-potential-on-a-bounded-domain-with-reflecting-boundaries)
     - [Setup](#setup-3)
     - [Stationary solution](#stationary-solution-1)
+    - [Time-dependent solution](#time-dependent-solution-1)
   - [Piecewise linear potential over a bounded domain](#piecewise-linear-potential-over-a-bounded-domain)
     - [Setup](#setup-4)
 
@@ -259,6 +260,32 @@ $$p(x) = c_1 + c_2 e^{\frac{v_0x}{D}}$$ (38)
 To satisfy boundary condition in (36), $c_1 = 0$. Which in-turn implies that the normalized probability distribution is given by,
 
 $$ p(x) = \left[\frac{v_0e^{\frac{v_0a}{D}}}{D\left(e^{\frac{2v_0a}{D}}-1\right)}\right] e^{\frac{v_0x}{D}}$$ (39)
+
+### Time-dependent solution
+
+To calculate the time-dependent solution, we separate equation (32) as before,
+
+$$ p(x,t) = X(x)T(t) $$ (40)
+
+This gives,
+
+$$ \dot{T}=-kT \text{ and } D\ddot{X}-v_0\dot{X}=-kX $$ (41)
+
+Note that $k\geq 0$ otherwise the time-dependent term will grow exponentially with time. The general solution to the time-dependent part is simply,
+
+$$ T(t) = c e^{-kt} $$
+
+To solve the position-dependent part, let us assume $e^{rx}$ is a solution to the equation. The characteristic equation is then obtained by substituting it in equation (41).
+
+$$ Dr^2-v_0 r + k = 0$$ (42)
+
+The solutions to this are given by,
+
+$$r= \frac{v_0 \pm \sqrt{v_0^2-4Dk}}{2D} $$
+
+The general solution for the spatial factor can be written as,
+
+$$ X(x) = e^{v_0/2D} \left(c_1 e^{ \sqrt{v_0^2-4Dk}/2D} + c_2 e^{ \sqrt{v_0^2-4Dk}/2D} \right)$$(43)
 
 ---
 
