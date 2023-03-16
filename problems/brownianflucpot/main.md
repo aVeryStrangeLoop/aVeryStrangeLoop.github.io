@@ -293,6 +293,16 @@ This condition implies that the coefficients of the exponentials are real. Let $
 
 $$X(x) = c_1 e^{(v_0+\lambda)x/2D}+ c_2 e^{(v_0-\lambda)x/2D}$$ (44)
 
+The only solution for this equation is when $c_1=c_2=0$ which is a trivial solution. Hence $\lambda$ must be imaginary. 
+
+**Case II**: $v_0^2 < 4Dk$
+
+In this case, let $\sqrt{v_0^2-4Dk} = i\lambda$. The general solution can then be written as,
+
+$$ X(x) =  e^{v_0x/2D} \left(c_1 \sin(\lambda' x) + c_2 \cos(\lambda' x)\right) $$
+
+Where $\lambda'=\lambda/2D$. 
+
 ---
 
 ## Piecewise linear potential over a bounded domain
