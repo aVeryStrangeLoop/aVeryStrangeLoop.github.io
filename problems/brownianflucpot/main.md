@@ -289,7 +289,9 @@ $$ X(x) = e^{v_0x/2D} \left(c_1 e^{ x\sqrt{v_0^2-4Dk}/2D} + c_2 e^{-x\sqrt{v_0^2
 
 **Case I**: $v_0^2>4Dk$
 
-This condition implies that the coefficients of the exponentials are real. Let $\sqrt{}$
+This condition implies that the coefficients of the exponentials are real. Let $\sqrt{v_0^2-4Dk}=\lambda$. Then,
+
+$$X(x) = c_1 e^{(v_0+\lambda)x/2D}+ c_2 e^{(v_0-\lambda)x/2D}$$ (44)
 
 ---
 
