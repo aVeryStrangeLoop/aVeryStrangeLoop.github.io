@@ -285,7 +285,11 @@ $$r= \frac{v_0 \pm \sqrt{v_0^2-4Dk}}{2D} $$
 
 The general solution for the spatial factor can be written as,
 
-$$ X(x) = e^{v_0/2D} \left(c_1 e^{ \sqrt{v_0^2-4Dk}/2D} + c_2 e^{ \sqrt{v_0^2-4Dk}/2D} \right)$$(43)
+$$ X(x) = e^{v_0x/2D} \left(c_1 e^{ x\sqrt{v_0^2-4Dk}/2D} + c_2 e^{-x\sqrt{v_0^2-4Dk}/2D} \right)$$(43)
+
+**Case I**: $v_0^2>4Dk$
+
+This condition implies that the coefficients of the exponentials are real. Let $\sqrt{}$
 
 ---
 
