@@ -101,6 +101,7 @@ h4.coursetitle{
 p.courselogs{
 	margin-top:0px;
 	font-size:10pt;
+	margin-bottom:2px;
 }
 
 font.tinyfont {
@@ -274,7 +275,8 @@ li.cvli {
 .collapsible {
 	color: var(--accent1);
 	cursor: pointer;
-	padding: 0px 0px 5px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	width: 60%;
 	text-align: left;
 	outline: none;
@@ -289,7 +291,8 @@ li.cvli {
   }
   
   .content {
-	padding: 0 10px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	font-family: bodyfont;
 	font-size: 11pt;
 	max-height: 0;
