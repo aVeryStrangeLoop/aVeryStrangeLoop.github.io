@@ -92,6 +92,12 @@ div.research-project>font.projpub{
 	color: black;
 }
 
+h4.coursetitle{
+	font-weight:bold;
+	margin-top:6px;
+	margin-bottom:6px;
+}
+
 font.tinyfont {
 	font-family: bodyfont;
 	font-size: 10pt;
