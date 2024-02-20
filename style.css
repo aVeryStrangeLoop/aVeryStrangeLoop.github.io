@@ -6,7 +6,6 @@ canvas {
   display: block;
 }
 
-@charset "utf-8";
 
 :root { 
 	--accent1: #C50003;
@@ -46,6 +45,12 @@ canvas {
   src: url("fonts/SourceSansPro-Regular.ttf");
 }
 
+@font-face {
+  font-family: bodyfont;
+  src: url("fonts/SourceSansPro-Bold.ttf");
+  font-weight: bold;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -82,6 +87,12 @@ div.research-project>h3.rtitle{
 }
 
 div.research-project>font.projpub{
+	font-family: bodyfont;
+	font-size: 10pt;
+	color: black;
+}
+
+font.tinyfont {
 	font-family: bodyfont;
 	font-size: 10pt;
 	color: black;
