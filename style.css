@@ -98,6 +98,11 @@ h4.coursetitle{
 	margin-bottom:6px;
 }
 
+p.courselogs{
+	margin-top:0px;
+	font-size:10pt;
+}
+
 font.tinyfont {
 	font-family: bodyfont;
 	font-size: 10pt;
