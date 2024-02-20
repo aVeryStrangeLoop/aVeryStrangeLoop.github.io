@@ -275,11 +275,12 @@ li.cvli {
 .collapsible {
 	color: var(--accent1);
 	cursor: pointer;
-	padding: 5px 0px 10px 0px;
+	padding: 5px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 	width: 60%;
 	text-align: left;
 	outline: none;
+	border:none;
 	font-size: 11pt;
 	background-color: white;
   }
