@@ -1,0 +1,24 @@
+---
+format:
+    html:
+        page-layout: article
+---
+
+### Evolution of Evolvability
+Evolution can be immensely creative when it comes to the specification of [organismal form and function](https://wwnorton.com/books/9780393307009). However, whether evolution through natural selection can sustain itself by improving the ability of a population to evolve has been the topic of [a great debate](https://www.nature.com/articles/nrg2278). Surprisingly, the individual determinants of this *evolvability* (eg. [genetic pleiotropy](https://doi.org/10.1111/j.1558-5646.2007.00303.x), [development plasticity](https://doi.org/10.1111/j.1558-5646.2012.01649.x), [mutation rate](https://doi.org/10.1534/genetics.116.193565)) have been shown to evolve under specific contexts. In my research, I am taking a step further down this line of reasoning to ask the following questions.
+ 
+1. Can the different determinants of evolvability evolve simulatenously under specific conditions? ([preprint](https://doi.org/10.1101/2023.01.04.520634))
+2. Can we use tools from statistical physics to derive the conditions for the emergence of evolvability? (in progress)
+3. Can we use directed evolution to engineer populations with increased evolvability?  (in progress)
+
+### Origins of Biological Complexity
+Biological systems are incredibly complex, both due to the number of entities that interact [within](https://plato.stanford.edu/entries/levels-org-biology/) and [across](https://doi.org/10.1111/j.0014-3820.2002.tb01357.x) scales, and the emergent phenomena that arise as a result. This complexity makes one wonder about the causal factors that can create such complex processes. In this context, I wish to understand the following.
+
+1. Is direct selection for complex features required for such complexity to evolve? ([article](https://doi.org/10.1162/isal_a_00386))
+2. What makes simple agents cooperate and thus take the first step towards living in an ensemble? ([article](https://doi.org/10.1186/s12862-021-01782-0), [poster](./posters/iseb2_poster_pv.pdf)) 
+
+### Engineering Living (and life-like) Systems
+Our ability to [engineer living systems](https://doi.org/10.1021/acs.chemrev.2c00339) has increased substantially in the last few decades. I am interested in engineering biological (and biologically-inspired) systems to solve modern day problems. My questions in this direction can be stated as follows.
+
+1. Can we create engineered bacteriophages to improve the efficacy of traditional phage therapy? ([PhageShift website](https://2018.igem.org/Team:IISc-Bangalore))
+2. Can we use haloarcheal gas vesicles to improve the rate of production of recombinant protein products? ([iFLOAT website](https://2017.igem.org/Team:IISc-Bangalore))

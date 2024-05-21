@@ -1,0 +1,63 @@
+
+I have been awarded the [U-M Graduate Teacher Certificate](./teaching/Bhaskar%20Kumawat.pdf) in recognition of my professional development and experience as an instructor at the University of Michigan (see [certificate description](https://crlt.umich.edu/um.gtc/description)). Currently, I am developing a two part course on evolutionary theory for graduate and advanced undergraduate students for future positions as an instructor of record.
+
+## Previous Teaching Positions
+
+### EEB 429: Introduction to Statistical Model Building in R
+**Graduate Student Instructor (Winter 2024)**\
+Department of Ecology and Evolutionary Biology, University of Michigan, Ann Arbor\
+
+::: {.callout-important collapse="true" appearance="minimal"}
+## See Authored Assignments
+- [Week 1: Paths, functions, and tidy data](./teaching/eeb429/week1.pdf)
+- [Week 2: Data-types, matrices, and indexing](./teaching/eeb429/week2.pdf)
+- [Week 3: Logical operators, plotting, conditional execution and loops](./teaching/eeb429/week3.pdf)
+- [Week 4: Writing modular scripts (and Monte-Carlo method)](./teaching/eeb429/week4.pdf)
+- [Week 5: R-markdown and apply function](./teaching/eeb429/week5.pdf)
+- [Week 6: Probabilities of composite events](./teaching/eeb429/week6.pdf)
+- [Week 7: Simulating and sampling](./teaching/eeb429/week7.pdf)
+- [Week 8: Maximum-likelihood and Bayesian estimation](./teaching/eeb429/week8.pdf)
+- [Week 9: Stochastic fuctions](./teaching/eeb429/week9.pdf)
+- [Week 10: Generalized linear models](./teaching/eeb429/week10.pdf)
+:::
+
+### EEB 485: Population and Community Ecology
+**Graduate Student Instructor (Fall 2022 & Fall 2023)**\
+Department of Ecology and Evolutionary Biology, University of Michigan, Ann Arbor\
+
+::: {.callout-important collapse="true" appearance="minimal"}
+## See Authored Assignments
+- Week 1: Intro to R
+- Week 2: Population Growth
+- Week 3: Structured Populations
+- Week 4: Competition
+- Week 5: Predation
+- Week 6: Disease and Networks
+- Week 7: Quantifying communities
+- Week 8: Biodiversity & Ecosystem Function
+- Week 9: Metapopulations and Neutral Theory
+
+Please email me to request the assignments for EEB 485
+:::
+
+### CMPLXSYS 391: Modeling Political Processes
+**Graduate Student Instructor (Winter 2022)**\
+Center for the Study of Complex Systems, University of Michigan, Ann Arbor\
+
+::: {.callout-important collapse="true" appearance="minimal"}
+## See Authored Assignments
+- [Week 1: Condorcet Jury Theorem](./teaching/cscs391/week1.pdf)
+- [Week 2: Diversity Prediction Theorem & Categorization Error](./teaching/cscs391/week2.pdf)
+- [Week 3: Linear and Non-linear models](./teaching/cscs391/week3.pdf) (and [network template]())
+- [Week 4: Markov models](./teaching/cscs391/week4.pdf)
+- [Week 5: Equilibrium](./teaching/cscs391/week5.pdf)
+- [Week 6: Entropy and MaxEnt](./teaching/cscs391/week6.pdf)
+- [Week 10: Spatial and Hedonic models](./teaching/cscs391/week10.pdf)
+- [Week 11: Game Theory and Collective Action](./teaching/cscs391/week11.pdf)
+- [Week 12: Individual value in groups](./teaching/cscs391/week12.pdf)
+- [Week 13: Optimization landscapes](./teaching/cscs391/week13.pdf)
+:::
+
+### BIO 173: Introduction to Biology Lab
+**Graduate Student Instructor (Fall 2021)**\
+Program in Biology, University of Michigan, Ann Arbor\

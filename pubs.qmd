@@ -1,0 +1,15 @@
+
+
+## Publications
+
+- **Kumawat, B.**, Lalejini, A., Acosta, M. and Zaman, L., 2023. Fluctuating environments promote evolvability by shaping adaptive variation accessible to populations. *bioRxiv*, pp.2023-01. [https://doi.org/10.1101/2023.01.04.520634](https://doi.org/10.1101/2023.01.04.520634)
+
+- **Kumawat, B.** and Zaman, L., 2021, July. Architecture of the Genotype-Phenotype Map and the Coevolution of Complexity. In *Artificial Life Conference Proceedings 33* (Vol. 2021, No. 1, p. 66). MIT Press. [https://doi.org/10.1162/isal_a_00386](https://doi.org/10.1162/isal_a_00386)
+
+- **Kumawat, B.** and Bhat, R., 2021. An interplay of resource availability, population size and mutation rate potentiates the evolution of metabolic signaling. *BMC Ecology and Evolution, 21*, pp.1-15. [https://doi.org/10.1186/s12862-021-01782-0](https://doi.org/10.1186/s12862-021-01782-0)
+
+## Books
+
+- D’Costa, J., Pujar, A., **Kumawat, B.**, Venkatesh, P., Ranjith, G., Sinha, V., Dubey, A.K., Narayan, H. *Resistance: Tales from a Post-Antibiotic World. IISc Press*, 2019. ISBN-10: 8192570789.
+
+

@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  favicon: favicon.png
+  title: "Bhaskar Kumawat"
+  navbar:
+    right:
+      - href: index.qmd
+        text: about
+      - href: research.qmd
+        text: research
+      - href: pubs.qmd
+        text: publications
+      - href: teaching.qmd
+        text: teaching
+      - href: cv.qmd
+        text: cv
+      - href: docs.qmd
+        text: docs
+  site-url: https://kumawatb.com
+
+  page-footer:
+    background: light
+    left:
+      - "Bhaskar Kumawat <br> kumawatb [at] umich.edu"
+    right: |
+      [github](https://github.com/aVeryStrangeLoop)  <br>
+      [scholar](https://scholar.google.com/citations?user=gZCvqlUAAAAJ)
+
+format:
+  html:
+    theme: 
+      - simplex
+      - custom-light.scss
+    toc: true
+    grid: 
+      sidebar-width: 0px;
+      margin-width: 0px;
+      body-width: 900px;
+
+
+
+

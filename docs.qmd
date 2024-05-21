@@ -1,0 +1,30 @@
+
+This page contains links to the documentation for some of my projects that do not classify into the typical academic categories. Almost all of these are work-in-progress and are updated intermittently.
+
+### Evolvability in 2-dimensions
+In our paper on the evolution of evolvability in digital organisms, we found that populations localize on areas of the genotype space that lie on the boundary between phenotypes in a changing environment. The simulations here model a similar phenomena under a simpler Wright-Fisher population genetic model. 
+
+[Go to the project page]()
+
+### Building the ZE3 macroscope
+This project documents the construction of a *macroscope*, a fluorescence imaging platform that can take timelapse pictures of growing microbial cultures. This hardware is heavily inspired by [previous](https://openhardware.metajnl.com/articles/10.5334/joh.44) [work](https://openwetware.org/wiki/Macroscope) on imaging spatial dynamics in microbial communities. I am currently using this device to address questions on the evolution of evolvability in phage populations.
+
+[Go to the project page]()
+
+### Embedded spatial simulations
+Tiny, powerful, and cheap [microcontrollers](https://jaycarlson.net/microcontrollers/) have become extremely abundant in the last few years. In order to learn how to program these devices, I am trying to create a small computer that can be used to simulate spatial biological processes (including spatial SIR models, population genetics, and models of speciation). I started out with a STM32 MCU but have recently switched to the RP2040 chip for this project.
+
+[Go to the project page]()
+
+### Theoretical Evolutionary Biology I: Mathematical Population Genetics
+This is the website for a course designed to introduce theoretical ideas in population genetics to students from theoretical biology and physics backgrounds. Covered areas (tentative) include: Deterministic models of evolution, Wright-Fisher and Moran models with two alleles, infinitely many alleles, two and many loci, diffusion theory, the coalescent, and spatially structures populations.
+
+[Go to the project page]()
+
+### Theoretical Evolutionary Biology II: Modern Evolutionary Theory
+This is the website for a course designed to introduce modern theories in the field of evolutionary biology to an audience adept to classical population genetics. Covered areas (tentative) include: Quasispecies and the error threshold, evolution on the genotype-phenotype map, clonal interference, robustness and evolvability.
+
+[Go to the project page]()
+
+
+

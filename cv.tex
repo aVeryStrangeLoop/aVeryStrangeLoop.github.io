@@ -1,0 +1,477 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\subsection{Curriculum vitae}\label{curriculum-vitae}
+
+\subsubsection{Education}\label{education}
+
+\begin{itemize}
+\tightlist
+\item
+  University of Michigan (2021-Present)\\
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{PhD Candidate}, Department of Ecology and Evolutionary
+    Biology\\
+  \item
+    U-M Graduate Teacher Certificate, Center for Research on Learning \&
+    Teaching (Completed)\\
+  \item
+    Complex Systems Graduate Certificate, Center for the Study of
+    Complex Systems (In progress)\\
+    \strut \\
+  \end{itemize}
+\item
+  Indian Institute of Science (2016-2021)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Bachelor of Science (BS) + Master of Science (MS) in Biology
+  \end{itemize}
+\end{itemize}
+
+\subsubsection{Teaching}\label{teaching}
+
+EEB 429
+
+Introduction to Statistical Model Building in R\\
+Graduate Student Instructor, University of Michigan; Winter 2024
+
+EEB 485
+
+Population and Community Ecology (Graduate)\\
+Graduate Student Instructor, University of Michigan; Fall 2022 \& Fall
+2023
+
+CMPLXSYS 391
+
+Modeling Political Processes\\
+Graduate Student Instructor, University of Michigan; Winter 2022
+
+BIO 173
+
+Introduction to Biology Lab (Undergraduate)\\
+Graduate Student Instructor, University of Michigan; Fall 2021
+
+\subsubsection{Publications \&
+Conferences}\label{publications-conferences}
+
+\textbf{Publications}
+
+2023
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Kumawat, B.}, Lalejini, A., Acosta, M. and Zaman, L., 2023.
+  Fluctuating environments promote evolvability by shaping adaptive
+  variation accessible to populations. \emph{bioRxiv}, pp.2023-01.
+  \url{https://doi.org/10.1101/2023.01.04.520634}
+\end{itemize}
+
+2021
+
+\begin{itemize}
+\item
+  \textbf{Kumawat, B.} and Zaman, L., 2021, July. Architecture of the
+  Genotype-Phenotype Map and the Coevolution of Complexity. In
+  \emph{Artificial Life Conference Proceedings 33} (Vol. 2021, No.~1,
+  p.~66). MIT Press. \url{https://doi.org/10.1162/isal_a_00386}\\
+\item
+  \textbf{Kumawat, B.} and Bhat, R., 2021. An interplay of resource
+  availability, population size and mutation rate potentiates the
+  evolution of metabolic signaling. \emph{BMC Ecology and Evolution,
+  21}, pp.1-15. \url{https://doi.org/10.1186/s12862-021-01782-0}
+\end{itemize}
+
+\textbf{Book Chapters}
+
+2019
+
+\begin{itemize}
+\tightlist
+\item
+  D'Costa, J., Pujar, A., \textbf{Kumawat, B.}, Venkatesh, P., Ranjith,
+  G., Sinha, V., Dubey, A.K., Narayan, H. \emph{Resistance: Tales from a
+  Post-Antibiotic World. IISc Press}, 2019. ISBN-10: 8192570789.
+\end{itemize}
+
+\textbf{Conferences}
+
+2024
+
+\begin{itemize}
+\item
+  Complex Systems Summer School at the Santa Fe Institute, Santa Fe, New
+  Mexico.
+\item
+  MAC-EPID Symposium on climate change and health: Microbial threats and
+  microbial solutions. Talk on the directed evolution of evolvability
+  for enhanced phage therapy.
+\end{itemize}
+
+2023
+
+\begin{itemize}
+\item
+  EMBO Workshop: Predicting evolution, Heidelberg. Flash Talk and
+  Poster: ``Localization on phenotypic boundaries enhances population
+  evolvability''
+\item
+  GRC/S Molecular Mechanisms in Evolution, Easton. Poster:
+  ``Localization on phenotypic boundaries enhances population
+  evolvability''
+\item
+  EMBL Symposium: The organism and its environment, Heidelberg. Talk:
+  ``Selective capture at phenotypic boundaries enhances population
+  evolvability in a changing environment''
+\end{itemize}
+
+2022
+
+\begin{itemize}
+\tightlist
+\item
+  Complex Systems Advanced Academic Workshop at Center for the Study of
+  Complex Systems, University of Michigan, Ann Arbor. Talk on evolution
+  of evolvability.
+\end{itemize}
+
+2021
+
+\begin{itemize}
+\tightlist
+\item
+  Alife 2021, Prague, organised by the International Society for
+  Artificial Life. Talk on the paper ``Architecture of the
+  Genotype-Phenotype Map and the Coevolution of Complexity''
+\end{itemize}
+
+2020
+
+\begin{itemize}
+\tightlist
+\item
+  ALife 2020, Montreal, organised by the International Society for
+  Artificial Life. Attended the meeting as a new member to Alife the
+  community.
+\end{itemize}
+
+2019
+
+\begin{itemize}
+\item
+  Indo-Swiss Meeting on Evolutionary Biology, CHG, Bangalore. Poster on
+  ``Relatively disparate evolutionary dynamics of genomic and
+  developmental features in unicellular and multicellular contexts''
+\item
+  Indo-Swiss Meeting on Evolutionary Biology, CHG, Bangalore. Poster on
+  ``Utility functions with compounding returns lead to evolution of
+  cooperativity in Multi-Armed Bandit networks''
+\item
+  Indian Society of Evolutionary Biologists (ISEB) Annual Conference,
+  JNCASR, Bangalore. Poster on ``Investigating the evolution of
+  developmental mechanisms in digital multicellular organisms''
+\item
+  PhageShift talk at the Center For BioSystems Science And Engineering
+  symposium, Indian Institute of Science, Bangalore.
+\end{itemize}
+
+2018
+
+\begin{itemize}
+\tightlist
+\item
+  PhageShift talk (and poster) at the International Genetic Engineering
+  Machine Competition (iGEM) Giant Jamboree, Boston, MA. Winner of a
+  Gold Medal and Best Software Tool Nomination.
+\end{itemize}
+
+\subsubsection{Awards \& Honors}\label{awards-honors}
+
+\textbf{Academic}
+
+2019
+
+\begin{itemize}
+\tightlist
+\item
+  Best Poster Award, iSEB 2019 annual conference, JNCASR, Bangalore
+\end{itemize}
+
+2018
+
+\begin{itemize}
+\tightlist
+\item
+  Gold Medal and Best Software Tool Nomination (Team Leader), iGEM 2018,
+  Boston, MA
+\end{itemize}
+
+2017
+
+\begin{itemize}
+\tightlist
+\item
+  Gold Medal and Best Hardware Nomination, iGEM 2017, Boston, MA
+\end{itemize}
+
+\textbf{Fellowships/Funding}
+
+2023
+
+Rackham Research Grant
+
+Research Grant by the Rackham Graduate School at University of Michigan
+to expand evolvability project to the wet lab.
+
+2022-23
+
+EEB Block Grant
+
+Research Grant by Department of Ecology and Evolutionary Biology,
+University of Michigan
+
+2017
+
+iBEC Grant
+
+Indian Biological Engineering Competition. Awarded ∼14,000\$ by the
+Department of Biotechnology, Govt. of India for iGEM 2017.
+
+2014
+
+KVPY Fellowship
+
+National level competitive scholarship with stipend upto pre-PhD level
+by DST, Govt. of India.
+
+2012
+
+NTSE Scholarship
+
+National level competitive scholarship by NCERT, Govt. of India
+(\textless0.1\% selection rate)
+
+\subsubsection{Service \& Outreach}\label{service-outreach}
+
+2022
+
+\begin{itemize}
+\tightlist
+\item
+  Feria de Ciencias Volunteer, Ann Arbor High School. SACNAS @
+  University of Michigan
+\end{itemize}
+
+2018
+
+\begin{itemize}
+\tightlist
+\item
+  Public engagement presentations in local high schools to discuss
+  antimicrobial resistance, Bangalore, India (as a part of iGEM 2018)
+\item
+  Undergraduate Synthetic Biology Workshop as iGEM 2018 Team Leader,
+  Indian Institute of Science, Bangalore, India
+\end{itemize}
+
+\subsubsection{Coursework}\label{coursework}
+
+\textbf{Graduate Level}
+
+Biology
+
+Molecular Basis of Ageing and Regeneration, Elements of Structural
+Biology, Molecular Systems Biology, Principles of Genetic Engineering,
+Bioinformatics, Spatial and Stochastic Dynamics in Biology, Quantitative
+Ecology, Population and Community Ecology, Evolutionary Biology
+
+Physics
+
+Condensed Matter Physics - I, Statistical Mechanics, Computational
+Physics, Information Theory, Theory of Social and Technological Networks
+
+Other
+
+Game Theory, Numerical Solutions of Differential Equations, Dynamical
+Systems Theory, History of Complex Systems
+
+\textbf{Undergraduate}
+
+Biology
+
+Molecular Biology, Developmental Biology, Physiology, Biochemistry
+
+Physics
+
+Intermediate Thermal Physics and Physics of Materials, Materials
+Thermodynamics
+
+Other
+
+Algorithms and Programming, Intro. to Electrical and Electronics
+Engineering, Probability and Statistics
+
+\subsubsection{Technical Skills}\label{technical-skills}
+
+Programming
+
+C, C++, Python, Rust, Mathematica, Bash, Embedded C
+
+Design
+
+Inkscape, GIMP, R \& ggplot, basic OpenSCAD, Digital Electronics, 3D
+Printing, CNC Milling, Laser Cutting
+
+Lab
+
+Microbiology, Molecular Biology, Bacteriophage work, Basic Biochemistry,
+and Design of synthetic gene circuits (Model Systems: Escherichia coli,
+T4 Bacteriophage, Dictyostelium discoideum)
+
+
+
+\end{document}

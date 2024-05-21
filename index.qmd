@@ -1,0 +1,15 @@
+---
+about:
+    template: marquee
+---
+
+
+I am a PhD candidate at the [Department of Ecology and Evolutionary Biology](https://lsa.umich.edu/eeb) at the University of Michigan. I am working with Dr. Luis Zaman to understand [how evolving populations sustain continual adaptation in a changing environment](https://doi.org/10.1101/2023.01.04.520634).
+
+More broadly, I'm interested in,
+
+- Studying biological systems through the lens of complex systems (specifically the flow of information, computation, and critical phenomena in populations), 
+- Engineering living systems using a combination of synthetic biology and directed evolution to find biological solutions to modern day problems, and
+- Developing undergraduate and graduate coursework that emphasizes strong interdisciplinarity in the study of life. 
+
+An idea of the kind of problems that interest me can be gathered from the [research page](./research.qmd). My free time is generally spent [reading](https://www.goodreads.com/review/list/55810171?order=d&shelf=read&sort=date_read), [tinkering](./docs.qmd), or learning new things (to tinker with).

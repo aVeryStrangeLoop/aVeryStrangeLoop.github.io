@@ -1,0 +1,368 @@
+---
+format:
+    html: default
+---
+## Curriculum vitae
+### <ins>Education</ins>
+- University of Michigan (2021-Present)\
+    - **PhD Candidate**, Department of Ecology and Evolutionary Biology\
+    - U-M Graduate Teacher Certificate, Center for Research on Learning & Teaching\
+    - Complex Systems Graduate Certificate, Center for the Study of Complex Systems (In progress)
+\
+\
+- Indian Institute of Science (2016-2021)
+    - Bachelor of Science (BS) + Master of Science (MS) in Biology
+
+### <ins>Teaching</ins>
+::: {.grid}
+::: {.g-col-2}
+EEB 429
+:::
+::: {.g-col-10}
+Introduction to Statistical Model Building in R\
+Graduate Student Instructor, University of Michigan; Winter 2024
+:::
+:::
+::: {.grid}
+::: {.g-col-2}
+EEB 485
+:::
+::: {.g-col-10}
+Population and Community Ecology (Graduate)\
+Graduate Student Instructor, University of Michigan; Fall 2022 & Fall 2023
+:::
+:::
+::: {.grid}
+::: {.g-col-2}
+CMPLXSYS 391
+:::
+::: {.g-col-10}
+Modeling Political Processes\
+Graduate Student Instructor, University of Michigan; Winter 2022
+:::
+:::
+::: {.grid}
+::: {.g-col-2}
+BIO 173
+:::
+::: {.g-col-10}
+Introduction to Biology Lab (Undergraduate)\
+Graduate Student Instructor, University of Michigan; Fall 2021
+:::
+:::
+
+### <ins>Publications & Conferences</ins>
+**Publications**
+
+::: {.grid}
+::: {.g-col-1}
+2023
+:::
+::: {.g-col-11}
+- **Kumawat, B.**, Lalejini, A., Acosta, M. and Zaman, L., 2023. Fluctuating environments promote evolvability by shaping adaptive variation accessible to populations. *bioRxiv*, pp.2023-01. [https://doi.org/10.1101/2023.01.04.520634](https://doi.org/10.1101/2023.01.04.520634)
+:::
+:::
+::: {.grid}
+::: {.g-col-1}
+2021
+:::
+::: {.g-col-11}
+- **Kumawat, B.** and Zaman, L., 2021, July. Architecture of the Genotype-Phenotype Map and the Coevolution of Complexity. In *Artificial Life Conference Proceedings 33* (Vol. 2021, No. 1, p. 66). MIT Press. [https://doi.org/10.1162/isal_a_00386](https://doi.org/10.1162/isal_a_00386)\
+
+- **Kumawat, B.** and Bhat, R., 2021. An interplay of resource availability, population size and mutation rate potentiates the evolution of metabolic signaling. *BMC Ecology and Evolution, 21*, pp.1-15. [https://doi.org/10.1186/s12862-021-01782-0](https://doi.org/10.1186/s12862-021-01782-0)
+:::
+:::
+
+**Book Chapters**
+
+::: {.grid}
+::: {.g-col-1}
+2019
+:::
+::: {.g-col-11}
+- D’Costa, J., Pujar, A., **Kumawat, B.**, Venkatesh, P., Ranjith, G., Sinha, V., Dubey, A.K., Narayan, H. *Resistance: Tales from a Post-Antibiotic World. IISc Press*, 2019. ISBN-10: 8192570789.
+:::
+:::
+
+**Conferences**
+
+::: {.grid}
+::: {.g-col-1}
+2024
+:::
+::: {.g-col-11}
+- Complex Systems Summer School at the Santa Fe Institute, Santa Fe, New Mexico. 
+
+- MAC-EPID Symposium on climate change and health: Microbial threats and microbial solutions. Talk on the directed evolution of evolvability for enhanced phage therapy.
+:::
+:::
+
+::: {.grid}
+::: {.g-col-1}
+2023
+:::
+::: {.g-col-11}
+- EMBO Workshop: Predicting evolution, Heidelberg. Flash Talk and Poster: "Localization on phenotypic boundaries enhances population evolvability"
+
+- GRC/S Molecular Mechanisms in Evolution, Easton. Poster: "Localization on phenotypic boundaries enhances population evolvability"
+
+- EMBL Symposium: The organism and its environment, Heidelberg. Talk: "Selective capture at phenotypic boundaries enhances population evolvability in a changing environment"
+:::
+:::
+
+::: {.grid}
+::: {.g-col-1}
+2022
+:::
+::: {.g-col-11}
+- Complex Systems Advanced Academic Workshop at Center for the Study of Complex Systems, University of Michigan, Ann Arbor. Talk on evolution of evolvability.
+:::
+:::
+
+::: {.grid}
+::: {.g-col-1}
+2021
+:::
+::: {.g-col-11}
+- Alife 2021, Prague, organised by the International Society for Artificial Life. Talk on the paper "Architecture of the Genotype-Phenotype Map and the Coevolution of Complexity"
+:::
+:::
+
+::: {.grid}
+::: {.g-col-1}
+2020
+:::
+::: {.g-col-11}
+- ALife 2020, Montreal, organised by the International Society for Artificial Life. Attended the meeting as a new member to Alife the community.
+:::
+:::
+
+::: {.grid}
+::: {.g-col-1}
+2019
+:::
+::: {.g-col-11}
+- Indo-Swiss Meeting on Evolutionary Biology, CHG, Bangalore. Poster on “Relatively disparate evolutionary dynamics of genomic and developmental features in unicellular and multicellular contexts”
+
+- Indo-Swiss Meeting on Evolutionary Biology, CHG, Bangalore. Poster on “Utility functions with compounding returns lead to evolution of cooperativity in Multi-Armed Bandit networks”
+
+- Indian Society of Evolutionary Biologists (ISEB) Annual Conference, JNCASR, Bangalore. Poster on “Investigating the evolution of developmental mechanisms in digital multicellular organisms”
+
+- PhageShift talk at the Center For BioSystems Science And Engineering symposium, Indian Institute of Science, Bangalore.
+:::
+:::
+
+::: {.grid}
+::: {.g-col-1}
+2018
+:::
+::: {.g-col-11}
+- PhageShift talk (and poster) at the International Genetic Engineering Machine Competition (iGEM) Giant Jamboree, Boston, MA. Winner of a Gold Medal and Best Software Tool Nomination.
+:::
+:::
+
+
+### <ins>Awards & Honors</ins>
+**Academic**
+
+::: {.grid}
+::: {.g-col-1}
+2019
+:::
+::: {.g-col-11}
+- Best Poster Award, iSEB 2019 annual conference, JNCASR, Bangalore
+:::
+:::
+
+::: {.grid}
+::: {.g-col-1}
+2018
+:::
+::: {.g-col-11}
+- Gold Medal and Best Software Tool Nomination (Team Leader), iGEM 2018, Boston, MA
+:::
+:::
+
+::: {.grid}
+::: {.g-col-1}
+2017
+:::
+::: {.g-col-11}
+- Gold Medal and Best Hardware Nomination, iGEM 2017, Boston, MA
+:::
+:::
+
+**Fellowships/Funding**
+
+::: {.grid}
+::: {.g-col-1}
+2023
+:::
+::: {.g-col-2}
+Rackham Research Grant
+:::
+::: {.g-col-9}
+Research Grant by the Rackham Graduate School at University of Michigan to expand evolvability project to the wet lab.
+:::
+:::
+
+::: {.grid}
+::: {.g-col-1}
+2022-23
+:::
+::: {.g-col-2}
+EEB Block Grant
+:::
+::: {.g-col-9}
+Research Grant by Department of Ecology and Evolutionary Biology, University of Michigan
+:::
+:::
+
+::: {.grid}
+::: {.g-col-1}
+2017
+:::
+::: {.g-col-2}
+iBEC Grant
+:::
+::: {.g-col-9}
+Indian Biological Engineering Competition. Awarded ∼14,000$ by the Department of Biotechnology, Govt. of India for iGEM 2017.
+:::
+:::
+
+::: {.grid}
+::: {.g-col-1}
+2014
+:::
+::: {.g-col-2}
+KVPY Fellowship
+:::
+::: {.g-col-9}
+National level competitive scholarship with stipend upto pre-PhD level by DST, Govt. of India.
+:::
+:::
+
+::: {.grid}
+::: {.g-col-1}
+2012
+:::
+::: {.g-col-2}
+NTSE Scholarship
+:::
+::: {.g-col-9}
+National level competitive scholarship by NCERT, Govt. of India (<0.1% selection rate)
+:::
+:::
+
+
+
+### <ins>Service & Outreach</ins>
+
+::: {.grid}
+::: {.g-col-1}
+2022
+:::
+::: {.g-col-11}
+- Feria de Ciencias Volunteer, Ann Arbor High School. SACNAS @ University of Michigan
+:::
+:::
+
+::: {.grid}
+::: {.g-col-1}
+2018
+:::
+::: {.g-col-11}
+- Public engagement presentations in local high schools to discuss antimicrobial resistance, Bangalore, India (as a part of iGEM 2018)
+- Undergraduate Synthetic Biology Workshop as iGEM 2018 Team Leader, Indian Institute of Science, Bangalore, India
+:::
+:::
+
+
+### <ins>Coursework</ins>
+
+**Graduate Level**
+
+::: {.grid}
+::: {.g-col-2}
+Biology
+:::
+::: {.g-col-10}
+Molecular Basis of Ageing and Regeneration, Elements of Structural Biology, Molecular Systems Biology, Principles of Genetic Engineering, Bioinformatics, Spatial and Stochastic Dynamics in Biology, Quantitative Ecology, Population and Community Ecology, Evolutionary Biology
+:::
+:::
+
+::: {.grid}
+::: {.g-col-2}
+Physics
+:::
+::: {.g-col-10}
+Condensed Matter Physics - I, Statistical Mechanics, Computational Physics, Information Theory, Theory of Social and Technological Networks
+:::
+:::
+
+::: {.grid}
+::: {.g-col-2}
+Other
+:::
+::: {.g-col-10}
+Game Theory, Numerical Solutions of Differential Equations, Dynamical Systems Theory, History of Complex Systems
+:::
+:::
+
+**Undergraduate**
+
+::: {.grid}
+::: {.g-col-2}
+Biology
+:::
+::: {.g-col-10}
+Molecular Biology, Developmental Biology, Physiology, Biochemistry
+:::
+:::
+
+::: {.grid}
+::: {.g-col-2}
+Physics
+:::
+::: {.g-col-10}
+Intermediate Thermal Physics and Physics of Materials, Materials Thermodynamics
+:::
+:::
+
+::: {.grid}
+::: {.g-col-2}
+Other
+:::
+::: {.g-col-10}
+Algorithms and Programming, Intro. to Electrical and Electronics Engineering, Probability and Statistics
+:::
+:::
+
+### <ins>Technical Skills</ins>
+
+::: {.grid}
+::: {.g-col-2}
+Programming
+:::
+::: {.g-col-10}
+C, C++, Python, Rust, Mathematica, Bash, Embedded C
+:::
+:::
+
+::: {.grid}
+::: {.g-col-2}
+Design
+:::
+::: {.g-col-10}
+Inkscape, GIMP, R & ggplot, basic OpenSCAD, Digital Electronics, 3D Printing, CNC Milling, Laser Cutting
+:::
+:::
+
+::: {.grid}
+::: {.g-col-2}
+Lab
+:::
+::: {.g-col-10}
+Microbiology, Molecular Biology, Bacteriophage work, Basic Biochemistry, and Design of synthetic gene circuits (Model Systems: Escherichia coli, T4 Bacteriophage, Dictyostelium discoideum)
+:::
+:::
