@@ -4,7 +4,7 @@ about:
 ---
 
 
-I am a PhD candidate at the [Department of Ecology and Evolutionary Biology](https://lsa.umich.edu/eeb) at the University of Michigan. I am working with Dr. Luis Zaman to understand [how evolving populations sustain continual adaptation in a changing environment](https://doi.org/10.1101/2023.01.04.520634).
+I am a PhD candidate at the [Department of Ecology and Evolutionary Biology](https://lsa.umich.edu/eeb) at the University of Michigan. I am working with Dr. Luis Zaman to understand [how evolving populations sustain continual adaptation in a changing environment](https://doi.org/10.1073/pnas.2413930121).
 
 More broadly, I'm interested in,
 
