@@ -1,2 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/home/kumawatb/University of Michigan Dropbox/Bhaskar Kumawat/Personal Website/QuartoWebsite/posts/assets/manim nbs/media/videos/manim nbs/720p30/partial_movie_files/CreateCircle/2374495756_3730748464_223132457.mp4'
