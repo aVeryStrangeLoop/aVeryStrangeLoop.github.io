@@ -2,7 +2,7 @@
 
 ## Publications
 
-- **Kumawat, B.**, Lalejini, A., Acosta, M. and Zaman, L., 2023. Fluctuating environments promote evolvability by shaping adaptive variation accessible to populations. *bioRxiv*, pp.2023-01. [https://doi.org/10.1101/2023.01.04.520634](https://doi.org/10.1101/2023.01.04.520634)
+- **Kumawat, B.**, Lalejini, A., Acosta, M.M. and Zaman, L., 2025. Evolution takes multiple paths to evolvability when facing environmental change. _Proceedings of the National Academy of Sciences, 122_(1), p.e2413930121. [https://doi.org/10.1073/pnas.2413930121](https://doi.org/10.1073/pnas.2413930121)
 
 - **Kumawat, B.** and Zaman, L., 2021, July. Architecture of the Genotype-Phenotype Map and the Coevolution of Complexity. In *Artificial Life Conference Proceedings 33* (Vol. 2021, No. 1, p. 66). MIT Press. [https://doi.org/10.1162/isal_a_00386](https://doi.org/10.1162/isal_a_00386)
 

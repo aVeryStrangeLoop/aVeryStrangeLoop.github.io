@@ -17,8 +17,11 @@ website:
         text: teaching
       - href: cv.qmd
         text: cv
+      - href: blog.qmd
+        text: blog
       - href: docs.qmd
         text: docs
+
   site-url: https://kumawatb.com
 
   page-footer:

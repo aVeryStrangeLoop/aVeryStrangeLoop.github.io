@@ -1,0 +1,8 @@
+---
+title: "blog"
+listing:
+  contents: posts/*.qmd
+  type: default
+  date-format: iso
+  categories: true
+---

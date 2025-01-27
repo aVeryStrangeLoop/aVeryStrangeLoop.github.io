@@ -86,4 +86,12 @@ font.smalltext{
     color:$accent1;
 }
 
+section#footnotes {
+    display: none !important;
+}
+  
+#quarto-appendix.default {
+    border-top: none !important;
+}
+
 

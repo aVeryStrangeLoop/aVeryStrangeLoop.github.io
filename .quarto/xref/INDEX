@@ -23,5 +23,23 @@
   },
   "docs.qmd": {
     "docs.html": "f491783f"
+  },
+  "blog.qmd": {
+    "blog.html": "9ad5bf3d"
+  },
+  "posts/test.qmd": {
+    "test.html": "9a625237"
+  },
+  "posts/test2.qmd": {
+    "test2.html": "ad2a8241"
+  },
+  "posts/20241217AvidaEvolvability.qmd": {
+    "20241217AvidaEvolvability.html": "df68bc25"
+  },
+  "posts/assets/rawsvgs/fig3/make_graph.ipynb": {
+    "make_graph.html": "41ee60e4"
+  },
+  "posts/assets/manim nbs/fig2.ipynb": {
+    "fig2.html": "d335a81a"
   }
 }
