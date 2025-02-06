@@ -1,43 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kumawatb.com/blog.html</loc>
-    <lastmod>2025-01-27T19:44:59.643Z</lastmod>
-  </url>
-  <url>
     <loc>https://kumawatb.com/index.html</loc>
-    <lastmod>2025-01-27T19:43:05.976Z</lastmod>
+    <lastmod>2025-01-27T19:43:05.000Z</lastmod>
   </url>
   <url>
-    <loc>https://kumawatb.com/posts/20241217AvidaEvolvability.html</loc>
-    <lastmod>2025-01-27T20:16:38.268Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kumawatb.com/posts/assets/rawsvgs/fig3/make_graph.html</loc>
-    <lastmod>2025-01-27T14:50:30.636Z</lastmod>
+    <loc>https://kumawatb.com/docs.html</loc>
+    <lastmod>2024-07-08T14:20:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://kumawatb.com/cv.html</loc>
-    <lastmod>2025-01-27T20:22:58.085Z</lastmod>
+    <lastmod>2025-01-27T20:22:58.000Z</lastmod>
   </url>
   <url>
-    <loc>https://kumawatb.com/teaching.html</loc>
-    <lastmod>2024-05-18T16:19:48.000Z</lastmod>
+    <loc>https://kumawatb.com/posts/20241217AvidaEvolvability.html</loc>
+    <lastmod>2025-02-06T01:20:44.768Z</lastmod>
   </url>
   <url>
     <loc>https://kumawatb.com/pubs.html</loc>
-    <lastmod>2025-01-27T20:22:51.986Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kumawatb.com/posts/assets/manim nbs/fig2.html</loc>
-    <lastmod>2025-01-17T13:04:01.818Z</lastmod>
+    <lastmod>2025-01-27T20:22:51.000Z</lastmod>
   </url>
   <url>
     <loc>https://kumawatb.com/research.html</loc>
     <lastmod>2024-05-19T21:00:22.000Z</lastmod>
   </url>
   <url>
-    <loc>https://kumawatb.com/docs.html</loc>
-    <lastmod>2024-07-08T14:20:00.000Z</lastmod>
+    <loc>https://kumawatb.com/posts/assets/rawsvgs/fig3/make_graph.html</loc>
+    <lastmod>2025-01-27T14:50:30.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kumawatb.com/teaching.html</loc>
+    <lastmod>2024-05-18T16:19:48.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kumawatb.com/blog.html</loc>
+    <lastmod>2025-01-27T19:44:59.000Z</lastmod>
   </url>
 </urlset>

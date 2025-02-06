@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.34">
+<meta name="generator" content="quarto-1.5.54">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -57,10 +57,10 @@ div.csl-indent {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-f23ab18612d661d7bd56dbc0c0fd3817.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-118765ff3f07d7d6a088d58c4d8f74a3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -232,7 +232,7 @@ window.Quarto = {
 <img src="./assets/pnas2025_fig1.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: <strong>Most DNA mutations tend to be neutral, but some point mutations can create surprising changes in the phenotype.</strong> A single DNA mutation on chromosome 15 of a parent with brown eyes changes the child’s eye color to blue. However, most other mutations in this region do not affect eye color. The set of all possible sequences that can be produced through mutation from a DNA sequence is also called its <em>mutational landscape</em>. In this case, the mutational landscape of the parent DNA consists of all the sequences on the right. See <span class="citation" data-cites="Visser2012-qk">Visser, Kayser, and Palstra (<a href="#ref-Visser2012-qk" role="doc-biblioref">2012</a>)</span> for more details. Eye images from <a href="https://pixabay.com/">pixabay</a>.
+Figure&nbsp;1: <strong>Most DNA mutations tend to be neutral, but some point mutations can create surprising changes in the phenotype.</strong> A single DNA mutation on chromosome 15 of a parent with blue eyes changes the child’s eye color to brown. However, most other mutations in this region do not affect eye color. The set of all possible sequences that can be produced through mutation from a DNA sequence is also called its <em>mutational landscape</em>. In this case, the mutational landscape of the parent DNA consists of all the sequences on the right. See <span class="citation" data-cites="Visser2012-qk">Visser, Kayser, and Palstra (<a href="#ref-Visser2012-qk" role="doc-biblioref">2012</a>)</span> for more details. Eye images from <a href="https://pixabay.com/">pixabay</a>.
 </figcaption>
 </figure>
 </div>
@@ -409,6 +409,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -519,6 +521,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
