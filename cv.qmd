@@ -167,6 +167,15 @@ Graduate Student Instructor, University of Michigan; Fall 2021
 
 ::: {.grid}
 ::: {.g-col-1}
+2025
+:::
+::: {.g-col-11}
+- Rackham Outstanding Graduate Student Instructor Award, University of Michigan, Ann Arbor
+:::
+:::
+
+::: {.grid}
+::: {.g-col-1}
 2019
 :::
 ::: {.g-col-11}

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.54">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a1da78eb123fba4a812a0c3bccabf2fa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -132,7 +132,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#previous-teaching-positions" id="toc-previous-teaching-positions" class="nav-link active" data-scroll-target="#previous-teaching-positions">Previous Teaching Positions</a>
+  <li><a href="#awards" id="toc-awards" class="nav-link active" data-scroll-target="#awards">Awards</a></li>
+  <li><a href="#previous-teaching-positions" id="toc-previous-teaching-positions" class="nav-link" data-scroll-target="#previous-teaching-positions">Previous Teaching Positions</a>
   <ul class="collapse">
   <li><a href="#eeb-429-introduction-to-statistical-model-building-in-r" id="toc-eeb-429-introduction-to-statistical-model-building-in-r" class="nav-link" data-scroll-target="#eeb-429-introduction-to-statistical-model-building-in-r">EEB 429: Introduction to Statistical Model Building in R</a></li>
   <li><a href="#eeb-485-population-and-community-ecology" id="toc-eeb-485-population-and-community-ecology" class="nav-link" data-scroll-target="#eeb-485-population-and-community-ecology">EEB 485: Population and Community Ecology</a></li>
@@ -143,12 +144,16 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<p>I have been awarded the <a href="./teaching/Bhaskar Kumawat.pdf">U-M Graduate Teacher Certificate</a> in recognition of my professional development and experience as an instructor at the University of Michigan (see <a href="https://crlt.umich.edu/um.gtc/description">certificate description</a>). Currently, I am developing a two part course on evolutionary theory for graduate and advanced undergraduate students for future positions as an instructor of record.</p>
+<section id="awards" class="level2">
+<h2 class="anchored" data-anchor-id="awards">Awards</h2>
+<p><strong>2025:</strong> I was awarded the <a href="https://rackham.umich.edu/faculty-and-staff/awards/outstanding-graduate-student-instructor-awards/">Outstanding Graduate Student Instructor Award</a> by the Rackham Graduate School at University of Michigan. Every year, the award recognizes 20 graduate students across the university who show <em>“exceptional ability, continuous growth and creativity as teachers; service as outstanding mentors and advisors to their students and colleagues; and growth as scholars in the course of their graduate programs.”</em></p>
+<p><strong>2024:</strong> I was awarded the <a href="./teaching/Bhaskar Kumawat.pdf">U-M Graduate Teacher Certificate</a> in recognition of my professional development and experience as an instructor at the University of Michigan (see <a href="https://crlt.umich.edu/um.gtc/description">certificate description</a>).</p>
+</section>
 <section id="previous-teaching-positions" class="level2">
 <h2 class="anchored" data-anchor-id="previous-teaching-positions">Previous Teaching Positions</h2>
 <section id="eeb-429-introduction-to-statistical-model-building-in-r" class="level3">
@@ -343,8 +348,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -455,7 +458,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

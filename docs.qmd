@@ -1,20 +1,22 @@
 
 This page contains links to the documentation for some of my projects that do not classify into the typical academic categories. Almost all of these are work-in-progress and are updated intermittently.
 
+### Life From Scratch
+This project is aimed at simulating an artificial 2D chemistry consisting of "atoms" that interact with each other based on arbitrary reaction rules. The goal is to model the emergence of self-replicating entities in a somewhat physics-y world. While this sort of *origin of life* experiment in a simulated chemistry has been [done before](https://github.com/timhutton/squirm3), I want to study how such replicators can be made to increase in complexity (and *evolve*) when challenged with a changing environment. The entire framework is written in Rust and uses the [Bevy](https://bevyengine.org/) and [Rapier](https://github.com/dimforge/bevy_rapier) libraries for managing the simulation and physics.
+
+[Go to the external project page]() (Started as a part of a class project for CMPLXSYS 530 at University of Michigan)
+
 ### Evolvability in 1/2-dimensions
 In our paper on the evolution of evolvability in digital organisms, we found that populations localize on areas of the genotype space that lie on the boundary between phenotypes in a changing environment. I wrote this interactive page to provide the molecular biology knowledge required to understand this phenomena. Simulations on the page model the evolution of evolvability on genotype spaces in 1 and 2 dimensions under a Wright-Fisher model. 
 
-[Go to the project page](https://maxjerdee.github.io/CSSS-arts/projects/fitness_landscapes.html) (Created as a part of the 2024 Complex Systems Summer School at the Santa Fe Institute)
+[Go to the external project page](https://maxjerdee.github.io/CSSS-arts/projects/fitness_landscapes.html) (Created as a part of the 2024 Complex Systems Summer School at the Santa Fe Institute)
 
+<!---
 ### Building the ZE3 macroscope
 This project documents the construction of a *macroscope*, a fluorescence imaging platform that can take timelapse pictures of growing microbial cultures. This hardware is heavily inspired by [previous](https://openhardware.metajnl.com/articles/10.5334/joh.44) [work](https://openwetware.org/wiki/Macroscope) on imaging spatial dynamics in microbial communities. I am currently using this device to address questions on the evolution of evolvability in phage populations.
 
 [Go to the project page]()
 
-### Embedded spatial simulations
-Tiny, powerful, and cheap [microcontrollers](https://jaycarlson.net/microcontrollers/) have become extremely abundant in the last few years. In order to learn how to program these devices, I am trying to create a small computer that can be used to simulate spatial biological processes (including spatial SIR models, population genetics, and models of speciation). I started out with a STM32 MCU but have recently switched to the RP2040 chip for this project.
-
-[Go to the project page]()
 
 ### Theoretical Evolutionary Biology I: Mathematical Population Genetics
 This is the website for a course designed to introduce theoretical ideas in population genetics to students from theoretical biology and physics backgrounds. Covered areas (tentative) include: Deterministic models of evolution, Wright-Fisher and Moran models with two alleles, infinitely many alleles, two and many loci, diffusion theory, the coalescent, and spatially structures populations.
@@ -25,6 +27,8 @@ This is the website for a course designed to introduce theoretical ideas in popu
 This is the website for a course designed to introduce modern theories in the field of evolutionary biology to an audience adept to classical population genetics. Covered areas (tentative) include: Quasispecies and the error threshold, evolution on the genotype-phenotype map, clonal interference, robustness and evolvability.
 
 [Go to the project page]()
+
+--->
 
 
 

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.54">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a1da78eb123fba4a812a0c3bccabf2fa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -132,45 +132,45 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#evolvability-in-12-dimensions" id="toc-evolvability-in-12-dimensions" class="nav-link active" data-scroll-target="#evolvability-in-12-dimensions">Evolvability in 1/2-dimensions</a></li>
-  <li><a href="#building-the-ze3-macroscope" id="toc-building-the-ze3-macroscope" class="nav-link" data-scroll-target="#building-the-ze3-macroscope">Building the ZE3 macroscope</a></li>
-  <li><a href="#embedded-spatial-simulations" id="toc-embedded-spatial-simulations" class="nav-link" data-scroll-target="#embedded-spatial-simulations">Embedded spatial simulations</a></li>
-  <li><a href="#theoretical-evolutionary-biology-i-mathematical-population-genetics" id="toc-theoretical-evolutionary-biology-i-mathematical-population-genetics" class="nav-link" data-scroll-target="#theoretical-evolutionary-biology-i-mathematical-population-genetics">Theoretical Evolutionary Biology I: Mathematical Population Genetics</a></li>
-  <li><a href="#theoretical-evolutionary-biology-ii-modern-evolutionary-theory" id="toc-theoretical-evolutionary-biology-ii-modern-evolutionary-theory" class="nav-link" data-scroll-target="#theoretical-evolutionary-biology-ii-modern-evolutionary-theory">Theoretical Evolutionary Biology II: Modern Evolutionary Theory</a></li>
+  <li><a href="#life-from-scratch" id="toc-life-from-scratch" class="nav-link active" data-scroll-target="#life-from-scratch">Life From Scratch</a></li>
+  <li><a href="#evolvability-in-12-dimensions" id="toc-evolvability-in-12-dimensions" class="nav-link" data-scroll-target="#evolvability-in-12-dimensions">Evolvability in 1/2-dimensions</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
 <p>This page contains links to the documentation for some of my projects that do not classify into the typical academic categories. Almost all of these are work-in-progress and are updated intermittently.</p>
+<section id="life-from-scratch" class="level3">
+<h3 class="anchored" data-anchor-id="life-from-scratch">Life From Scratch</h3>
+<p>This project is aimed at simulating an artificial 2D chemistry consisting of “atoms” that interact with each other based on arbitrary reaction rules. The goal is to model the emergence of self-replicating entities in a somewhat physics-y world. While this sort of <em>origin of life</em> experiment in a simulated chemistry has been <a href="https://github.com/timhutton/squirm3">done before</a>, I want to study how such replicators can be made to increase in complexity (and <em>evolve</em>) when challenged with a changing environment. The entire framework is written in Rust and uses the <a href="https://bevyengine.org/">Bevy</a> and <a href="https://github.com/dimforge/bevy_rapier">Rapier</a> libraries for managing the simulation and physics.</p>
+<p><a href="">Go to the external project page</a> (Started as a part of a class project for CMPLXSYS 530 at University of Michigan)</p>
+</section>
 <section id="evolvability-in-12-dimensions" class="level3">
 <h3 class="anchored" data-anchor-id="evolvability-in-12-dimensions">Evolvability in 1/2-dimensions</h3>
 <p>In our paper on the evolution of evolvability in digital organisms, we found that populations localize on areas of the genotype space that lie on the boundary between phenotypes in a changing environment. I wrote this interactive page to provide the molecular biology knowledge required to understand this phenomena. Simulations on the page model the evolution of evolvability on genotype spaces in 1 and 2 dimensions under a Wright-Fisher model.</p>
-<p><a href="https://maxjerdee.github.io/CSSS-arts/projects/fitness_landscapes.html">Go to the project page</a> (Created as a part of the 2024 Complex Systems Summer School at the Santa Fe Institute)</p>
-</section>
-<section id="building-the-ze3-macroscope" class="level3">
-<h3 class="anchored" data-anchor-id="building-the-ze3-macroscope">Building the ZE3 macroscope</h3>
-<p>This project documents the construction of a <em>macroscope</em>, a fluorescence imaging platform that can take timelapse pictures of growing microbial cultures. This hardware is heavily inspired by <a href="https://openhardware.metajnl.com/articles/10.5334/joh.44">previous</a> <a href="https://openwetware.org/wiki/Macroscope">work</a> on imaging spatial dynamics in microbial communities. I am currently using this device to address questions on the evolution of evolvability in phage populations.</p>
-<p><a href="">Go to the project page</a></p>
-</section>
-<section id="embedded-spatial-simulations" class="level3">
-<h3 class="anchored" data-anchor-id="embedded-spatial-simulations">Embedded spatial simulations</h3>
-<p>Tiny, powerful, and cheap <a href="https://jaycarlson.net/microcontrollers/">microcontrollers</a> have become extremely abundant in the last few years. In order to learn how to program these devices, I am trying to create a small computer that can be used to simulate spatial biological processes (including spatial SIR models, population genetics, and models of speciation). I started out with a STM32 MCU but have recently switched to the RP2040 chip for this project.</p>
-<p><a href="">Go to the project page</a></p>
-</section>
-<section id="theoretical-evolutionary-biology-i-mathematical-population-genetics" class="level3">
-<h3 class="anchored" data-anchor-id="theoretical-evolutionary-biology-i-mathematical-population-genetics">Theoretical Evolutionary Biology I: Mathematical Population Genetics</h3>
-<p>This is the website for a course designed to introduce theoretical ideas in population genetics to students from theoretical biology and physics backgrounds. Covered areas (tentative) include: Deterministic models of evolution, Wright-Fisher and Moran models with two alleles, infinitely many alleles, two and many loci, diffusion theory, the coalescent, and spatially structures populations.</p>
-<p><a href="">Go to the project page</a></p>
-</section>
-<section id="theoretical-evolutionary-biology-ii-modern-evolutionary-theory" class="level3">
-<h3 class="anchored" data-anchor-id="theoretical-evolutionary-biology-ii-modern-evolutionary-theory">Theoretical Evolutionary Biology II: Modern Evolutionary Theory</h3>
-<p>This is the website for a course designed to introduce modern theories in the field of evolutionary biology to an audience adept to classical population genetics. Covered areas (tentative) include: Quasispecies and the error threshold, evolution on the genotype-phenotype map, clonal interference, robustness and evolvability.</p>
-<p><a href="">Go to the project page</a></p>
+<p><a href="https://maxjerdee.github.io/CSSS-arts/projects/fitness_landscapes.html">Go to the external project page</a> (Created as a part of the 2024 Complex Systems Summer School at the Santa Fe Institute)</p>
+<!---
+### Building the ZE3 macroscope
+This project documents the construction of a *macroscope*, a fluorescence imaging platform that can take timelapse pictures of growing microbial cultures. This hardware is heavily inspired by [previous](https://openhardware.metajnl.com/articles/10.5334/joh.44) [work](https://openwetware.org/wiki/Macroscope) on imaging spatial dynamics in microbial communities. I am currently using this device to address questions on the evolution of evolvability in phage populations.
+
+[Go to the project page]()
+
+
+### Theoretical Evolutionary Biology I: Mathematical Population Genetics
+This is the website for a course designed to introduce theoretical ideas in population genetics to students from theoretical biology and physics backgrounds. Covered areas (tentative) include: Deterministic models of evolution, Wright-Fisher and Moran models with two alleles, infinitely many alleles, two and many loci, diffusion theory, the coalescent, and spatially structures populations.
+
+[Go to the project page]()
+
+### Theoretical Evolutionary Biology II: Modern Evolutionary Theory
+This is the website for a course designed to introduce modern theories in the field of evolutionary biology to an audience adept to classical population genetics. Covered areas (tentative) include: Quasispecies and the error threshold, evolution on the genotype-phenotype map, clonal interference, robustness and evolvability.
+
+[Go to the project page]()
+
+--->
 
 
 </section>
@@ -258,8 +258,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -370,7 +368,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
