@@ -4,7 +4,7 @@ This page contains links to the documentation for some of my projects that do no
 ### Life From Scratch
 This project is aimed at simulating an artificial 2D chemistry consisting of "atoms" that interact with each other based on arbitrary reaction rules. The goal is to model the emergence of self-replicating entities in a somewhat physics-y world. While this sort of *origin of life* experiment in a simulated chemistry has been [done before](https://github.com/timhutton/squirm3), I want to study how such replicators can be made to increase in complexity (and *evolve*) when challenged with a changing environment. The entire framework is written in Rust and uses the [Bevy](https://bevyengine.org/) and [Rapier](https://github.com/dimforge/bevy_rapier) libraries for managing the simulation and physics.
 
-[Go to the external project page]() (Started as a part of a class project for CMPLXSYS 530 at University of Michigan)
+[Go to the external project page](https://kumawatb.github.io/lifefromscratch/) (Started as a part of a class project for CMPLXSYS 530 at University of Michigan)
 
 ### Evolvability in 1/2-dimensions
 In our paper on the evolution of evolvability in digital organisms, we found that populations localize on areas of the genotype space that lie on the boundary between phenotypes in a changing environment. I wrote this interactive page to provide the molecular biology knowledge required to understand this phenomena. Simulations on the page model the evolution of evolvability on genotype spaces in 1 and 2 dimensions under a Wright-Fisher model. 
