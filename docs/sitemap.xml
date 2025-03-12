@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kumawatb.com/blog.html</loc>
-    <lastmod>2025-03-11T17:11:17.052Z</lastmod>
-  </url>
-  <url>
     <loc>https://kumawatb.com/cv.html</loc>
-    <lastmod>2025-03-11T17:14:59.789Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kumawatb.com/index.html</loc>
-    <lastmod>2025-03-11T17:11:17.296Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kumawatb.com/posts/20241217AvidaEvolvability.html</loc>
-    <lastmod>2025-03-11T17:11:17.484Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kumawatb.com/teaching.html</loc>
-    <lastmod>2025-03-11T17:43:30.729Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kumawatb.com/research.html</loc>
-    <lastmod>2025-03-11T17:11:17.580Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kumawatb.com/posts/assets/rawsvgs/fig3/make_graph.html</loc>
-    <lastmod>2025-03-11T17:11:17.566Z</lastmod>
+    <lastmod>2025-03-11T17:14:59.000Z</lastmod>
   </url>
   <url>
     <loc>https://kumawatb.com/pubs.html</loc>
-    <lastmod>2025-03-11T17:11:17.579Z</lastmod>
+    <lastmod>2025-03-11T17:11:17.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kumawatb.com/teaching.html</loc>
+    <lastmod>2025-03-11T17:43:30.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kumawatb.com/posts/20241217AvidaEvolvability.html</loc>
+    <lastmod>2025-03-11T17:11:17.000Z</lastmod>
   </url>
   <url>
     <loc>https://kumawatb.com/docs.html</loc>
-    <lastmod>2025-03-11T17:32:32.095Z</lastmod>
+    <lastmod>2025-03-12T18:28:43.385Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kumawatb.com/research.html</loc>
+    <lastmod>2025-03-11T17:11:17.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kumawatb.com/posts/assets/rawsvgs/fig3/make_graph.html</loc>
+    <lastmod>2025-03-11T17:11:17.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kumawatb.com/blog.html</loc>
+    <lastmod>2025-03-11T17:11:17.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kumawatb.com/index.html</loc>
+    <lastmod>2025-03-11T17:11:17.000Z</lastmod>
   </url>
 </urlset>
