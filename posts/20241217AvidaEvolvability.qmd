@@ -1,6 +1,7 @@
 ---
 title: "How evolution _learns_ from a changing environment"
 author: Bhaskar Kumawat
+date: 2025/01/10
 categories: [commentary, evolution]
 image: ./assets/pnas2025_fig2.png
 bibliography: ./assets/refsavidapnas.bib
