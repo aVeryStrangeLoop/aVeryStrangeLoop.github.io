@@ -7,7 +7,7 @@ format:
 ### Evolution of Evolvability
 Evolution can be immensely creative when it comes to the specification of [organismal form and function](https://wwnorton.com/books/9780393307009). However, whether evolution through natural selection can sustain itself by improving the ability of a population to evolve has been the topic of [a great debate](https://www.nature.com/articles/nrg2278). Surprisingly, the individual determinants of this *evolvability* (eg. [genetic pleiotropy](https://doi.org/10.1111/j.1558-5646.2007.00303.x), [development plasticity](https://doi.org/10.1111/j.1558-5646.2012.01649.x), [mutation rate](https://doi.org/10.1534/genetics.116.193565)) have been shown to evolve under specific contexts. In my research, I am taking a step further down this line of reasoning to ask the following questions.
  
-1. Can the different determinants of evolvability evolve simulatenously under specific conditions? ([preprint](https://doi.org/10.1101/2023.01.04.520634))
+1. Can the different determinants of evolvability evolve simulatenously under specific conditions? ([paper](https://doi.org/10.1073/pnas.2413930121))
 2. Can we use tools from statistical physics to derive the conditions for the emergence of evolvability? (in progress)
 3. Can we use directed evolution to engineer populations with increased evolvability?  (in progress)
 

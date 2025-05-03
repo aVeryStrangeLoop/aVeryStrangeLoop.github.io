@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.5.54">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-293c561c89e31332c754eb4501a6bd8a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -139,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
 
 
 
@@ -148,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="evolution-of-evolvability">Evolution of Evolvability</h3>
 <p>Evolution can be immensely creative when it comes to the specification of <a href="https://wwnorton.com/books/9780393307009">organismal form and function</a>. However, whether evolution through natural selection can sustain itself by improving the ability of a population to evolve has been the topic of <a href="https://www.nature.com/articles/nrg2278">a great debate</a>. Surprisingly, the individual determinants of this <em>evolvability</em> (eg. <a href="https://doi.org/10.1111/j.1558-5646.2007.00303.x">genetic pleiotropy</a>, <a href="https://doi.org/10.1111/j.1558-5646.2012.01649.x">development plasticity</a>, <a href="https://doi.org/10.1534/genetics.116.193565">mutation rate</a>) have been shown to evolve under specific contexts. In my research, I am taking a step further down this line of reasoning to ask the following questions.</p>
 <ol type="1">
-<li>Can the different determinants of evolvability evolve simulatenously under specific conditions? (<a href="https://doi.org/10.1101/2023.01.04.520634">preprint</a>)</li>
+<li>Can the different determinants of evolvability evolve simulatenously under specific conditions? (<a href="https://doi.org/10.1073/pnas.2413930121">paper</a>)</li>
 <li>Can we use tools from statistical physics to derive the conditions for the emergence of evolvability? (in progress)</li>
 <li>Can we use directed evolution to engineer populations with increased evolvability? (in progress)</li>
 </ol>
@@ -255,6 +255,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -365,6 +367,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
