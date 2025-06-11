@@ -1,0 +1,102 @@
+/*-- scss:defaults --*/
+// Define colors
+$accent1: #D48082;
+$accent2: #C50003;
+
+// set link color to accent1
+$link-color: $accent1;
+
+// Dark Mode
+$body-bg: #121212;
+$body-color: #E0E0E0;
+$navbar-bg: #121212;
+$navbar-fg: #E0E0E0;
+$footer-bg: #121212;
+$footer-fg: #adadad;
+
+// Define fonts
+@font-face{
+    font-family: 'Atkinson Next';
+    src: url("./fonts/AtkinsonNext/AtkinsonHyperlegibleNext-Regular.ttf");
+}
+
+@font-face{
+    font-family: 'Atkinson Next';
+    src: url("./fonts/AtkinsonNext/AtkinsonHyperlegibleNext-SemiBold.ttf");
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: 'Roboto';
+    src: url("fonts/RobotoSerif/RobotoSerif-Regular.ttf");
+}
+@font-face{
+    font-family: 'Roboto';
+    src: url("fonts/RobotoSerif/RobotoSerif-SemiBold.ttf");
+    font-weight: bold;
+}
+
+// Set default font to Atkinson Next
+$font-family-sans-serif: Atkinson Next, sans-serif;
+
+
+/*-- scss:rules --*/
+
+// Set font for navbar title
+span.navbar-title {
+    font-family: Roboto, serif;
+}
+
+// Set border for navbar
+.navbar{
+    border-width: 0px;
+}
+
+// Remove underline from links
+a:link{
+    text-decoration: none;
+}
+
+// Set link hover color
+a:hover{
+    color: $accent2;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+font.smalltext{
+    font-size: 10pt;
+}
+
+.callout.callout-style-simple {
+    padding: 0em 0em;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.callout.callout-style-simple>div.callout-header {
+    border-bottom: none;
+    font-weight: 500;
+    opacity: 100%;
+    color:$accent1;
+}
+
+section#footnotes {
+    display: none !important;
+}
+  
+#quarto-appendix.default {
+    border-top: none !important;
+}
+
+

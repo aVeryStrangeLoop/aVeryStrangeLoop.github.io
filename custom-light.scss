@@ -8,28 +8,28 @@ $link-color: $accent1;
 
 // Define fonts
 @font-face{
-    font-family: 'Source Sans';
-    src: url("./fonts/SourceSansPro-Regular.ttf");
+    font-family: 'Atkinson Next';
+    src: url("./fonts/AtkinsonNext/AtkinsonHyperlegibleNext-Regular.ttf");
 }
 
 @font-face{
-    font-family: 'Source Sans';
-    src: url("./fonts/SourceSansPro-SemiBold.ttf");
+    font-family: 'Atkinson Next';
+    src: url("./fonts/AtkinsonNext/AtkinsonHyperlegibleNext-SemiBold.ttf");
     font-weight: bold;
 }
 
 @font-face{
-    font-family: 'Merriweather';
-    src: url("fonts/Merriweather-Regular.ttf");
+    font-family: 'Roboto';
+    src: url("fonts/RobotoSerif/RobotoSerif-Regular.ttf");
 }
 @font-face{
-    font-family: 'Merriweather';
-    src: url("fonts/Merriweather-Bold.ttf");
+    font-family: 'Roboto';
+    src: url("fonts/RobotoSerif/RobotoSerif-SemiBold.ttf");
     font-weight: bold;
 }
 
-// Set default font to Source Sans
-$font-family-sans-serif: Source Sans;
+// Set default font to Atkinson Next
+$font-family-sans-serif: Atkinson Next, sans-serif;
 
 // Set body color to white
 $body-bg: #ffffff;
@@ -39,7 +39,7 @@ $body-bg: #ffffff;
 
 // Set font for navbar title
 span.navbar-title {
-    font-family: Merriweather;
+    font-family: Roboto, serif;
 }
 
 // Set border for navbar

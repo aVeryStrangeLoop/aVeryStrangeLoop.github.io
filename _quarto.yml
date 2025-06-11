@@ -34,9 +34,10 @@ website:
 
 format:
   html:
+    respect-user-color-scheme: true
     theme: 
-      - simplex
-      - custom-light.scss
+      light: [simplex, custom-light.scss]
+      dark: [simplex, custom-dark.scss]
     toc: true
     grid: 
       sidebar-width: 0px;
