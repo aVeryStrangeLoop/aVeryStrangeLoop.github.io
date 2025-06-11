@@ -13,6 +13,17 @@ format:
 - Indian Institute of Science (2016-2021)
     - Bachelor of Science (BS) + Master of Science (MS) in Biology
 
+:::{.grid}
+::: {.g-col-1}
+### Education
+:::
+:::{.g-col-11}
+**University of Michigan**
+
+
+:::
+:::
+
 ### <ins>Teaching</ins>
 ::: {.grid}
 ::: {.g-col-2}

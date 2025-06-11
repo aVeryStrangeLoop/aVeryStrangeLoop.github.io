@@ -15,8 +15,9 @@ website:
         text: publications
       - href: teaching.qmd
         text: teaching
-      - href: cv.qmd
-        text: cv
+      - href: cv.pdf
+        text: "cv"
+        icon: file-earmark-arrow-down
       - href: blog.qmd
         text: blog
       - href: docs.qmd
