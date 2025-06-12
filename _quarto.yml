@@ -16,8 +16,7 @@ website:
       - href: teaching.qmd
         text: teaching
       - href: cv.pdf
-        text: "cv"
-        icon: file-earmark-arrow-down
+        text: "cv {{< iconify ph file-pdf-bold >}} "
       - href: blog.qmd
         text: blog
       - href: docs.qmd
@@ -30,8 +29,8 @@ website:
     left:
       - "Bhaskar Kumawat <br> kumawatb [at] umich.edu"
     right: |
-      [github](https://github.com/aVeryStrangeLoop)  <br>
-      [scholar](https://scholar.google.com/citations?user=gZCvqlUAAAAJ)
+      [github](https://github.com/aVeryStrangeLoop){target="_blank"}  <br>
+      [scholar](https://scholar.google.com/citations?user=gZCvqlUAAAAJ){target="_blank"}
 
 format:
   html:

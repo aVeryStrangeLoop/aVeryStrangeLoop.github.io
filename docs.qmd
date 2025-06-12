@@ -1,21 +1,27 @@
 
-This page contains links to the documentation for some of my projects that do not classify into the typical academic categories. Almost all of these are work-in-progress and are updated intermittently.
+This page contains links to documentation for some of my projects that do not classify into the typical academic categories. Almost all of these projects are work-in-progress and are updated intermittently.
 
 
 ### Life From Scratch
-This project is aimed at simulating an artificial 2D chemistry consisting of "atoms" that interact with each other based on arbitrary reaction rules. The goal is to model the emergence of self-replicating entities in a somewhat physics-y world. While this sort of *origin of life* experiment in a simulated chemistry has been [done before](https://github.com/timhutton/squirm3), I want to study how such replicators can be made to increase in complexity (and *evolve*) when challenged with a changing environment. The entire framework is written in Rust and uses the [Bevy](https://bevyengine.org/) and [Rapier](https://github.com/dimforge/bevy_rapier) libraries for managing the simulation and physics.
+This project is aimed at simulating an artificial 2D chemistry consisting of "atoms" that interact with each other based on arbitrary reaction rules. The goal is to model the emergence of self-replicating entities in a somewhat physics-y world. While this sort of *origin of life* experiment in a simulated chemistry has been [done before](https://github.com/timhutton/squirm3), I want to study how such replicators can be made to increase in complexity (and even *evolve* in a Darwinian fashion) when challenged with a changing environment. The entire framework is written in Rust and uses the [Bevy](https://bevyengine.org/) and [Rapier](https://github.com/dimforge/bevy_rapier) libraries for managing the simulation and physics.
 
-[Go to the external project page](https://kumawatb.github.io/lifefromscratch/) (Started as a part of a class project for CMPLXSYS 530 at University of Michigan)
+::: {style="font-size:12pt;"}
+[Project page](https://kumawatb.github.io/lifefromscratch/){.external target="_blank"} (Started as a part of a class project for CMPLXSYS 530 at University of Michigan)
+:::
 
 ### Evolvability in 1/2-dimensions
-In our paper on the evolution of evolvability in digital organisms, we found that populations localize on areas of the genotype space that lie on the boundary between phenotypes in a changing environment. I wrote this interactive page to provide the molecular biology knowledge required to understand this phenomena. Simulations on the page model the evolution of evolvability on genotype spaces in 1 and 2 dimensions under a Wright-Fisher model. 
+In our [paper on the evolution of evolvability in digital organisms](https://doi.org/10.1073/pnas.2413930121), we found that populations in a changing environment can localize on areas of the genotype space that lie on the boundary between phenotypes. I wrote this interactive document to lay out the basic biology knowledge required to understand this phenomena. Simulations on the page model the evolution of evolvability on genotype spaces in 1 and 2 dimensions under a Wright-Fisher model. 
 
-[Go to the external project page](https://maxjerdee.github.io/CSSS-arts/projects/fitness_landscapes.html) (Created as a part of the 2024 Complex Systems Summer School at the Santa Fe Institute)
+::: {style="font-size:12pt;"}
+[Project page](https://maxjerdee.github.io/CSSS-arts/projects/fitness_landscapes.html){.external target="_blank"} (Created as a part of the 2024 Complex Systems Summer School at the Santa Fe Institute)
+:::
 
 ### Protocols
-This website documents the frequently used protocols from some of my wet-lab work. These are likely to be updated frequently (and are extremely customized for my usecase/lab).
+This website documents the frequently used protocols from some of my wet-lab work. These are updated frequently (and are extremely customized for my usecase).
 
-[Go to external protocols page](https://kumawatb.github.io/lab_protocols/)
+::: {style="font-size:12pt;"}
+[Protocols page](https://kumawatb.github.io/lab_protocols/){.external target="_blank"}
+:::
 
 <!---
 ### Building the ZE3 macroscope

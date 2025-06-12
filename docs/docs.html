@@ -45,6 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-c982b2ddfead7dfb04d305bbed87e6cd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark-75d58aa15d20048b2dd8b81523e7b345.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/bootstrap/bootstrap-c982b2ddfead7dfb04d305bbed87e6cd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -281,9 +282,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.pdf"> <i class="bi bi-file-earmark-arrow-down" role="img">
-</i> 
-<span class="menu-text">cv</span></a>
+    <a class="nav-link" href="./cv.pdf"> 
+<span class="menu-text">cv <iconify-icon role="img" inline="" icon="ph:file-pdf-bold" aria-label="Icon file-pdf-bold from ph Iconify.design set." title="Icon file-pdf-bold from ph Iconify.design set."></iconify-icon></span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./blog.html"> 
@@ -323,21 +323,27 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This page contains links to the documentation for some of my projects that do not classify into the typical academic categories. Almost all of these are work-in-progress and are updated intermittently.</p>
+<p>This page contains links to documentation for some of my projects that do not classify into the typical academic categories. Almost all of these projects are work-in-progress and are updated intermittently.</p>
 <section id="life-from-scratch" class="level3">
 <h3 class="anchored" data-anchor-id="life-from-scratch">Life From Scratch</h3>
-<p>This project is aimed at simulating an artificial 2D chemistry consisting of “atoms” that interact with each other based on arbitrary reaction rules. The goal is to model the emergence of self-replicating entities in a somewhat physics-y world. While this sort of <em>origin of life</em> experiment in a simulated chemistry has been <a href="https://github.com/timhutton/squirm3">done before</a>, I want to study how such replicators can be made to increase in complexity (and <em>evolve</em>) when challenged with a changing environment. The entire framework is written in Rust and uses the <a href="https://bevyengine.org/">Bevy</a> and <a href="https://github.com/dimforge/bevy_rapier">Rapier</a> libraries for managing the simulation and physics.</p>
-<p><a href="https://kumawatb.github.io/lifefromscratch/">Go to the external project page</a> (Started as a part of a class project for CMPLXSYS 530 at University of Michigan)</p>
+<p>This project is aimed at simulating an artificial 2D chemistry consisting of “atoms” that interact with each other based on arbitrary reaction rules. The goal is to model the emergence of self-replicating entities in a somewhat physics-y world. While this sort of <em>origin of life</em> experiment in a simulated chemistry has been <a href="https://github.com/timhutton/squirm3">done before</a>, I want to study how such replicators can be made to increase in complexity (and even <em>evolve</em> in a Darwinian fashion) when challenged with a changing environment. The entire framework is written in Rust and uses the <a href="https://bevyengine.org/">Bevy</a> and <a href="https://github.com/dimforge/bevy_rapier">Rapier</a> libraries for managing the simulation and physics.</p>
+<div style="font-size:12pt;">
+<p><a href="https://kumawatb.github.io/lifefromscratch/" class="external" target="_blank">Project page</a> (Started as a part of a class project for CMPLXSYS 530 at University of Michigan)</p>
+</div>
 </section>
 <section id="evolvability-in-12-dimensions" class="level3">
 <h3 class="anchored" data-anchor-id="evolvability-in-12-dimensions">Evolvability in 1/2-dimensions</h3>
-<p>In our paper on the evolution of evolvability in digital organisms, we found that populations localize on areas of the genotype space that lie on the boundary between phenotypes in a changing environment. I wrote this interactive page to provide the molecular biology knowledge required to understand this phenomena. Simulations on the page model the evolution of evolvability on genotype spaces in 1 and 2 dimensions under a Wright-Fisher model.</p>
-<p><a href="https://maxjerdee.github.io/CSSS-arts/projects/fitness_landscapes.html">Go to the external project page</a> (Created as a part of the 2024 Complex Systems Summer School at the Santa Fe Institute)</p>
+<p>In our <a href="https://doi.org/10.1073/pnas.2413930121">paper on the evolution of evolvability in digital organisms</a>, we found that populations in a changing environment can localize on areas of the genotype space that lie on the boundary between phenotypes. I wrote this interactive document to lay out the basic biology knowledge required to understand this phenomena. Simulations on the page model the evolution of evolvability on genotype spaces in 1 and 2 dimensions under a Wright-Fisher model.</p>
+<div style="font-size:12pt;">
+<p><a href="https://maxjerdee.github.io/CSSS-arts/projects/fitness_landscapes.html" class="external" target="_blank">Project page</a> (Created as a part of the 2024 Complex Systems Summer School at the Santa Fe Institute)</p>
+</div>
 </section>
 <section id="protocols" class="level3">
 <h3 class="anchored" data-anchor-id="protocols">Protocols</h3>
-<p>This website documents the frequently used protocols from some of my wet-lab work. These are likely to be updated frequently (and are extremely customized for my usecase/lab).</p>
-<p><a href="https://kumawatb.github.io/lab_protocols/">Go to external protocols page</a></p>
+<p>This website documents the frequently used protocols from some of my wet-lab work. These are updated frequently (and are extremely customized for my usecase).</p>
+<div style="font-size:12pt;">
+<p><a href="https://kumawatb.github.io/lab_protocols/" class="external" target="_blank">Protocols page</a></p>
+</div>
 <!---
 ### Building the ZE3 macroscope
 This project documents the construction of a *macroscope*, a fluorescence imaging platform that can take timelapse pictures of growing microbial cultures. This hardware is heavily inspired by [previous](https://openhardware.metajnl.com/articles/10.5334/joh.44) [work](https://openwetware.org/wiki/Macroscope) on imaging spatial dynamics in microbial communities. I am currently using this device to address questions on the evolution of evolvability in phage populations.
@@ -787,7 +793,7 @@ This is the website for a course designed to introduce modern theories in the fi
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p><a href="https://github.com/aVeryStrangeLoop">github</a> <br> <a href="https://scholar.google.com/citations?user=gZCvqlUAAAAJ">scholar</a></p>
+<p><a href="https://github.com/aVeryStrangeLoop" target="_blank">github</a> <br> <a href="https://scholar.google.com/citations?user=gZCvqlUAAAAJ" target="_blank">scholar</a></p>
 </div>
   </div>
 </footer>
