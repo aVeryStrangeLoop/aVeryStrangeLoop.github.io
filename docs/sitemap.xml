@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kumawatb.com/index.html</loc>
-    <lastmod>2025-06-12T02:05:47.462Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kumawatb.com/docs.html</loc>
-    <lastmod>2025-06-11T22:38:48.251Z</lastmod>
+    <loc>https://kumawatb.com/blog.html</loc>
+    <lastmod>2025-06-18T15:42:40.583Z</lastmod>
   </url>
   <url>
     <loc>https://kumawatb.com/cv.html</loc>
-    <lastmod>2025-06-11T01:40:20.426Z</lastmod>
+    <lastmod>2025-06-11T01:40:20.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kumawatb.com/index.html</loc>
+    <lastmod>2025-06-18T02:03:45.000Z</lastmod>
   </url>
   <url>
     <loc>https://kumawatb.com/posts/20241217AvidaEvolvability.html</loc>
-    <lastmod>2025-05-03T14:29:41.391Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kumawatb.com/pubs.html</loc>
-    <lastmod>2025-06-11T22:57:37.754Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kumawatb.com/research.html</loc>
-    <lastmod>2025-05-03T14:24:14.264Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kumawatb.com/posts/assets/rawsvgs/fig3/make_graph.html</loc>
-    <lastmod>2025-03-11T17:11:17.000Z</lastmod>
+    <lastmod>2025-06-16T01:28:07.000Z</lastmod>
   </url>
   <url>
     <loc>https://kumawatb.com/teaching.html</loc>
-    <lastmod>2025-06-11T22:57:50.464Z</lastmod>
+    <lastmod>2025-06-17T23:19:07.260Z</lastmod>
   </url>
   <url>
-    <loc>https://kumawatb.com/blog.html</loc>
-    <lastmod>2025-03-11T17:11:17.000Z</lastmod>
+    <loc>https://kumawatb.com/research.html</loc>
+    <lastmod>2025-06-18T15:57:35.998Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kumawatb.com/posts/assets/rawsvgs/fig3/make_graph.html</loc>
+    <lastmod>2025-03-11T17:11:17.566Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kumawatb.com/pubs.html</loc>
+    <lastmod>2025-06-11T22:57:37.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kumawatb.com/docs.html</loc>
+    <lastmod>2025-06-17T18:28:02.412Z</lastmod>
   </url>
 </urlset>

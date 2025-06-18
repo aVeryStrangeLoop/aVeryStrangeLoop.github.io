@@ -7,11 +7,11 @@ $accent2: #C50003;
 $link-color: $accent1;
 
 // Dark Mode
-$body-bg: #121212;
+$body-bg: #000000;
 $body-color: #E0E0E0;
-$navbar-bg: #121212;
+$navbar-bg: #000000;
 $navbar-fg: #E0E0E0;
-$footer-bg: #121212;
+$footer-bg: #000000;
 $footer-fg: #adadad;
 
 // Define fonts
@@ -97,6 +97,10 @@ section#footnotes {
   
 #quarto-appendix.default {
     border-top: none !important;
+}
+
+.justify {
+  text-align: justify !important
 }
 
 

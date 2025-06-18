@@ -3,13 +3,14 @@ about:
     template: marquee
 ---
 
+::: {.justify}
+I am a PhD candidate at the [Department of Ecology and Evolutionary Biology](https://lsa.umich.edu/eeb){target="_blank"} at the University of Michigan. My dissertation aims to understand how evolving populations sustain continual adaptation in a changing environment using a mix of [computational](https://doi.org/10.1073/pnas.2413930121){target="_blank"}, theoretical, and experimental methods.
+:::
 
-I am a PhD candidate at the [Department of Ecology and Evolutionary Biology](https://lsa.umich.edu/eeb){target="_blank"} at the University of Michigan. My dissertation aims to understand [how evolving populations sustain continual adaptation in a changing environment](https://doi.org/10.1073/pnas.2413930121){target="_blank"} using a mix of computational, theoretical, and experimental methods.
-
-More broadly, I'm interested in,
+More broadly, I'm interested in
 
 - Understanding how living systems (real or artificial) evolve and adapt to environmental challenge in creative ways,
-- Studying how we can steer adaptation down certain pathways using synthetic biology and directed evolution to find solutions to modern day problems, and
-- Developing undergraduate and graduate coursework that emphasizes strong interdisciplinarity in the study of life. 
+- Developing methods to steer evolution towards certain outcomes using synthetic biology and directed evolution in order to find solutions to modern day problems, and
+- Creating undergraduate and graduate coursework that emphasizes strong interdisciplinarity in the study of life. 
 
-An idea of the kind of problems that interest me can be gathered from the [research page](./research.qmd){target="_blank"}. My free time is generally spent [reading](https://www.goodreads.com/review/list/55810171?order=d&shelf=read&sort=date_read){target="_blank"}, [tinkering](./docs.qmd){target="_blank"}, [listening to music](https://rateyourmusic.com/~bhskrkmwt){target="_blank"}, or learning new things (to tinker with).
+An idea of the kind of problems that interest me can be gathered from the [research page](./research.qmd){target="_blank"}. My free time is generally spent [reading](https://www.goodreads.com/review/list/55810171?order=d&shelf=read&sort=date_read){target="_blank"}, [tinkering](./docs.qmd){target="_blank"}, [listening to music](https://rateyourmusic.com/~bhskrkmwt){target="_blank"}, cooking new recipes, or learning new things.

@@ -15,7 +15,7 @@ website:
         text: publications
       - href: teaching.qmd
         text: teaching
-      - href: cv.pdf
+      - href: cv_2025_06_17.pdf
         text: "cv {{< iconify ph file-pdf-bold >}} "
       - href: blog.qmd
         text: blog
