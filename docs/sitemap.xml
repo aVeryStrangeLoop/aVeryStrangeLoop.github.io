@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kumawatb.com/blog.html</loc>
-    <lastmod>2025-06-18T15:42:40.583Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kumawatb.com/cv.html</loc>
-    <lastmod>2025-06-11T01:40:20.000Z</lastmod>
-  </url>
-  <url>
     <loc>https://kumawatb.com/index.html</loc>
-    <lastmod>2025-06-18T02:03:45.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kumawatb.com/posts/20241217AvidaEvolvability.html</loc>
-    <lastmod>2025-06-16T01:28:07.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kumawatb.com/teaching.html</loc>
-    <lastmod>2025-06-17T23:19:07.260Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kumawatb.com/research.html</loc>
-    <lastmod>2025-06-18T15:57:35.998Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kumawatb.com/posts/assets/rawsvgs/fig3/make_graph.html</loc>
-    <lastmod>2025-03-11T17:11:17.566Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kumawatb.com/pubs.html</loc>
-    <lastmod>2025-06-11T22:57:37.000Z</lastmod>
+    <lastmod>2025-06-18T02:03:45.727Z</lastmod>
   </url>
   <url>
     <loc>https://kumawatb.com/docs.html</loc>
-    <lastmod>2025-06-17T18:28:02.412Z</lastmod>
+    <lastmod>2025-06-17T18:27:34.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kumawatb.com/cv.html</loc>
+    <lastmod>2025-06-11T01:40:20.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kumawatb.com/posts/20241217AvidaEvolvability.html</loc>
+    <lastmod>2025-06-16T01:28:07.532Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kumawatb.com/pubs.html</loc>
+    <lastmod>2025-06-11T22:57:37.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kumawatb.com/research.html</loc>
+    <lastmod>2025-07-30T01:41:31.681Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kumawatb.com/posts/assets/rawsvgs/fig3/make_graph.html</loc>
+    <lastmod>2025-03-11T17:11:17.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kumawatb.com/teaching.html</loc>
+    <lastmod>2025-06-17T18:26:27.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kumawatb.com/blog.html</loc>
+    <lastmod>2025-06-18T15:42:40.000Z</lastmod>
   </url>
 </urlset>
