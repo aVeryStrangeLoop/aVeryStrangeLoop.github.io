@@ -1,15 +1,5 @@
 
 
-## Current & Upcoming Teaching Positions
-
-### CMPLXSYS 445: Entropy and Information
-**Instructor of Record (Fall 2025)**\
-Center for the Study of Complex Systems, University of Michigan, Ann Arbor
-
-::: {style="font-size:12pt;"}
-[Course Website](https://kumawatb.github.io/cmplxsys445_fa2025/){.external target="_blank"}
-:::
-
 ## Awards, Certificates, & Professional Development
 ::: {.justify}
 **2025:** I completed the nationally recognized [Preparing Future Faculty Seminar](https://crlt.umich.edu/programs/pffseminar){target="_blank"} offered by the Center for Research on Learning and Teaching at the University of Michigan. 
@@ -20,6 +10,14 @@ Center for the Study of Complex Systems, University of Michigan, Ann Arbor
 :::
 
 ## Previous Teaching Positions
+
+### CMPLXSYS 445: Entropy and Information
+**Instructor of Record (Fall 2025)**\
+Center for the Study of Complex Systems, University of Michigan, Ann Arbor
+
+::: {style="font-size:12pt;"}
+[Course Website](https://kumawatb.github.io/cmplxsys445_fa2025/){.external target="_blank"}
+:::
 
 ### EEB 429: Introduction to Statistical Model Building in R
 **Graduate Student Instructor (Winter 2024)**\
